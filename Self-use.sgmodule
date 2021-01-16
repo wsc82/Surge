@@ -36,7 +36,6 @@ keyword-filter = icloud, ocsp, logs, analytic, imap, adthor, applovin, appnext, 
 
 [Rule]
 DOMAIN-KEYWORD,dmm,JP
-DOMAIN-KEYWORD,emby,US
 DOMAIN-KEYWORD,jkforum,TW
 DOMAIN-KEYWORD,playno1,TW
 RULE-SET,https://cdn.jsdelivr.net/gh/lhie1/Rules@master/Surge/Surge%203/Provider/Reject.list,REJECT
