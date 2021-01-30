@@ -1,7 +1,9 @@
 # > Spotify
 DOMAIN-SUFFIX,ap.spotify.com
 
-# > UUBooster
+# > Client
+PROCESS-NAME,v2ray
+PROCESS-NAME,ss-local
 PROCESS-NAME,UUBooster
 
 # > Xunlei
