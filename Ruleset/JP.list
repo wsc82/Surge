@@ -1,3 +1,16 @@
+# > TikTok
+USER-AGENT,TikTok*
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,-tiktokcdn-com
+
 # > AbemaTV
 USER-AGENT,AbemaTV*
 DOMAIN-SUFFIX,abema.io
@@ -11,21 +24,18 @@ DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
 DOMAIN-SUFFIX,dmm-extension.com
 
+# > Hulu / フールー
+DOMAIN-SUFFIX,happyon.jp
+DOMAIN-SUFFIX,hjholdings.jp
+DOMAIN-SUFFIX,hulu.jp
+
 # > niconico
 USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
 
-# > TikTok
-USER-AGENT,TikTok*
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktokcdn.com
-DOMAIN-SUFFIX,tiktokv.com
-DOMAIN-KEYWORD,-tiktokcdn-com
+# > TVer
+USER-AGENT,TVer-Release*
+DOMAIN-SUFFIX,tver.jp
+DOMAIN,edge.api.brightcove.com
