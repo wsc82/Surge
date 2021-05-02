@@ -8,8 +8,6 @@ DOMAIN-KEYWORD,qooqlevideo
 DOMAIN-KEYWORD,xvideos
 DOMAIN-KEYWORD,x18r
 # > Emby
-USER-AGENT,Emby*
-DOMAIN-KEYWORD,emby
 DOMAIN,emby-cf.plusmedia.site 
 DOMAIN,emby.xeton.dev
 DOMAIN,jellyfin.xeton.dev
