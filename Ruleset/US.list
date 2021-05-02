@@ -1,5 +1,5 @@
 # Nexitally-Emby
-DOMAIN-SUFFIX,emby.nexitally.com
+DOMAIN,emby.nexitally.com
 
 # > Disney+
 USER-AGENT,Disney+*
