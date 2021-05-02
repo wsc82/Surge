@@ -1,3 +1,6 @@
+# Nexitally-Emby
+DOMAIN-SUFFIX,emby.nexitally.com
+
 # > Disney+
 USER-AGENT,Disney+*
 DOMAIN-SUFFIX,bamgrid.com
