@@ -2,6 +2,7 @@ DOMAIN,tw.yahoo.com
 DOMAIN-KEYWORD,jkforum
 DOMAIN-KEYWORD,playno1
 DOMAIN,video-api.yql.yahoo.com
+DOMAIN-SUFFIX,pts.org.tw
 
 # > Netflix
 USER-AGENT,Argo*
