@@ -2,12 +2,6 @@
 #!desc=高级设置及通用的 URL 重定向优化（如 Google 搜索及地图、AbeamTV 区域限制等）
 
 [General]
-internet-test-url = http://wifi.vivo.com.cn/generate_204
-proxy-test-url = http://cp.cloudflare.com/generate_204
-test-timeout = 5
-dns-server = 119.29.29.29, 223.5.5.5, 223.6.6.6, system
-loglevel = notify
-
 # > 当遇到 REJECT 策略时返回错误页
 show-error-page-for-reject = true
 
