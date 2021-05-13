@@ -1,4 +1,5 @@
 # > Mediaserverd
+DOMAIN-SUFFIX,akamaized.net
 DOMAIN,dcb-fs-live-dazn-cdn.dazn.com
 DOMAIN,dca-fs-live-dazn-cdn.dazn.com
 DOMAIN-SUFFIX,edgeware.tvb.com
