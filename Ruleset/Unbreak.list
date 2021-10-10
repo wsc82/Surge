@@ -1,3 +1,6 @@
+# > Spotify
+DOMAIN-SUFFIX,ap.spotify.com
+
 # > Apple CDN
 PROCESS-NAME,storedownloadd
 USER-AGENT,com.apple.appstored*
