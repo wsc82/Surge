@@ -5,7 +5,6 @@ DOMAIN-SUFFIX,tvbanywhere.com.sg
 
 # > MeWatch
 DOMAIN-SUFFIX,mewatch.sg
-DOMAIN-KEYWORD,mediacorp
 
 # > ViuTV
 PROCESS-NAME,com.vuclip.viu
