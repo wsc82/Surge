@@ -7,15 +7,6 @@ DOMAIN-SUFFIX,encoretvb.com
 DOMAIN,edge.api.brightcove.com
 DOMAIN,bcbolt446c5271-a.akamaihd.net
 
-# > HBO Max
-USER-AGENT,HBOMAX*
-DOMAIN-SUFFIX,hbo.com
-// DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN,execute-api.ap-southeast-1.amazonaws.com
-
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
 DOMAIN-SUFFIX,huluim.com
