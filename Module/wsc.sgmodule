@@ -1,5 +1,5 @@
-#!name=Advanced
-#!desc=apple host google搜索重定向
+#!name=host
+#!desc=apple host
 
 [Host]
 # > Apple
@@ -19,10 +19,3 @@ mzstatic.com = server:119.29.29.29
 *.apple.com.edgekey.net = server:119.29.29.29
 *.apple.com.edgekey.net.globalredir.akadns.net = server:119.29.29.29
 *icloud.com.akadns.net = server:119.29.29.29
-
-[URL Rewrite]
-# Redirect Google Search Service
-^(http|https):\/\/(www.)?(g|google)\.(cn|com\.hk) https://www.google.com.tw 302
-
-[MITM]
-hostname = %APPEND% *.google.cn, *.google.com.hk
