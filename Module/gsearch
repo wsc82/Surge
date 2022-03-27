@@ -1,5 +1,5 @@
-#!name= Google Search
-#!desc= safari google search tw
+#!name=Google Search
+#!desc=safari google search tw
 
 [URL Rewrite]
 # Redirect Google Search Service
