@@ -1,6 +1,5 @@
 #!name= Google Search
 #!desc= safari google search tw
-#!system=
 
 [URL Rewrite]
 # Redirect Google Search Service
