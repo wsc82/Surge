@@ -10,7 +10,7 @@ disney_check = type=generic,script-path=https://gist.githubusercontent.com/Hysee
 flushDNS = type=generic,script-path=https://raw.githubusercontent.com/zZPiglet/Task/master/asset/flushDNS.js,argument=title=DNS FLush&icon=arrow.clockwise&color=#3d3d5b
 
 [Panel]
-SubInfo = script-name=SubInfo, update-interval=1800
+TAG = script-name=SubInfo, update-interval=1800
 net-info-panel=title="网络状态",content="请刷新",style=info,script-name=net-info-panel
 nf_check = script-name=nf_check, title="Netflix 解锁检测", content="请刷新"
 ytb_check = script-name=ytb_check, title="YouTube Premium 解锁检测"
