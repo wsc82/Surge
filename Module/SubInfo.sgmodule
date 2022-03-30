@@ -1,0 +1,8 @@
+#!name=机场流量
+#!desc=流量面板
+
+[Script]
+SubInfo = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=https://tagcontrol.xyz/api/v1/client/subscribe%3Ftoken%3D4c8d3c7d13d51cdd2f9357969549e111&title=SubInfo&icon=bonjour&color=#a357d7&reset_day=1
+
+[Panel]
+SubInfo = script-name=SubInfo, update-interval=1800
