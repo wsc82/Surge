@@ -1,9 +1,0 @@
-#!name=Google Search
-#!desc=safari google search tw
-
-[URL Rewrite]
-# Redirect Google Search Service
-^(http|https):\/\/(www.)?(g|google)\.(cn|com\.hk) https://www.google.com.tw 302
-
-[MITM]
-hostname = %APPEND% *.google.cn, *.google.com.hk
