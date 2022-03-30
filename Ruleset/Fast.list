@@ -22,8 +22,6 @@ DOMAIN,movie.xeton.dev
 DOMAIN,servers.xeton.dev
 DOMAIN,emby.riches.cloud
 
-IP-CIDR,198.204.247.154/32
-
 # > Dropbox
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dropbox.com
