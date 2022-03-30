@@ -3,7 +3,7 @@
 
 [Script]
 SubInfo = type=generic,timeout=10,script-path=https://raw.githubusercontent.com/mieqq/mieqq/master/sub_info_panel.js,script-update-interval=0,argument=url=(订阅链接)&title=SubInfo&icon=bonjour&color=#a357d7&reset_day=1
-网络信息 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/TributePaulWalker/Profiles/main/JavaScript/Surge/ipcheck.js
+网络信息 = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/ventusyu/ventus/main/Panel/Net-info-panel.js
 # > Netflix 解锁检测
 nf_check = type=generic,timeout=5,script-path=https://gist.githubusercontent.com/Hyseen/b06e911a41036ebc36acf04ddebe7b9a/raw/nf_check.js
 # > YouTube Premium 解锁检测
