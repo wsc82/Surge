@@ -6,3 +6,18 @@ USER-AGENT,%E5%92%AA%E5%92%95%E8%A7%86%E9%A2%91
 DOMAIN-SUFFIX,migu.cn
 DOMAIN-SUFFIX,cmvideo.cn
 DOMAIN-SUFFIX,miguvideo.com
+
+# > Bilibili
+USER-AGENT,*bili*
+DOMAIN-SUFFIX,acg.tv
+DOMAIN-SUFFIX,acgvideo.com
+DOMAIN-SUFFIX,b23.tv
+DOMAIN-SUFFIX,biliapi.com
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilibili.tv
+DOMAIN-SUFFIX,biligame.com
+DOMAIN-SUFFIX,biligame.net
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,im9.com
