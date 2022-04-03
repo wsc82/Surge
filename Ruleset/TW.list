@@ -5,6 +5,8 @@ DOMAIN,video-api.yql.yahoo.com
 DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,technews.tw
 DOMAIN-SUFFIX,ddm.com.tw
+DOMAIN-SUFFIX,tech-girlz.com
+DOMAIN-SUFFIX,kocpc.com.tw
 
 # > HBO GO Asia
 // USER-AGENT,HBO%20GO%20PROD*
