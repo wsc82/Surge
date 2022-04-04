@@ -1,6 +1,9 @@
 DOMAIN-SUFFIX,tvbanywherena.com
 DOMAIN-SUFFIX,media.starott.com
 
+# > Google Voice
+DOMAIN,lens.l.google.com
+
 # > HBO Max
 USER-AGENT,HBOMAX*
 DOMAIN-SUFFIX,hbo.com
