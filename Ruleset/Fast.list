@@ -22,4 +22,3 @@ DOMAIN,jellyfin.xeton.dev
 DOMAIN,movie.xeton.dev
 DOMAIN,servers.xeton.dev
 DOMAIN,emby.riches.cloud
-IP-CIDR,46.38.239.238/32
