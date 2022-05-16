@@ -1,0 +1,22 @@
+# > 普拉斯
+DOMAIN,emby-cf.plusmedia.site 
+DOMAIN,emby.xeton.dev
+DOMAIN,jellyfin.xeton.dev
+DOMAIN,movie.xeton.dev
+DOMAIN,servers.xeton.dev
+
+# > TAG
+DOMAIN,emby.riches.cloud
+
+# > misakaf
+DOMAIN,misakaf.xyz 
+
+# > Polo
+DOMAIN,cu.poloemby.xyz
+
+# > odyssey+
+DOMAIN,cf.odysseyplus.site
+DOMAIN,us.odysseyplus.site
+DOMAIN,jp.odysseyplus.site
+DOMAIN,sg.odysseyplus.site
+DOMAIN,kr.odysseyplus.site
