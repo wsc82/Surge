@@ -1,7 +1,5 @@
 DOMAIN,pubads.g.doubleclick.net
 DOMAIN-SUFFIX,iptv.tvfix.org
-DOMAIN-SUFFIX,emby.misakaf.xyz
-DOMAIN,cf.odysseyplus.site
 
 # > Apple CDN
 # Apple Music
