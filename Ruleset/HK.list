@@ -1,5 +1,6 @@
 DOMAIN,hk.yahoo.com
 DOMAIN-SUFFIX,bet365.com
+DOMAIN,cdn.hklive.tv
 
 # > myTV SUPER
 USER-AGENT,mytv*
