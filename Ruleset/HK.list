@@ -1,6 +1,7 @@
 DOMAIN,hk.yahoo.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN,cdn.hklive.tv
+DOMAIN-KEYWORD,tvfix
 
 # > jsdelivr.net
 DOMAIN,cdn.jsdelivr.net
