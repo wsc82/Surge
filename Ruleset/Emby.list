@@ -9,7 +9,7 @@ DOMAIN,servers.xeton.dev
 DOMAIN,emby.riches.cloud
 
 # > misakaf
-DOMAIN,misakaf.xyz 
+DOMAIN-SUFFIX,misakaf.xyz 
 
 # > Polo
 DOMAIN,cu.poloemby.xyz
