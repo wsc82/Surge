@@ -9,6 +9,7 @@ DOMAIN,mvod.itunes.apple.com
 # > App Store
 USER-AGENT,com.apple.appstored*
 PROCESS-NAME,storedownloadd
+DOMAIN-SUFFIX,store.apple.com
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN,iosapps.itunes.apple.com
 DOMAIN,osxapps.itunes.apple.com
