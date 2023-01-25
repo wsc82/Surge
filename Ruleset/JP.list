@@ -53,8 +53,3 @@ USER-AGENT,Niconico*
 DOMAIN-SUFFIX,dmc.nico
 DOMAIN-SUFFIX,nicovideo.jp
 DOMAIN-SUFFIX,nimg.jp
-
-# > TVer
-USER-AGENT,TVer-Release*
-DOMAIN-SUFFIX,tver.jp
-DOMAIN,edge.api.brightcove.com
