@@ -1,13 +1,8 @@
 DOMAIN,hk.yahoo.com
 DOMAIN,cdn.hklive.tv
-DOMAIN-KEYWORD,tvfix
 
 # > jsdelivr.net
 DOMAIN,cdn.jsdelivr.net
-
-# > myTV SUPER
-USER-AGENT,mytv*
-DOMAIN-SUFFIX,mytvsuper.com
 
 # > Now E
 DOMAIN-SUFFIX,nowe.com
