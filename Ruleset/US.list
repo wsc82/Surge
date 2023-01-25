@@ -1,4 +1,5 @@
 DOMAIN-SUFFIX,tvbanywherena.com
+DOMAIN-KEYWORD,brightcove
 
 # > HBO Max
 USER-AGENT,HBOMAX*
@@ -8,12 +9,6 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,hbomax.com
 DOMAIN-SUFFIX,hbomaxcdn.com
 DOMAIN,execute-api.ap-southeast-1.amazonaws.com
-
-# > encoreTVB
-USER-AGENT,encoreTVB*
-DOMAIN-SUFFIX,encoretvb.com
-DOMAIN,edge.api.brightcove.com
-DOMAIN,bcbolt446c5271-a.akamaihd.net
 
 # > Hulu
 DOMAIN-SUFFIX,hulu.com
