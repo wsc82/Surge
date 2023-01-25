@@ -1,6 +1,6 @@
 DOMAIN-SUFFIX,tvbanywherena.com
 DOMAIN-KEYWORD,brightcove
-DOMAIN-KEYWORD,boltdns
+DOMAIN-SUFFIX,boltdns.net
 
 # > HBO Max
 USER-AGENT,HBOMAX*
