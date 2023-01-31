@@ -1,5 +1,5 @@
 DOMAIN,pubads.g.doubleclick.net
-DOMAIN-SUFFIX,dguard.com
+DOMAIN-SUFFIX,adguard.com
 
 # > Apple CDN
 # Apple Music
