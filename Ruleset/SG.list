@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,mewatch.sg
 DOMAIN-SUFFIX,crwdcntrl.net
 DOMAIN,tglmp02.akamaized.net
 
+
 # > ViuTV
 PROCESS-NAME,com.vuclip.viu
 USER-AGENT,Viu*
