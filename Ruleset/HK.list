@@ -2,7 +2,7 @@ DOMAIN,hk.yahoo.com
 DOMAIN,cdn.hklive.tv
 DOMAIN-SUFFIX,voachinese.com
 DOMAIN-SUFFIX,voanews.com
-DOMAIN-SUFFIX,rfa.org
+DOMAIN,www.rfa.org
 
 # > jsdelivr.net
 DOMAIN,cdn.jsdelivr.net
