@@ -139,7 +139,7 @@ URL-REGEX,(Subject|HELO|SMTP)
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
 
 
-Apple list
+Apple 
 # > Apple API
 DOMAIN-KEYWORD,apple.com.akadns.net
 DOMAIN-KEYWORD,icloud.com.akadns.net
