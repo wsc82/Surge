@@ -47,7 +47,6 @@ DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-KEYWORD,tiktokcdn-
 
-
 # > ChatGPT
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -77,5 +76,8 @@ DOMAIN-SUFFIX,bingapis.com
 # > Gemini
 DOMAIN-SUFFIX,gemini.google.com
 
-# > Perplexity
+# > Meta AI
+DOMAIN-SUFFIX,meta.ai
+
+# > Perplexity AI
 DOMAIN-SUFFIX,perplexity.ai
