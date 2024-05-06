@@ -72,6 +72,7 @@ DOMAIN-SUFFIX,claude.ai
 # > Copilot
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
+DOMAIN,copilot.microsoft.com
 
 # > Gemini
 DOMAIN-SUFFIX,gemini.google.com
