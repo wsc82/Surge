@@ -61,6 +61,16 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
 DOMAIN,copilot.microsoft.com
+DOMAIN,api.msn.com
+DOMAIN,assets.msn.com
+DOMAIN,dealczars.bing-shopping.microsoft-falcon.io
+DOMAIN,gateway.bingviz.microsoftapp.net
+DOMAIN,location.microsoft.com
+DOMAIN,login.microsoftonline.com
+DOMAIN,self.events.data.microsoft.com
+DOMAIN,services.bingapis.com
+DOMAIN,shopping.bing-shopping.microsoft-falcon.io
+DOMAIN,sapphire.api.microsoftapp.net
 
 # > Gemini
 DOMAIN-SUFFIX,gemini.google.com
@@ -68,5 +78,7 @@ DOMAIN-SUFFIX,gemini.google.com
 # > Meta AI
 DOMAIN-SUFFIX,meta.ai
 
+# > Perplexity AI
+DOMAIN-SUFFIX,perplexity.ai
 # > Perplexity AI
 DOMAIN-SUFFIX,perplexity.ai
