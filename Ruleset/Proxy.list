@@ -28,6 +28,15 @@ DOMAIN,cf.odysseyplus.site
 DOMAIN,v.odysseyplus.site
 DOMAIN-SUFFIX,xgcartoon.com
 
+# > Steam
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamusercontent.com
+// DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamstatic.com
+
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
