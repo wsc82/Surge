@@ -11,10 +11,9 @@ DOMAIN-SUFFIX,tvb.com
 USER-AGENT,mytv*
 
 # > Spotify
+USER-AGENT,Spotify*
+DOMAIN-KEYWORD,spotify
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spoti.fi
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-KEYWORD,-spotify-com
-USER-AGENT,Spotify*
+DOMAIN-SUFFIX,spotilocal.com
