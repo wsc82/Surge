@@ -53,6 +53,8 @@ DOMAIN,wmsjsteam.com
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
 
+DOMAIN,gstore.val.manlaxy.com
+
 DOMAIN,st.dl.bscstorage.net
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.pinyuncloud.com
@@ -137,6 +139,9 @@ URL-REGEX,(Subject|HELO|SMTP)
 
 # > UBI
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
+
+# > Tailscale
+IP-CIDR,100.64.0.0/10,no-resolve
 
 
 # > Apple API
