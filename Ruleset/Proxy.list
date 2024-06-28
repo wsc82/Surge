@@ -53,14 +53,6 @@ DOMAIN-SUFFIX,meta.ai
 # > Perplexity AI
 DOMAIN-SUFFIX,perplexity.ai
 
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotilocal.com
-
 # > Steam
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,steampowered.com
