@@ -8,6 +8,12 @@ DOMAIN-SUFFIX,githubapp.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 
+# > Instagram
+DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+
 # > Porn
 DOMAIN-KEYWORD,porn
 DOMAIN-SUFFIX,8teenxxx.com
