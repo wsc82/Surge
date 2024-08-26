@@ -1,5 +1,7 @@
 # > MyList
 DOMAIN-SUFFIX,fotmob.com
+DOMAIN-SUFFIX,rfi.fr
+DOMAIN-SUFFIX,rfi.my
 
 # > ACL4SSR
 DOMAIN-SUFFIX,1password.com
