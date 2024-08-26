@@ -65,6 +65,17 @@ DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagr.am
 DOMAIN-SUFFIX,instagram.com
 
+# > The New York Times
+DOMAIN-SUFFIX,newyorktimes.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytco.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,nytimg.com
+DOMAIN-SUFFIX,nytlog.com
+DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,tmagazine.com
+DOMAIN,nytimes.map.fastly.net
+
 # > Porn
 DOMAIN-KEYWORD,porn
 DOMAIN-SUFFIX,8teenxxx.com
