@@ -42,6 +42,11 @@ DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,ca
 
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+
 # > Keyword
 DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,appledaily
