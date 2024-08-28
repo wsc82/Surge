@@ -204,6 +204,13 @@ IP-CIDR,203.104.128.0/20,no-resolve
 IP-CIDR,203.174.66.64/26,no-resolve
 IP-CIDR,203.174.77.0/24,no-resolve
 
+# > Microsoft
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,skype.com
+
 # > Pinterest
 DOMAIN-SUFFIX,pinimg.com
 DOMAIN-KEYWORD,.pinterest.
