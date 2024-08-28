@@ -45,6 +45,17 @@ DOMAIN-SUFFIX,twdvd.com
 DOMAIN-SUFFIX,unsplash.com
 DOMAIN-SUFFIX,buzzsprout.com
 
+# > Domain Name
+DOMAIN-SUFFIX,eu
+DOMAIN-SUFFIX,hk
+DOMAIN-SUFFIX,jp
+DOMAIN-SUFFIX,kr
+DOMAIN-SUFFIX,sg
+DOMAIN-SUFFIX,tw
+DOMAIN-SUFFIX,uk
+DOMAIN-SUFFIX,us
+DOMAIN-SUFFIX,ca
+
 # > Amazon
 IP-CIDR,13.32.0.0/16,no-resolve
 IP-CIDR,13.33.0.0/16,no-resolve
@@ -75,35 +86,10 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.net
 
-# > Domain Name
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,ca
-
 # > Dropbox
-DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,dropboxbusiness.com
-DOMAIN-SUFFIX,dropboxforums.com
-DOMAIN-SUFFIX,dropboxforum.com
-DOMAIN-SUFFIX,dropboxinsiders.com
-DOMAIN-SUFFIX,dropboxmail.com
-DOMAIN-SUFFIX,dropboxpartners.com
-DOMAIN-SUFFIX,dropboxstatic.com
-DOMAIN-SUFFIX,dropbox.zendesk.com
-DOMAIN-SUFFIX,getdropbox.com
-DOMAIN-SUFFIX,dropbox-dns.com
-DOMAIN-SUFFIX,dropbox.tech
-DOMAIN-SUFFIX,dropboxcaptcha.com
-DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
 
 # > Financial Times
 DOMAIN-SUFFIX,ft.com
