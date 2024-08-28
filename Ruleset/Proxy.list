@@ -130,16 +130,58 @@ DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,uk-live
 
 # > Bloomberg
-DOMAIN-SUFFIX,bloomberg.cn
+DOMAIN-SUFFIX,bloomberg.co.kr
 DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloomberg.de
-DOMAIN-SUFFIX,bloombergview.com
+DOMAIN-SUFFIX,bloomberg.com.br
+DOMAIN-SUFFIX,bloomberg.fm
+DOMAIN-SUFFIX,bloomberg.tv
+DOMAIN-SUFFIX,bloombergapps.com
+DOMAIN-SUFFIX,bloombergarcade.com
+DOMAIN-SUFFIX,bloombergbeta.com
+DOMAIN-SUFFIX,blpprofessional.com
+DOMAIN-SUFFIX,bmia.org
+DOMAIN-SUFFIX,bnef.com
+DOMAIN-SUFFIX,businessweek.com
+DOMAIN-SUFFIX,businessweekmag.com
+DOMAIN-SUFFIX,bwbx.io
+DOMAIN-SUFFIX,citylab.com
+DOMAIN-SUFFIX,gotraffic.net
+DOMAIN-SUFFIX,londonmithraeum.com
+DOMAIN-SUFFIX,neweconomyforum.com
+DOMAIN-SUFFIX,newenergyfinance.com
+DOMAIN-SUFFIX,quicktake.video
+DOMAIN-SUFFIX,techatbloomberg.com
+DOMAIN-SUFFIX,tictoc.video
 
 # > Discord
+DOMAIN-SUFFIX,airhorn.solutions
+DOMAIN-SUFFIX,airhornbot.com
+DOMAIN-SUFFIX,bigbeans.solutions
+DOMAIN-SUFFIX,dis.gd
+DOMAIN-SUFFIX,discord-activities.com
+DOMAIN-SUFFIX,discord.co
 DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.design
+DOMAIN-SUFFIX,discord.dev
 DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.gift
+DOMAIN-SUFFIX,discord.gifts
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discord.new
+DOMAIN-SUFFIX,discord.store
+DOMAIN-SUFFIX,discord.tools
+DOMAIN-SUFFIX,discordactivities.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.io
 DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discordapp.page.link
+DOMAIN-SUFFIX,discordcdn.com
+DOMAIN-SUFFIX,discordmerch.com
+DOMAIN-SUFFIX,discordpartygames.com
+DOMAIN-SUFFIX,discordsays.com
+DOMAIN-SUFFIX,discordstatus.com
+DOMAIN-SUFFIX,hammerandchisel.ssl.zendesk.com
+DOMAIN-SUFFIX,watchanimeattheoffice.com
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
@@ -175,6 +217,13 @@ DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,173.194.0.0/16,no-resolve
+
+# > IMDB
+DOMAIN-SUFFIX,boxofficemojo.com
+DOMAIN-SUFFIX,imdb
+DOMAIN-SUFFIX,imdb.com
+DOMAIN-SUFFIX,imdb.to
+DOMAIN-SUFFIX,media-imdb.com
 
 # > Kakao Talk
 IP-CIDR,1.201.0.0/24,no-resolve
