@@ -1,5 +1,11 @@
 # > MyList
+DOMAIN,cdn.jsdelivr.net
+
+DOMAIN-SUFFIX,adblockplus.org
+DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,ap.org
+DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bbci.co.uk
@@ -10,16 +16,25 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,dowjones.io
 DOMAIN-SUFFIX,dowjoneson.com
+DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,fotmob.com
 DOMAIN-SUFFIX,godaddy.com
+DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,pts.org.tw
+DOMAIN-SUFFIX,ptt.cc
 DOMAIN-SUFFIX,rfa.org
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rfi.my
+DOMAIN-SUFFIX,rsshub.app
+DOMAIN-SUFFIX,rthk.hk
+DOMAIN-SUFFIX,signal.org
 DOMAIN-SUFFIX,supjav.com
 DOMAIN-SUFFIX,theinitium.com
+DOMAIN-SUFFIX,tvboxnow.com
 DOMAIN-SUFFIX,voachinese.com
+DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,zaobao.com
@@ -60,22 +75,24 @@ DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,ca
 
 # > Amazon
-IP-CIDR,13.32.0.0/16,no-resolve
-IP-CIDR,13.33.0.0/16,no-resolve
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
+IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
 IP-CIDR,18.194.0.0/15,no-resolve
 IP-CIDR,18.208.0.0/13,no-resolve
 IP-CIDR,18.232.0.0/14,no-resolve
-IP-CIDR,52.200.0.0/13,no-resolve
 IP-CIDR,52.58.0.0/15,no-resolve
 IP-CIDR,52.74.0.0/16,no-resolve
 IP-CIDR,52.77.0.0/16,no-resolve
 IP-CIDR,52.84.0.0/15,no-resolve
+IP-CIDR,52.200.0.0/13,no-resolve
+IP-CIDR,54.93.0.0/16,no-resolve
 IP-CIDR,54.156.0.0/14,no-resolve
 IP-CIDR,54.226.0.0/15,no-resolve
 IP-CIDR,54.230.156.0/22,no-resolve
-IP-CIDR,54.93.0.0/16,no-resolve
 
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
