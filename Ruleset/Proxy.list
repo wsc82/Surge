@@ -6,9 +6,6 @@ DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,ap.org
 DOMAIN-SUFFIX,bandwagonhost.com
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,cnn.com
@@ -92,6 +89,41 @@ IP-CIDR,54.93.0.0/16,no-resolve
 IP-CIDR,54.156.0.0/14,no-resolve
 IP-CIDR,54.226.0.0/15,no-resolve
 IP-CIDR,54.230.156.0/22,no-resolve
+
+# > BBC
+USER-AGENT,BBCiPlayer*
+DOMAIN-SUFFIX,bbc
+DOMAIN-SUFFIX,bbc.co
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbc.in
+DOMAIN-SUFFIX,bbc.net.uk
+DOMAIN-SUFFIX,bbcchinese.com
+DOMAIN-SUFFIX,bbcfmt.hs.llnwd.net
+DOMAIN-SUFFIX,bbcfmt.s.llnwi.net
+DOMAIN-SUFFIX,bbci.co
+DOMAIN-SUFFIX,bbci.co.uk
+DOMAIN-SUFFIX,bbcmedia.co.uk
+DOMAIN-SUFFIX,bbcpersian.com
+DOMAIN-SUFFIX,bbcverticals.com
+DOMAIN-SUFFIX,bidi.net.uk
+DOMAIN,aod-dash-uk-live.akamaized.net
+DOMAIN,aod-hls-uk-live.akamaized.net
+DOMAIN,as-dash-uk-live.akamaized.net
+DOMAIN,as-hls-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.akamaized.net
+DOMAIN,vod-dash-uk-live.bbcfmt.hs.llnwd.net
+DOMAIN,vod-dash-ww-live.akamaized.net
+DOMAIN,vod-dash-ww-live.bbcfmt.s.llnwi.net
+DOMAIN,vod-hls-uk-live.akamaized.net
+DOMAIN,vod-sub-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.akamaized.net
+DOMAIN,vod-thumb-uk-live.bbcfmt.hs.llnwd.net
+DOMAIN,vod-thumb-ww-live.akamaized.net
+DOMAIN,vod-thumb-ww-live.bbcfmt.s.llnwi.net
+DOMAIN,vs-cmaf-push-uk-live.akamaized.net
+DOMAIN-KEYWORD,bbcfmt
+DOMAIN-KEYWORD,uk-live
 
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
@@ -314,15 +346,22 @@ DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,static-economist.com
 
 # > The New York Times
-DOMAIN-SUFFIX,newyorktimes.com
+DOMAIN-SUFFIX,d1f1eryiqyjs0r.cloudfront.net
+DOMAIN-SUFFIX,d3lar09xbwlsge.cloudfront.net
+DOMAIN-SUFFIX,d3q1qj9jzsu8nw.cloudfront.net
+DOMAIN-SUFFIX,dc8xl0ndzn2cb.cloudfront.net
 DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nyt.net
+DOMAIN-SUFFIX,nytchina.com
+DOMAIN-SUFFIX,nytcn.me
 DOMAIN-SUFFIX,nytco.com
+DOMAIN-SUFFIX,nyti.ms
 DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,tmagazine.com
-DOMAIN,nytimes.map.fastly.net
+DOMAIN-SUFFIX,timestalks.com
+DOMAIN-SUFFIX,tynt.com
 
 # > Twitch
 DOMAIN-KEYWORD,ttvnw
