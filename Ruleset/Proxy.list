@@ -257,13 +257,7 @@ DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
 
 # > Steam
-DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steamusercontent.com
-// DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamstatic.com
 
 # > Telegram
 DOMAIN-SUFFIX,cdn-telegram.org
