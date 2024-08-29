@@ -3,6 +3,8 @@ DOMAIN,cdn.jsdelivr.net
 
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,afp.com
+DOMAIN-SUFFIX,afpforum.com
 DOMAIN-SUFFIX,amazontrust.com
 DOMAIN-SUFFIX,amysecure.com
 DOMAIN-SUFFIX,ap.org
