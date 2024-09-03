@@ -1,5 +1,6 @@
 # > MyList
 DOMAIN,cdn.jsdelivr.net
+DOMAIN,prcleader.org
 
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adobe.com
@@ -25,7 +26,6 @@ DOMAIN-SUFFIX,limbopro.com
 DOMAIN-SUFFIX,mangmang.run
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pm.me
-DOMAIN-SUFFIX,prcleader.org 
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
