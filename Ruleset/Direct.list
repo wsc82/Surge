@@ -52,6 +52,10 @@ DOMAIN-SUFFIX,apple.news
 # > Apple Maps
 PROCESS-NAME,com.apple.geod
 
+# > dedao
+DOMAIN-SUFFIX,umiwi.com
+
+# > general
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
@@ -59,6 +63,10 @@ DOMAIN,bdtj.tagtic.cn
 # > Alibaba
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
+
+# > bilibili
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bilivideo.com
 
 # > Duet
 USER-AGENT,duet*
@@ -94,6 +102,9 @@ DOMAIN,update.googleapis.com
 USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
 
+# > paramount+
+# DOMAIN,pubads.g.doubleclick.net
+
 # > PlayStation
 DOMAIN-SUFFIX,dl.playstation.net
 
@@ -122,6 +133,9 @@ DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
+
+# > Strava
+DOMAIN,analytics.strava.com
 
 # > Tencent
 DOMAIN,fairplay.l.qq.com
