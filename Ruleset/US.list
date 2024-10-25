@@ -36,7 +36,7 @@ DOMAIN,link.theplatform.com
 # > PBS
 DOMAIN-SUFFIX,pbs.org
 
- > ChatGPT
+# > ChatGPT
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,openai.com
