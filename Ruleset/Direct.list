@@ -2,10 +2,6 @@ DOMAIN,chomthong.central-world.org
 DOMAIN,iconsiam.terminal69.win
 DOMAIN,link.nobodys.uk
 
-# > dedao
-DOMAIN-SUFFIX,umiwi.com
-
-# > general
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
@@ -14,15 +10,18 @@ DOMAIN,bdtj.tagtic.cn
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
 
-# > bilibili
-DOMAIN-SUFFIX,bilivideo.cn
-DOMAIN-SUFFIX,bilivideo.com
+# ---(Alphabet)---
+DOMAIN-SUFFIX,blog.google
+DOMAIN,ci.android.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,update.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,redirector.gvt1.com
+DOMAIN,update.googleapis.com
 
-# > Duet
-USER-AGENT,duet*
-
-# > Epic
-DOMAIN-KEYWORD,epicgames
+# > Google Flights
+DOMAIN-SUFFIX,googletraveladservices.com
 
 # > Firebase Cloud Messaging
 DOMAIN,mtalk.google.com
@@ -35,63 +34,15 @@ DOMAIN,alt6-mtalk.google.com
 DOMAIN,alt7-mtalk.google.com
 DOMAIN,alt8-mtalk.google.com
 
-# > Google
-DOMAIN-SUFFIX,blog.google
-DOMAIN,ci.android.com
-DOMAIN,clientservices.googleapis.com
-DOMAIN,update.googleapis.com
-DOMAIN,dl.google.com
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN,dl.l.google.com
-DOMAIN-SUFFIX,googletraveladservices.com
-DOMAIN,redirector.gvt1.com
-DOMAIN,safebrowsing.googleapis.com
-DOMAIN,update.googleapis.com
-
-# > Microsoft
-USER-AGENT,Microsoft%20Remote%20Desktop*
-DOMAIN-SUFFIX,msftconnecttest.com
-
-# > paramount+
-# DOMAIN,pubads.g.doubleclick.net
-
-# > PlayStation
-DOMAIN-SUFFIX,dl.playstation.net
-
-# > Steam
-USER-AGENT,Steam*
-DOMAIN,cm.steampowered.com
-DOMAIN,ol.epicgames.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dota2.wmsj.cn
-DOMAIN,wmsjsteam.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,gstore.val.manlaxy.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-
-# > Strava
-DOMAIN,analytics.strava.com
-
+# ------
 # > Tencent
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
+
+# > Strava
+DOMAIN,analytics.strava.com
 
 # > Umeng
 DOMAIN,msg.umeng.com
