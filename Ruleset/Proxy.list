@@ -396,17 +396,6 @@ IP-CIDR,75.126.0.0/16,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,208.43.0.0/16,no-resolve
 
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
-
 # > Steam
 DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,steampowered.com
@@ -416,7 +405,7 @@ DOMAIN-SUFFIX,steamusercontent.com
 // DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamstatic.com
 
-# > Telegram
+# Telegram
 DOMAIN-SUFFIX,cdn-telegram.org
 DOMAIN-SUFFIX,comments.app
 DOMAIN-SUFFIX,graph.org
@@ -479,39 +468,16 @@ DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 
 # > Twitter
-DOMAIN-SUFFIX,ads-twitter.com
-DOMAIN-SUFFIX,cms-twdigitalassets.com
-DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,tellapart.com
-DOMAIN-SUFFIX,tweetdeck.com
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.biz
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,twittercommunity.com
-DOMAIN-SUFFIX,twitterflightschool.com
-DOMAIN-SUFFIX,twitterinc.com
-DOMAIN-SUFFIX,twitteroauth.com
-DOMAIN-SUFFIX,twitterstat.us
-DOMAIN-SUFFIX,twtrdns.net
-DOMAIN-SUFFIX,twttr.com
-DOMAIN-SUFFIX,twttr.net
-DOMAIN-SUFFIX,twvid.com
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
-IP-CIDR,69.195.160.0/19,no-resolve
-IP-CIDR,104.244.42.0/21,no-resolve
-IP-CIDR,192.133.76.0/22,no-resolve
-IP-CIDR,199.16.156.0/22,no-resolve
-IP-CIDR,199.59.148.0/22,no-resolve
-IP-CIDR,199.96.56.0/21,no-resolve
-IP-CIDR,202.160.128.0/22,no-resolve
-IP-CIDR,209.237.192.0/19,no-resolve
 
 # > VOA
 DOMAIN-SUFFIX,amerikaninsesi.com
@@ -580,25 +546,6 @@ DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
 DOMAIN-SUFFIX,wiktionary.org
-
-# > YouTube
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-USER-AGENT,com.google.ios.youtube*
-DOMAIN-KEYWORD,youtube
-DOMAIN,youtubei.googleapis.com
-DOMAIN,yt3.ggpht.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
 
 # > YouTubeMusic
 USER-AGENT,*YouTubeMusic*
@@ -670,12 +617,3 @@ DOMAIN-SUFFIX,www2.laqddc.com
 DOMAIN-SUFFIX,www4.laqddc.com
 DOMAIN-SUFFIX,yc370.com
 DOMAIN-SUFFIX,youku.iqiyi-yongjiu.com
-
-# > 泥巴影院
-DOMAIN-SUFFIX,biggggg.com
-DOMAIN-SUFFIX,mudvod.tv
-DOMAIN-SUFFIX,nbys.tv
-DOMAIN-SUFFIX,nbyy.tv
-DOMAIN-SUFFIX,nbys1.tv
-DOMAIN-SUFFIX,newpppp.com
-DOMAIN-SUFFIX,vod360.net
