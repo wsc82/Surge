@@ -2,7 +2,6 @@
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,prcleader.org
 DOMAIN,note.boccc.co
-DOMAIN,ghproxy.com
 
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adobe.com
@@ -22,6 +21,7 @@ DOMAIN-SUFFIX,dowjoneson.com
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,fotmob.com
+DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgurinc.com
