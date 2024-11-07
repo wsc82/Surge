@@ -33,9 +33,6 @@ DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
 DOMAIN,link.theplatform.com
 
-# > PBS
-DOMAIN-SUFFIX,pbs.org
-
 # OpenAI
 # > ChatGPT
 DOMAIN-SUFFIX,chatgpt.com
