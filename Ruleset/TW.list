@@ -9,13 +9,22 @@ DOMAIN-SUFFIX,tech-girlz.com
 DOMAIN-SUFFIX,kocpc.com.tw
 
 # > Max
-DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,brightline.tv
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,warnermediacdn.com
+USER-AGENT,*Max*
+
+# > Analysis
+DOMAIN,app-analytics-services.com
+DOMAIN,kpck4q-launches.appsflyersdk.com
+DOMAIN,kpck4q-skadsdkless.appsflyersdk.com
+DOMAIN,out053a3bejgh7t0phqa0csou.litix.io
+DOMAIN,sdk.iad-01.braze.com
+DOMAIN-SUFFIX,branch.io
 
 # > Bahamut
 DOMAIN-SUFFIX,bahamut.com.tw
