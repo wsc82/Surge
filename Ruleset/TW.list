@@ -31,11 +31,11 @@ DOMAIN, sdk.iad-01.braze.com
 DOMAIN-SUFFIX, branch.io
 
 # > Bahamut
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
-DOMAIN,bahamut.akamaized.net
-DOMAIN,gamer-cds.cdn.hinet.net
-DOMAIN,gamer2-cds.cdn.hinet.net
+USER-AGENT, Anime*
+DOMAIN-SUFFIX, bahamut.com.tw
+DOMAIN-SUFFIX, gamer.com.tw
+DOMAIN, gamer-cds.cdn.hinet.net
+DOMAIN, gamer2-cds.cdn.hinet.net
 
 # > KKTV
 DOMAIN-SUFFIX,kktv.com.tw
