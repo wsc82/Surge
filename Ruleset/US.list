@@ -49,6 +49,8 @@ DOMAIN-SUFFIX, githubcopilot.com
 DOMAIN, copilot.microsoft.com
 
 # > Gemini
+DOMAIN-SUFFIX, ai.google.dev
+DOMAIN-SUFFIX, aistudio.google.com
 DOMAIN-SUFFIX, gemini.google.com
 DOMAIN, generativelanguage.googleapis.com
 DOMAIN, proactivebackend-pa.googleapis.com
