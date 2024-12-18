@@ -92,6 +92,7 @@ DOMAIN-SUFFIX,discordapp.net
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,getdropbox.com
 
 # > Financial Times
 DOMAIN-SUFFIX,ft.com
