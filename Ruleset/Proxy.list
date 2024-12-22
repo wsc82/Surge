@@ -71,9 +71,7 @@ DOMAIN-SUFFIX,bbci.co.uk
 
 # > Bitwarden
 DOMAIN-SUFFIX,bitwarden.com
-DOMAIN-SUFFIX,bitwarden.eu
 DOMAIN-SUFFIX,bitwarden.net
-DOMAIN-SUFFIX,btwrdn.com
 
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
