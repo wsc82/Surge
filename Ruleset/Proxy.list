@@ -38,7 +38,6 @@ DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,pm.me
-DOMAIN-SUFFIX,pressreader.com
 DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
@@ -105,6 +104,8 @@ DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,ftimg.net
+DOMAIN-SUFFIX,prcdn.co
+DOMAIN-SUFFIX,pressreader.com
 DOMAIN,d1e00ek4ebabms.cloudfront.net
 DOMAIN,d19eijqb5qll1w.cloudfront.net
 
