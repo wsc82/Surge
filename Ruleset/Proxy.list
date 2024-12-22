@@ -208,12 +208,6 @@ DOMAIN-SUFFIX,xvideos-cdn.com
 DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,ypncdn.com
 
-# > Potato Chat
-IP-CIDR,13.251.24.157/24,no-resolve
-IP-CIDR,13.251.41.203/24,no-resolve
-IP-CIDR,17.252.156.147/24,no-resolve
-IP-CIDR,17.252.157.26/24,no-resolve
-
 # > Reddit
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,reddit.com
@@ -225,18 +219,6 @@ DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reuters.tv
 DOMAIN-SUFFIX,reutersmedia.net
 
-# > Signal
-DOMAIN-SUFFIX,signal.art
-DOMAIN-SUFFIX,signal.org
-DOMAIN-SUFFIX,signalusers.org
-DOMAIN-SUFFIX,whispersystems.org
-
-# > SoftLayer
-IP-CIDR,74.86.0.0/16,no-resolve
-IP-CIDR,75.126.0.0/16,no-resolve
-IP-CIDR,174.37.0.0/16,no-resolve
-IP-CIDR,208.43.0.0/16,no-resolve
-
 # > Steam
 DOMAIN-SUFFIX, s.team
 DOMAIN-SUFFIX, steampowered.com
@@ -246,45 +228,30 @@ DOMAIN-SUFFIX, steamusercontent.com
 // DOMAIN-SUFFIX, steamcontent.com
 DOMAIN-SUFFIX, steamstatic.com
 
-# Telegram
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.16.0/22,no-resolve
-IP-CIDR,91.108.12.0/22,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,91.108.20.0/22,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
-
-# > Twitch
-DOMAIN-KEYWORD,ttvnw
-DOMAIN-SUFFIX,ext-twitch.tv
-DOMAIN-SUFFIX,jtvnw.net
-DOMAIN-SUFFIX,ttvnw.net
-DOMAIN-SUFFIX,twitch-ext.rootonline.de
-DOMAIN-SUFFIX,twitch.tv
-DOMAIN-SUFFIX,twitchcdn.net
+# > Telegram
+DOMAIN-SUFFIX, t.me
+DOMAIN-SUFFIX, tx.me
+DOMAIN-SUFFIX, tdesktop.com
+DOMAIN-SUFFIX, telegra.ph
+DOMAIN-SUFFIX, telegram.me
+DOMAIN-SUFFIX, telegram.org
+DOMAIN-SUFFIX, telegram-cdn.org
+DOMAIN-SUFFIX, cdn-telegram.org
+DOMAIN-SUFFIX, telesco.pe
+DOMAIN-KEYWORD, telegram
+IP-CIDR, 91.105.192.0/23, no-resolve
+IP-CIDR, 91.108.56.0/22, no-resolve
+IP-CIDR, 91.108.4.0/22, no-resolve
+IP-CIDR, 91.108.8.0/22, no-resolve
+IP-CIDR, 91.108.12.0/22, no-resolve
+IP-CIDR, 91.108.16.0/22, no-resolve
+IP-CIDR, 91.108.20.0/22, no-resolve
+IP-CIDR, 149.154.160.0/20, no-resolve
+IP-CIDR, 185.76.151.0/24, no-resolve
+IP-CIDR6, 2001:67c:4e8::/48, no-resolve
+IP-CIDR6, 2001:b28:f23d::/48, no-resolve
+IP-CIDR6, 2001:b28:f23f::/48, no-resolve
+IP-CIDR6, 2a0a:f280::/32, no-resolve
 
 # > Twitter
 DOMAIN-SUFFIX,t.co
@@ -369,64 +336,3 @@ DOMAIN,music.youtube.com
 
 # > 视频解析
 DOMAIN-SUFFIX,1090ys1.com
-DOMAIN-SUFFIX,1090ys2.com
-DOMAIN-SUFFIX,135zyv6.xw0371.com
-DOMAIN-SUFFIX,1777cdn.com
-DOMAIN-SUFFIX,1905.com
-DOMAIN-SUFFIX,355pan.com
-DOMAIN-SUFFIX,5252zy.com
-DOMAIN-SUFFIX,6drama.com
-DOMAIN-SUFFIX,8lhx.com
-DOMAIN-SUFFIX,api.47ks.com
-DOMAIN-SUFFIX,api.cdnbye.com
-DOMAIN-SUFFIX,api.daidaitv.com
-DOMAIN-SUFFIX,api.kp60.com
-DOMAIN-SUFFIX,baiwanzy.com
-DOMAIN-SUFFIX,bili.meijuzuida.com
-DOMAIN-SUFFIX,bobo.okokbo.com
-DOMAIN-SUFFIX,dbx4.tyswmp.com
-DOMAIN-SUFFIX,ddppnew1.135-cdn.com
-DOMAIN-SUFFIX,dogevod.com
-DOMAIN-SUFFIX,duboku.net
-DOMAIN-SUFFIX,duboku.tv
-DOMAIN-SUFFIX,fztxylgy.com
-DOMAIN-SUFFIX,g.shumafen.cn
-DOMAIN-SUFFIX,gimy.app
-DOMAIN-SUFFIX,gimy.cm
-DOMAIN-SUFFIX,gimy.tv
-DOMAIN-SUFFIX,gimytv.com
-DOMAIN-SUFFIX,gitube.co
-DOMAIN-SUFFIX,gncdn.wb699.com
-DOMAIN-SUFFIX,guihua.feifei-kuyun.com
-DOMAIN-SUFFIX,i1.piimg.com
-DOMAIN-SUFFIX,iqiyi.com-t-iqiyi.com
-DOMAIN-SUFFIX,iqiyi.qq-zuidazy.com
-DOMAIN-SUFFIX,jingcai.cdn-vipkkyun.com
-DOMAIN-SUFFIX,jx.618g.com
-DOMAIN-SUFFIX,kuyun88.com
-DOMAIN-SUFFIX,kwstr.com
-DOMAIN-SUFFIX,laqddc.com
-DOMAIN-SUFFIX,m1905.cn
-DOMAIN-SUFFIX,meigui.qqqq-kuyun.com
-DOMAIN-SUFFIX,mudan.iii-kuyunzy.com
-DOMAIN-SUFFIX,mypianku.net
-DOMAIN-SUFFIX,pianku.me
-DOMAIN-SUFFIX,pic.douban888.com
-DOMAIN-SUFFIX,pic.tukusoso.com
-DOMAIN-SUFFIX,pp.605-zy.com
-DOMAIN-SUFFIX,rrtv.rrys2020.cn
-DOMAIN-SUFFIX,s1.135-cdn.com
-DOMAIN-SUFFIX,taijudaquan.com
-DOMAIN-SUFFIX,taijula.com
-DOMAIN-SUFFIX,taijumi.cc
-DOMAIN-SUFFIX,taijumi.co
-DOMAIN-SUFFIX,taijutv.com
-DOMAIN-SUFFIX,thaiupdate.info
-DOMAIN-SUFFIX,v2.xw0371.com
-DOMAIN-SUFFIX,video.fjhps.com
-DOMAIN-SUFFIX,videos5.yijiaren888.com
-DOMAIN-SUFFIX,vip.tujidu.com
-DOMAIN-SUFFIX,www2.laqddc.com
-DOMAIN-SUFFIX,www4.laqddc.com
-DOMAIN-SUFFIX,yc370.com
-DOMAIN-SUFFIX,youku.iqiyi-yongjiu.com
