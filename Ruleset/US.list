@@ -1,5 +1,13 @@
 DOMAIN-SUFFIX,yahoo.com
 
+# > Spotify
+USER-AGENT, Spotify*
+DOMAIN-KEYWORD, spotify
+DOMAIN-SUFFIX, pscdn.co
+DOMAIN-SUFFIX, scdn.co
+DOMAIN-SUFFIX, spoti.fi
+DOMAIN-SUFFIX, spotilocal.com
+
 # OpenAI
 # > ChatGPT
 DOMAIN-SUFFIX,chatgpt.com
