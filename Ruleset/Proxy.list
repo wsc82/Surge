@@ -225,6 +225,14 @@ DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reuters.tv
 DOMAIN-SUFFIX,reutersmedia.net
 
+# > Spotify
+USER-AGENT, Spotify*
+DOMAIN-KEYWORD, spotify
+DOMAIN-SUFFIX, pscdn.co
+DOMAIN-SUFFIX, scdn.co
+DOMAIN-SUFFIX, spoti.fi
+DOMAIN-SUFFIX, spotilocal.com
+
 # > Steam
 DOMAIN-SUFFIX, s.team
 DOMAIN-SUFFIX, steampowered.com
