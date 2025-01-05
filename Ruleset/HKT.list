@@ -8,11 +8,3 @@ DOMAIN-SUFFIX,nowestatic.com
 # > myTV SUPER
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
-
-# > Spotify
-USER-AGENT, Spotify*
-DOMAIN-KEYWORD, spotify
-DOMAIN-SUFFIX, pscdn.co
-DOMAIN-SUFFIX, scdn.co
-DOMAIN-SUFFIX, spoti.fi
-DOMAIN-SUFFIX, spotilocal.com
