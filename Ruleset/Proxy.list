@@ -273,11 +273,6 @@ DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
 
-# > VOA
-DOMAIN-SUFFIX,voachinese.com
-DOMAIN-SUFFIX,voanews.com
-DOMAIN-SUFFIX,voanews.eu
-
 # > Wikipedia
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
