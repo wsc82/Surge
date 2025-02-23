@@ -41,6 +41,7 @@ DOMAIN-KEYWORD,labs.google
 DOMAIN-KEYWORD,notebooklm.google
 
 # > Grok
+DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,intercomassets.com
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,intercom.com
