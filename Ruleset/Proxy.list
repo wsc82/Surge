@@ -119,17 +119,6 @@ DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 DOMAIN-SUFFIX,getdropbox.com
 
-# > Financial Times
-DOMAIN-SUFFIX,ft.com
-DOMAIN-SUFFIX,ftchinese.com
-DOMAIN-SUFFIX,ftimg.net
-DOMAIN,secure.newspaperdirect.com
-DOMAIN-SUFFIX,prcdn.co
-DOMAIN-SUFFIX,pressreader.com
-DOMAIN-SUFFIX,zeddit.com
-DOMAIN,d1e00ek4ebabms.cloudfront.net
-DOMAIN,d19eijqb5qll1w.cloudfront.net
-
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb
