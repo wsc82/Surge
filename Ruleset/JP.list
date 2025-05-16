@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,yahoo.co.jp
-DOMAIN,cn.wsj.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
 
 # > DMM
 DOMAIN-SUFFIX,dmm.com
