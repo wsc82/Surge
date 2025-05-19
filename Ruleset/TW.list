@@ -40,8 +40,4 @@ DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 # > 台湾好
 DOMAIN-SUFFIX,skyking.com.tw
 DOMAIN,hamifans.emome.net
-
-# Perplexity
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,pplx.ai
 DOMAIN,pplx-res.cloudinary.com
