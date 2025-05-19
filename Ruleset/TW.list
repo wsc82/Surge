@@ -41,3 +41,7 @@ DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
 DOMAIN-SUFFIX,skyking.com.tw
 DOMAIN,hamifans.emome.net
 DOMAIN,pplx-res.cloudinary.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
