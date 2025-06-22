@@ -1,4 +1,6 @@
 DOMAIN-SUFFIX,yahoo.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
 
 # > Spotify
 DOMAIN-SUFFIX,pscdn.co
