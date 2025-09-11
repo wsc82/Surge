@@ -10,6 +10,33 @@ DOMAIN-SUFFIX,spoti.fi
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,-spotify-com
 
+# > Financial Times
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,ftchinese.com
+DOMAIN-SUFFIX,ftimg.net
+DOMAIN,secure.newspaperdirect.com
+DOMAIN-SUFFIX,prcdn.co
+DOMAIN-SUFFIX,pressreader.com
+DOMAIN-SUFFIX,zeddit.com
+DOMAIN,d1e00ek4ebabms.cloudfront.net
+DOMAIN,d19eijqb5qll1w.cloudfront.net
+
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+
+# xAI
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
 # Apple Intelligence
 DOMAIN-SUFFIX,smoot.apple.com
 DOMAIN,apple-relay.apple.com
