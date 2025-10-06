@@ -65,7 +65,6 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
 
 # OpenAI
-# > ChatGPT
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,livekit.cloud
@@ -73,9 +72,12 @@ DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,sora.com
+DOMAIN,api.revenuecat.com
 DOMAIN,api.statsig.com
 DOMAIN,api-iam.intercom.io
+DOMAIN,browser-intake-datadoghq.com
 DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o33249.ingest.us.sentry.io
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
