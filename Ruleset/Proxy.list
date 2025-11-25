@@ -25,9 +25,7 @@ DOMAIN-SUFFIX,dowjoneson.com
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,dynamicyield.com
-DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,fotmob.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,godaddy.com
@@ -43,15 +41,12 @@ DOMAIN-SUFFIX,mangmang.run
 DOMAIN-SUFFIX,matters.town
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,newsapi.sphdigital.com
-DOMAIN-SUFFIX,note.boccc.co
-DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ourchinastory.com
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pbs.org
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,privacy-mgmt.com
-DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
@@ -72,7 +67,6 @@ DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,tvboxnow.com
-DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,whitecoatwaste.org
 DOMAIN-SUFFIX,xiaobaotv.com
@@ -164,6 +158,3 @@ USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
 DOMAIN,music.youtube.com
-
-# > 视频解析
-DOMAIN-SUFFIX,cloudflarestorage.com
