@@ -1,5 +1,11 @@
+DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,fotmob.com
+DOMAIN-SUFFIX,note.boccc.co
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,supjav.com
 DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,wsj.com
 DOMAIN-SUFFIX,wsj.net
 
@@ -113,3 +119,6 @@ DOMAIN-SUFFIX,x.com
 # > Wikipedia
 DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
+
+# > 视频解析
+DOMAIN-SUFFIX,cloudflarestorage.com
