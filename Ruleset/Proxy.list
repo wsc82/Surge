@@ -78,15 +78,6 @@ DOMAIN-SUFFIX,whitecoatwaste.org
 DOMAIN-SUFFIX,xiaobaotv.com
 DOMAIN-SUFFIX,z-library.sk
 
-# > BBC
-DOMAIN-SUFFIX,bbc.co.uk
-DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbci.co.uk
-
-# > Bitwarden
-DOMAIN-SUFFIX,bitwarden.com
-DOMAIN-SUFFIX,bitwarden.net
-
 # > Bloomberg
 DOMAIN-SUFFIX,bloomberg.cn
 DOMAIN-SUFFIX,bloomberg.com
@@ -107,12 +98,6 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.net
 
-# > Dropbox
-DOMAIN-SUFFIX,dropbox.com
-DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxusercontent.com
-DOMAIN-SUFFIX,getdropbox.com
-
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb
@@ -120,67 +105,12 @@ DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
 
-# > Meta
-DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,f8.com
-DOMAIN-SUFFIX,facebookmail.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fb.watch
-DOMAIN-SUFFIX,fbaddins.com
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,fbworkmail.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,m.me
-DOMAIN-SUFFIX,messenger.com
-DOMAIN-SUFFIX,oculus.com
-DOMAIN-SUFFIX,oculuscdn.com
-DOMAIN-SUFFIX,readyatdawn.com
-DOMAIN-SUFFIX,rocksdb.org
-DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-KEYWORD,.facebook.
-
-# > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
-DOMAIN,assets1.xboxlive.com
-DOMAIN,assets2.xboxlive.com
-DOMAIN,az416426.vo.msecnd.net
-DOMAIN,az668014.vo.msecnd.net
-DOMAIN,github.global.ssl.fastly.net
-
 # > Notion
 DOMAIN-SUFFIX,notion-static.com
 DOMAIN-SUFFIX,notion.com
 DOMAIN-SUFFIX,notion.new
 DOMAIN-SUFFIX,notion.site
 DOMAIN-SUFFIX,notion.so
-
-# > NY Times
-DOMAIN-SUFFIX,newyorktimes.com
-DOMAIN-SUFFIX,nyt.com
-DOMAIN-SUFFIX,nytco.com
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,nytimg.com
-DOMAIN-SUFFIX,nytlog.com
-DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,tmagazine.com
-DOMAIN,nytimes.map.fastly.net
 
 # > Pinterest
 DOMAIN-SUFFIX,pinimg.com
@@ -220,20 +150,6 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
-# > Reuters
-DOMAIN-SUFFIX,reuters.com
-DOMAIN-SUFFIX,reuters.tv
-DOMAIN-SUFFIX,reutersmedia.net
-
-# > Steam
-DOMAIN-SUFFIX, s.team
-DOMAIN-SUFFIX, steampowered.com
-DOMAIN-SUFFIX, steamcommunity.com
-DOMAIN-SUFFIX, steamgames.com
-DOMAIN-SUFFIX, steamusercontent.com
-// DOMAIN-SUFFIX, steamcontent.com
-DOMAIN-SUFFIX, steamstatic.com
-
 # > Twitch
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
@@ -241,10 +157,6 @@ DOMAIN-SUFFIX,ttvnw.net
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 DOMAIN-SUFFIX,twitch-ext.rootonline.de
-
-# > Wikipedia
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
 
 # > YouTubeMusic
 USER-AGENT,*YouTubeMusic*
