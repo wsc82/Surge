@@ -1,3 +1,29 @@
+DOMAIN,hk.yahoo.com
+DOMAIN,cdn.hklive.tv
+DOMAIN-SUFFIX,zaobao.com
+DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN-SUFFIX,zb.sg
+DOMAIN,docs.dmit.io
+DOMAIN-SUFFIX,economist.com
+DOMAIN-SUFFIX,fotmob.com
+DOMAIN-SUFFIX,note.boccc.co
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,proton.me
+DOMAIN-SUFFIX,supjav.com
+DOMAIN-SUFFIX,yfsp.tv
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
+
+# > BBC
+DOMAIN-SUFFIX,bbc.co.uk
+DOMAIN-SUFFIX,bbc.com
+DOMAIN-SUFFIX,bbci.co.uk
+
+# > Bitwarden
+DOMAIN-SUFFIX,bitwarden.com
+DOMAIN-SUFFIX,bitwarden.net
+
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
 DOMAIN-SUFFIX,disneyplus.com
@@ -5,6 +31,23 @@ DOMAIN-SUFFIX,disney-plus.net
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN,cdn.registerdisney.go.com
+
+# > Dropbox
+DOMAIN-SUFFIX,dropbox.com
+DOMAIN-SUFFIX,dropboxapi.com
+DOMAIN-SUFFIX,dropboxusercontent.com
+DOMAIN-SUFFIX,getdropbox.com
+
+# > Financial Times
+DOMAIN-SUFFIX,ft.com
+DOMAIN-SUFFIX,ftchinese.com
+DOMAIN-SUFFIX,ftimg.net
+DOMAIN,secure.newspaperdirect.com
+DOMAIN-SUFFIX,prcdn.co
+DOMAIN-SUFFIX,pressreader.com
+DOMAIN-SUFFIX,zeddit.com
+DOMAIN,d1e00ek4ebabms.cloudfront.net
+DOMAIN,d19eijqb5qll1w.cloudfront.net
 
 # > Google
 DOMAIN, app-analytics-services.com
@@ -47,6 +90,63 @@ PROCESS-NAME,com.google.android.gsf
 PROCESS-NAME,com.google.android.play.games
 PROCESS-NAME,BackupandSync
 
+# > Max
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,max.com
+
+# > Meta
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbaddins.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbworkmail.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,readyatdawn.com
+DOMAIN-SUFFIX,rocksdb.org
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-KEYWORD,.facebook.
+
+# > Microsoft
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,github.blog
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net
+DOMAIN,assets1.xboxlive.com
+DOMAIN,assets2.xboxlive.com
+DOMAIN,az416426.vo.msecnd.net
+DOMAIN,az668014.vo.msecnd.net
+DOMAIN,github.global.ssl.fastly.net
+
+# > myTV SUPER
+DOMAIN-SUFFIX,mytvsuper.com
+DOMAIN-SUFFIX,tvb.com
+
 # > Netflix
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
@@ -60,3 +160,81 @@ DOMAIN-KEYWORD,netflixdnstest
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,dualstack.apiproxy-
 GEOIP,NETFLIX,no-resolve
+
+# > Now E
+DOMAIN-SUFFIX,nowe.com
+DOMAIN-SUFFIX,nowestatic.com
+
+# > NY Times
+DOMAIN-SUFFIX,newyorktimes.com
+DOMAIN-SUFFIX,nyt.com
+DOMAIN-SUFFIX,nytco.com
+DOMAIN-SUFFIX,nytimes.com
+DOMAIN-SUFFIX,nytimg.com
+DOMAIN-SUFFIX,nytlog.com
+DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,tmagazine.com
+DOMAIN,nytimes.map.fastly.net
+
+# > Reuters
+DOMAIN-SUFFIX,reuters.com
+DOMAIN-SUFFIX,reuters.tv
+DOMAIN-SUFFIX,reutersmedia.net
+
+# > Steam
+DOMAIN-SUFFIX, s.team
+DOMAIN-SUFFIX, steampowered.com
+DOMAIN-SUFFIX, steamcommunity.com
+DOMAIN-SUFFIX, steamgames.com
+DOMAIN-SUFFIX, steamusercontent.com
+// DOMAIN-SUFFIX, steamcontent.com
+DOMAIN-SUFFIX, steamstatic.com
+
+# > Telegram
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telega.one
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+IP-CIDR,5.28.195.1/32,no-resolve
+IP-CIDR,5.28.195.2/32,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/21,no-resolve
+IP-CIDR,91.108.16.0/21,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,95.161.64.0/20,no-resolve
+IP-CIDR,139.59.210.98/32,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR,196.55.216.167/32,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
+
+# > Twitter
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,x.com
+
+# > Wikipedia
+DOMAIN-SUFFIX,wikimedia.org
+DOMAIN-SUFFIX,wikipedia.org
