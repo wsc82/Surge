@@ -1,39 +1,26 @@
-DOMAIN,hk.yahoo.com
 DOMAIN,cdn.hklive.tv
-DOMAIN-SUFFIX,zaobao.com
-DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,zb.sg
 DOMAIN,docs.dmit.io
-DOMAIN-SUFFIX,economist.com
-DOMAIN-SUFFIX,fotmob.com
-DOMAIN-SUFFIX,note.boccc.co
-DOMAIN-SUFFIX,nssurge.com
-DOMAIN-SUFFIX,proton.me
-DOMAIN-SUFFIX,supjav.com
-DOMAIN-SUFFIX,yfsp.tv
-DOMAIN-SUFFIX,v2ex.com
-DOMAIN-SUFFIX,wsj.com
-DOMAIN-SUFFIX,wsj.net
+DOMAIN,hk.yahoo.com
 
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,afp.com
 DOMAIN-SUFFIX,afpforum.com
 DOMAIN-SUFFIX,allsides.com
+DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,amysecure.com
 DOMAIN-SUFFIX,ap.org
 DOMAIN-SUFFIX,api.onesignal.com
 DOMAIN-SUFFIX,apnews.com
-DOMAIN-SUFFIX,amazontrust.com
-DOMAIN-SUFFIX,amysecure.com
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,btloader.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
 DOMAIN-SUFFIX,cdn.jsdelivr.net
-DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,dextools.io
 DOMAIN-SUFFIX,dowjones.com
 DOMAIN-SUFFIX,dowjones.io
@@ -41,7 +28,9 @@ DOMAIN-SUFFIX,dowjoneson.com
 DOMAIN-SUFFIX,duyaoss.com
 DOMAIN-SUFFIX,dw.com
 DOMAIN-SUFFIX,dynamicyield.com
+DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fotmob.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,godaddy.com
@@ -57,19 +46,22 @@ DOMAIN-SUFFIX,mangmang.run
 DOMAIN-SUFFIX,matters.town
 DOMAIN-SUFFIX,medium.com
 DOMAIN-SUFFIX,newsapi.sphdigital.com
+DOMAIN-SUFFIX,note.boccc.co
+DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,ourchinastory.com
-DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pbs.org
+DOMAIN-SUFFIX,pincong.rocks
 DOMAIN-SUFFIX,pm.me
 DOMAIN-SUFFIX,prcleader.org
 DOMAIN-SUFFIX,privacy-mgmt.com
+DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
+DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,ptt.cc
-DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rfi.my
 DOMAIN-SUFFIX,rocketgirls.space
@@ -78,16 +70,24 @@ DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,stheadline.com
 DOMAIN-SUFFIX,storm.mg
-DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
+DOMAIN-SUFFIX,supjav.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,tvboxnow.com
+DOMAIN-SUFFIX,v2ex.com
 DOMAIN-SUFFIX,washingtonpost.com
 DOMAIN-SUFFIX,whitecoatwaste.org
+DOMAIN-SUFFIX,wsj.com
+DOMAIN-SUFFIX,wsj.net
 DOMAIN-SUFFIX,xiaobaotv.com
+DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,z-library.sk
+DOMAIN-SUFFIX,zaobao.com
+DOMAIN-SUFFIX,zaobao.com.sg
+DOMAIN-SUFFIX,zb.sg
 
 # > BBC
 DOMAIN-SUFFIX,bbc.co.uk
@@ -114,14 +114,14 @@ DOMAIN-SUFFIX,cnnmoney.ch
 
 # > Discord
 DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
 DOMAIN,cdn.registerdisney.go.com
@@ -136,53 +136,53 @@ DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,ft.com
 DOMAIN-SUFFIX,ftchinese.com
 DOMAIN-SUFFIX,ftimg.net
-DOMAIN,secure.newspaperdirect.com
 DOMAIN-SUFFIX,prcdn.co
 DOMAIN-SUFFIX,pressreader.com
 DOMAIN-SUFFIX,zeddit.com
 DOMAIN,d1e00ek4ebabms.cloudfront.net
 DOMAIN,d19eijqb5qll1w.cloudfront.net
+DOMAIN,secure.newspaperdirect.com
 
 # > Google
 DOMAIN, app-analytics-services.com
-DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,withyoutube.com
-DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,google.com.hk
-DOMAIN-SUFFIX,google.com.tw
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,googleadservices.com
-DOMAIN-SUFFIX,ampproject.org
-DOMAIN-SUFFIX,gmail.com
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,recaptcha
+DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.com.tw
+DOMAIN-SUFFIX,googleadservices.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
 IP-CIDR,172.110.32.0/21
 IP-CIDR,173.194.0.0/16
 IP-CIDR,216.73.80.0/20
 IP-CIDR,74.125.0.0/16
 IP-CIDR6,2620:120:e000::/40
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,*com.google.Drive*
-USER-AGENT,Google.Drive*
+PROCESS-NAME,BackupandSync
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.google.android.gsf
 PROCESS-NAME,com.google.android.play.games
-PROCESS-NAME,BackupandSync
+USER-AGENT,*com.google.Drive*
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,Google.Drive*
 
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
@@ -201,6 +201,7 @@ DOMAIN-SUFFIX,hbonow.com
 DOMAIN-SUFFIX,max.com
 
 # > Meta
+DOMAIN-KEYWORD,.facebook.
 DOMAIN-SUFFIX,accountkit.com
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,f8.com
@@ -222,7 +223,6 @@ DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-KEYWORD,.facebook.
 
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms
@@ -232,8 +232,8 @@ DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,skype.com
@@ -249,6 +249,9 @@ DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
 # > Netflix
+DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
+DOMAIN-KEYWORD,dualstack.apiproxy-
+DOMAIN-KEYWORD,netflixdnstest
 DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,netflix.com
 DOMAIN-SUFFIX,netflix.net
@@ -257,9 +260,6 @@ DOMAIN-SUFFIX,nflximg.com
 DOMAIN-SUFFIX,nflximg.net
 DOMAIN-SUFFIX,nflxso.net
 DOMAIN-SUFFIX,nflxvideo.net
-DOMAIN-KEYWORD,netflixdnstest
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,dualstack.apiproxy-
 GEOIP,NETFLIX,no-resolve
 
 # > Notion
@@ -277,16 +277,16 @@ DOMAIN-SUFFIX,nowestatic.com
 DOMAIN-SUFFIX,newyorktimes.com
 DOMAIN-SUFFIX,nyt.com
 DOMAIN-SUFFIX,nytco.com
-DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,nytimg.com
 DOMAIN-SUFFIX,nytlog.com
 DOMAIN-SUFFIX,nytstyle.com
+DOMAIN-SUFFIX,nytimes.com
 DOMAIN-SUFFIX,tmagazine.com
 DOMAIN,nytimes.map.fastly.net
 
 # > Pinterest
-DOMAIN-SUFFIX,pinimg.com
 DOMAIN-KEYWORD,.pinterest.
+DOMAIN-SUFFIX,pinimg.com
 
 # > Porn
 DOMAIN-KEYWORD,porn
@@ -305,9 +305,9 @@ DOMAIN-SUFFIX,rdtcdn.com
 DOMAIN-SUFFIX,redtube.com
 DOMAIN-SUFFIX,sb-cd.com
 DOMAIN-SUFFIX,spankbang.com
-DOMAIN-SUFFIX,tktube.com
-DOMAIN-SUFFIX,tkcdns.com
 DOMAIN-SUFFIX,t66y.com
+DOMAIN-SUFFIX,tkcdns.com
+DOMAIN-SUFFIX,tktube.com
 DOMAIN-SUFFIX,x18r.com
 DOMAIN-SUFFIX,xhamster.com
 DOMAIN-SUFFIX,xnxx-cdn.com
@@ -329,12 +329,11 @@ DOMAIN-SUFFIX,reutersmedia.net
 
 # > Steam
 DOMAIN-SUFFIX, s.team
-DOMAIN-SUFFIX, steampowered.com
 DOMAIN-SUFFIX, steamcommunity.com
 DOMAIN-SUFFIX, steamgames.com
-DOMAIN-SUFFIX, steamusercontent.com
-// DOMAIN-SUFFIX, steamcontent.com
+DOMAIN-SUFFIX, steampowered.com
 DOMAIN-SUFFIX, steamstatic.com
+DOMAIN-SUFFIX, steamusercontent.com
 
 # > Telegram
 DOMAIN-SUFFIX,cdn-telegram.org
@@ -342,13 +341,13 @@ DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
-DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegram.dog
 DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
 IP-CIDR,5.28.195.1/32,no-resolve
@@ -373,13 +372,13 @@ IP-CIDR6,2a0a:f280::/32,no-resolve
 DOMAIN-SUFFIX,ext-twitch.tv
 DOMAIN-SUFFIX,jtvnw.net
 DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch-ext.rootonline.de
 DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
-DOMAIN-SUFFIX,twitch-ext.rootonline.de
 
 # > Twitter
-DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
@@ -394,8 +393,8 @@ DOMAIN-SUFFIX,wikimedia.org
 DOMAIN-SUFFIX,wikipedia.org
 
 # > YouTubeMusic
+DOMAIN,music.youtube.com
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
-DOMAIN,music.youtube.com
