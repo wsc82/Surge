@@ -74,7 +74,6 @@ DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,stripe.network
 DOMAIN-SUFFIX,stripecdn.com
 DOMAIN-SUFFIX,supjav.com
-DOMAIN-SUFFIX,tiktokcdn.com
 DOMAIN-SUFFIX,theinitium.com
 DOMAIN-SUFFIX,thenewslens.com
 DOMAIN-SUFFIX,tvboxnow.com
@@ -399,3 +398,6 @@ USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,com.google.ios.youtubemusic*
+
+# > 视频解析
+DOMAIN-SUFFIX,tiktokcdn.com
