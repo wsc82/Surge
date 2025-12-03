@@ -148,11 +148,6 @@ DOMAIN,secure.newspaperdirect.com
 
 # > Google
 DOMAIN, app-analytics-services.com
-DOMAIN-KEYWORD,appspot
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,recaptcha
 DOMAIN-SUFFIX,ampproject.org
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
@@ -174,19 +169,24 @@ DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,appspot
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,recaptcha
 IP-CIDR,172.110.32.0/21
 IP-CIDR,173.194.0.0/16
 IP-CIDR,216.73.80.0/20
 IP-CIDR,74.125.0.0/16
 IP-CIDR6,2620:120:e000::/40
-PROCESS-NAME,BackupandSync
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
+USER-AGENT,*com.google.Drive*
+USER-AGENT,Google.Drive*
 PROCESS-NAME,com.android.vending
 PROCESS-NAME,com.google.android.gms
 PROCESS-NAME,com.google.android.gsf
 PROCESS-NAME,com.google.android.play.games
-USER-AGENT,*com.google.Drive*
-USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*
-USER-AGENT,Google.Drive*
+PROCESS-NAME,BackupandSync
 
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
