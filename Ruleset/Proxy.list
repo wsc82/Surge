@@ -32,7 +32,6 @@ DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fotmob.com
 DOMAIN-SUFFIX,foxnews.com
-DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,imgur.com
@@ -150,6 +149,7 @@ DOMAIN,secure.newspaperdirect.com
 # > Google
 DOMAIN, app-analytics-services.com
 DOMAIN-SUFFIX,ampproject.org
+DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.com
