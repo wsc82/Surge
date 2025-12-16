@@ -279,81 +279,32 @@ DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
 
-# > Instagram 相关域名
-
-DOMAIN-SUFFIX,instagram.com # Instagram 主站与账号服务（含主页、登录、用户资料等）
-DOMAIN-SUFFIX,cdninstagram.com # Instagram 静态资源 CDN 域名（图片、视频加载）
-DOMAIN-SUFFIX,cdninstagram.net # Instagram 辅助 CDN 域名（历史内容与旧资源）
-DOMAIN-SUFFIX,igcdn.com # Instagram 图片/视频资源内容分发域（第三方接入加载）
-DOMAIN-SUFFIX,facebookcdn.net # Instagram 所属 Meta 内容分发域名（统一托管资源）
-DOMAIN-SUFFIX,instagram.fxx.fbcdn.net # Instagram 区域 CDN 分发节点（图像视频资源）
-IP-CIDR,157.240.0.0/16 # Instagram 所属 Meta 网络段（图片加载与互动数据传输）
-
-# > LINE 通讯应用相关域名
-
-DOMAIN-SUFFIX,line.me  # LINE 主域名，提供消息服务、社交与内容平台
-DOMAIN-SUFFIX,line.naver.jp  # LINE 日本官方服务域名（登录、主页、设置等）
-DOMAIN-SUFFIX,api.line.me  # LINE API 请求接口（登录授权、资料获取等）
-DOMAIN-SUFFIX,dl.profile.line.naver.jp  # LINE 用户头像与资料图像加载域
-DOMAIN-SUFFIX,obs.line-apps.com  # LINE 消息传输与媒体内容存储域
-DOMAIN-SUFFIX,store.line.me  # LINE 贴图商店与内容市场
-DOMAIN-SUFFIX,scdn.line-apps.com  # LINE 静态资源 CDN 域名
-DOMAIN-SUFFIX,dl.stickershop.line.naver.jp  # LINE 贴图下载服务接口
-DOMAIN-SUFFIX,access.line.me  # LINE 授权登录服务接口
-DOMAIN-SUFFIX,line-scdn.net  # LINE 静态资源加速域名（内容加载与优化）
-DOMAIN-SUFFIX,ad.line.me  # LINE 广告投放主服务域名（行为追踪与推荐）
-
-# > Max
-DOMAIN-SUFFIX,hbomax.com # HBO Max 主站与账户服务（含订阅、登录、用户管理等）
-DOMAIN-SUFFIX,max.com # Max 品牌重命名后主域名（前身为 HBO Max，现归属 Warner Bros. Discovery）
-DOMAIN-SUFFIX,play.max.com # Max 视频播放接口主域名（直播与点播播放入口）
-DOMAIN-SUFFIX,static-max.adobe.io # Max 使用的 Adobe 静态资源加载域（字体、样式、配置等）
-DOMAIN-SUFFIX,bamgrid.com # Max 使用的 BAM Streaming 认证平台（Disney/ESPN/Max 通用登录系统）
-DOMAIN-SUFFIX,discomax.com # Warner Bros Discovery 旗下 Max 相关授权与服务平台域名
-DOMAIN-SUFFIX,dcuniverse.com # DC 影视内容入口（部分 Max 独占 DC 内容跳转域）
-DOMAIN-SUFFIX,hbo.com # HBO 品牌主域名（节目介绍、品牌内容聚合，部分内容重定向至 Max）
-DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com # Max 使用的 AWS 授权验证接口（播放授权与身份令牌验证）
-IP-CIDR,149.174.0.0/16 # Max / HBO 主力内容服务段（CDN / 播放流传输）
-
 # > Meta
-DOMAIN-SUFFIX,facebook.com # Facebook 主站与账号服务（含动态、好友、主页等功能）
-DOMAIN-SUFFIX,fb.com # Facebook 官方短链与跳转域名（如 fb.me、fb.watch 等）
-DOMAIN-SUFFIX,fbcdn.net # Facebook 静态资源分发域名（图像、视频、脚本等）
-DOMAIN-SUFFIX,fb.me # Facebook 官方短链服务（内容分享链接跳转）
-DOMAIN-SUFFIX,fbsbx.com # Facebook 文件与资源中转平台（Messenger 文件下载与语音附件）
-DOMAIN-SUFFIX,facebook.net # Facebook 接口与数据收集域（含图像加载、社交插件等）
-DOMAIN-SUFFIX,m.facebook.com # Facebook 移动版域名（适配移动浏览器）
-DOMAIN-SUFFIX,facebookcorewwwi.onion # Facebook Tor 网络专用访问地址（匿名服务）
-DOMAIN-SUFFIX,meta.com # Meta 公司官网与 Facebook 品牌重组平台
-DOMAIN-SUFFIX,metafbsbx.com # Facebook 存储服务域名（如文件下载、缓存等）
-DOMAIN-SUFFIX,fb.watch # Facebook Watch 视频平台域名
-DOMAIN-SUFFIX,graph.facebook.com # Facebook 图谱 API 接口，用于第三方登录、数据同步等功能
-DOMAIN-SUFFIX,developers.facebook.com # Facebook 开发者平台（API 文档、SDK等）
-DOMAIN-SUFFIX,connect.facebook.net # Facebook Connect 登录与追踪服务（用于第三方网站集成）
-DOMAIN-SUFFIX,staticxx.facebook.com # Facebook 静态资源子域（内容加载加速）
-DOMAIN-SUFFIX,star.facebook.com # Facebook 星赞助系统（Creator 打赏系统）
-DOMAIN-SUFFIX,business.facebook.com # Facebook 广告与商务后台（广告管理、推广、Meta 账户中心）
-DOMAIN-SUFFIX,ads.facebook.com # Facebook 广告平台入口（广告创建与追踪）
-DOMAIN-SUFFIX,upload.facebook.com # Facebook 内容上传子域（视频、图片、媒体资源）
-DOMAIN-SUFFIX,scontent.xx.fbcdn.net # Facebook CDN 静态内容（个人资料图像与视频）
-DOMAIN-SUFFIX,workplace.com # Facebook Workplace 企业协作平台（Slack 类服务）
-DOMAIN-SUFFIX,workplaceusercontent.com # Facebook Workplace 附件资源域名（图片、文件）
-DOMAIN-SUFFIX,about.fb.com # Facebook 官方资讯站（品牌信息与新闻）
-DOMAIN-SUFFIX,newsroom.fb.com # Facebook 新闻发布页面
-DOMAIN-SUFFIX,research.fb.com # Facebook AI 与研究项目子站
-DOMAIN-SUFFIX,facebookmail.com # Facebook 系统邮件通知发送域（如账户安全、好友动态等）
-DOMAIN-SUFFIX,fbwatch.com # Facebook Watch 视频平台域名
-IP-CIDR,157.240.0.0/16 # Facebook 所属 Meta 通讯网段（用户连接、内容加载、身份认证等）
-IP-CIDR,31.13.94.41/32  # 归属 Meta（Facebook），为其公网通信节点之一，广泛用于社交图像资源加载或后端通信
-
-# > Messenger（Meta 即时通信平台）相关域名
-
-DOMAIN-SUFFIX,messenger.com # Messenger 官网主域，网页版聊天服务入口
-DOMAIN-SUFFIX,msngr.com # Messenger 官方短域名，用于链接跳转与分享
-DOMAIN-SUFFIX,m.me # Messenger 链接分享短地址（用户主页、Bot 等跳转）
-DOMAIN-SUFFIX,chat.facebook.com # Messenger 聊天服务旧域名，部分历史接口仍依赖
-DOMAIN-SUFFIX,facebookmail.com # Messenger 系统通知邮件服务（消息提醒、验证码等）
-DOMAIN-SUFFIX,workmessenger.com # Messenger 企业版服务入口（Meta Work 相关）
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,cdninstagram.net
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebookcdn.net
+DOMAIN-SUFFIX,facebookcorewwwi.onion
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbwatch.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,igcdn.com
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metafbsbx.com
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,msngr.com
+DOMAIN-SUFFIX,workmessenger.com
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,workplaceusercontent.com
+IP-CIDR,31.13.94.41/32
+IP-CIDR,157.240.0.0/16
 
 # > Microsoft
 # > Microsoft Visual Studio Code 主程序与资源服务
