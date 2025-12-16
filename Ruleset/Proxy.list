@@ -827,16 +827,22 @@ IP-CIDR,199.9.0.0/16 # Twitch 全球媒体分发主网段（直播流与数据�
 IP-CIDR,52.223.192.0/18 # Twitch 使用的 AWS Global Accelerator 加速段（延迟优化、负载调度）
 
 # > Twitter
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
-DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twitpic.com
-DOMAIN-SUFFIX,twitter.com
-DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,vine.co
-DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x.com # X（原 Twitter）官方主域
+DOMAIN-SUFFIX,api.twitter.com # Twitter API 接口，包含推文获取、账号交互等功能 
+DOMAIN-SUFFIX,api.x.com # X API 网关接口，用于前端功能交互与账号行为分析 
+DOMAIN-SUFFIX,twitter.com # Twitter 历史主域（仍大量使用）
+DOMAIN-SUFFIX,client-api.arkoselabs.com # Arkose Labs 防机器人验证组件，X 登录与注册所需 
+DOMAIN-SUFFIX,iframe.arkoselabs.com # Arkose Labs 嵌入式验证框架，用于 X 的风控验证流程 
+DOMAIN-SUFFIX,mobile.twitter.com # Twitter 移动版入口
+DOMAIN-SUFFIX,pbs.twimg.com # Twitter 图片内容 CDN（Profile、Media 图像加载）
+DOMAIN-SUFFIX,video.twimg.com # Twitter 视频 CDN 服务
+DOMAIN-SUFFIX,abs.twimg.com # Twitter 静态资源与 JS 脚本加载服务
+DOMAIN-SUFFIX,abs-0.twimg.com # Twitter 样式与字体等静态资源服务节点 
+DOMAIN-SUFFIX,ton.twitter.com # Twitter 媒体分发域（图片、视频、直播等）
+DOMAIN-SUFFIX,t.co # Twitter/X 使用的短链接服务
+DOMAIN-SUFFIX,twimg.com # Twitter 统一 CDN 根域（包括图像、字体、CSS等）
+DOMAIN-SUFFIX,help.x.help # X（原 Twitter）帮助中心子域名，用于用户支持与平台功能说明页面加载
+DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com  # X（原 Twitter）静态资源 CDN，用于加载图片、视频或样式等组件
 
 # > Wikipedia
 DOMAIN-SUFFIX,wikimedia.org
