@@ -845,8 +845,10 @@ DOMAIN-SUFFIX,help.x.help # X（原 Twitter）帮助中心子域名，用于用�
 DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com  # X（原 Twitter）静态资源 CDN，用于加载图片、视频或样式等组件
 
 # > Wikipedia
-DOMAIN-SUFFIX,wikimedia.org
-DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikipedia.org  # Wikipedia 主域名，开放式百科全书项目  
+DOMAIN-SUFFIX,upload.wikimedia.org  # Wikipedia 媒体上传与资源加载域名  
+DOMAIN-SUFFIX,meta.wikimedia.org  # Wikipedia 协作管理平台（元维基）  
+DOMAIN-SUFFIX,commons.wikimedia.org  # Wikipedia 公共媒体资料库 
 
 # > Zoom 视频会议平台相关域名
 
