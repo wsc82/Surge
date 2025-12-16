@@ -32,7 +32,6 @@ DOMAIN-SUFFIX,dynamicyield.com
 DOMAIN-SUFFIX,economist.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fotmob.com
-DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,ghproxy.com
 DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,hostloc.com
@@ -132,12 +131,13 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 
 # > Disney+
-DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,disneyplus.com
-DOMAIN-SUFFIX,disneystreaming.com
-DOMAIN-SUFFIX,dssott.com
-DOMAIN,cdn.registerdisney.go.com
+DOMAIN-SUFFIX,disneyplus.com # Disney+ 主站域名
+DOMAIN-SUFFIX,dssott.com # Disney+ 媒体流服务域名
+DOMAIN-SUFFIX,bamgrid.com # Disney+ 内容传输服务域名（CDN）
+DOMAIN-SUFFIX,disney-plus.net # Disney+ 辅助登录与认证服务域名
+DOMAIN-SUFFIX,disneyhub.go.com # Disney+ 用户资料与播放数据域名
+DOMAIN-SUFFIX,edge.bamgrid.com # Disney+ 边缘服务节点域名
+DOMAIN-SUFFIX,cdn.registerdisney.go.com # Disney+ 注册服务与资源加载域名
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com # Dropbox 主站与账号服务（登录、文件管理、分享等）
@@ -158,6 +158,20 @@ DOMAIN-SUFFIX,zeddit.com
 DOMAIN,d1e00ek4ebabms.cloudfront.net
 DOMAIN,d19eijqb5qll1w.cloudfront.net
 DOMAIN,secure.newspaperdirect.com
+
+# > FOX One / FOX.com / FOX News / Sports / TV 相关域名
+
+DOMAIN-SUFFIX,fox.com # FOX 美国官网，覆盖新闻、体育、娱乐内容
+DOMAIN-SUFFIX,foxnews.com # FOX News 新闻频道
+DOMAIN-SUFFIX,video.foxnews.com # FOX News 视频直播 / 点播服务
+DOMAIN-SUFFIX,foxbusiness.com # FOX 商业频道（财经新闻）
+DOMAIN-SUFFIX,foxsports.com # FOX Sports 体育直播与点播平台
+DOMAIN-SUFFIX,static.foxsports.com # FOX Sports 静态资源 CDN
+DOMAIN-SUFFIX,foxdcg.com # FOX Digital Consumer Group，流媒体播放基础设施
+DOMAIN-SUFFIX,foxtv.com # FOX 电视台域名（剧集、综艺、直播等）
+DOMAIN-SUFFIX,go.fox.com # FOX NOW / FOX One 登录与播放入口（TV Everywhere 认证）
+DOMAIN-SUFFIX,login.fox.com # FOX 登录服务（账户管理与订阅验证）
+DOMAIN-SUFFIX,api.fox.com # FOX 流媒体调用 API 接口
 
 # > GitHub
 # > GitHub 主站与基础服务
@@ -423,13 +437,16 @@ DOMAIN-SUFFIX,line-scdn.net  # LINE 静态资源加速域名（内容加载与�
 DOMAIN-SUFFIX,ad.line.me  # LINE 广告投放主服务域名（行为追踪与推荐）
 
 # > Max
-DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,hbo.com
-DOMAIN-SUFFIX,hbogo.com
-DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,hbomaxcdn.com
-DOMAIN-SUFFIX,hbonow.com
-DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,hbomax.com # HBO Max 主站与账户服务（含订阅、登录、用户管理等）
+DOMAIN-SUFFIX,max.com # Max 品牌重命名后主域名（前身为 HBO Max，现归属 Warner Bros. Discovery）
+DOMAIN-SUFFIX,play.max.com # Max 视频播放接口主域名（直播与点播播放入口）
+DOMAIN-SUFFIX,static-max.adobe.io # Max 使用的 Adobe 静态资源加载域（字体、样式、配置等）
+DOMAIN-SUFFIX,bamgrid.com # Max 使用的 BAM Streaming 认证平台（Disney/ESPN/Max 通用登录系统）
+DOMAIN-SUFFIX,discomax.com # Warner Bros Discovery 旗下 Max 相关授权与服务平台域名
+DOMAIN-SUFFIX,dcuniverse.com # DC 影视内容入口（部分 Max 独占 DC 内容跳转域）
+DOMAIN-SUFFIX,hbo.com # HBO 品牌主域名（节目介绍、品牌内容聚合，部分内容重定向至 Max）
+DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com # Max 使用的 AWS 授权验证接口（播放授权与身份令牌验证）
+IP-CIDR,149.174.0.0/16 # Max / HBO 主力内容服务段（CDN / 播放流传输）
 
 # > Meta
 DOMAIN-SUFFIX,facebook.com # Facebook 主站与账号服务（含动态、好友、主页等功能）
@@ -595,18 +612,11 @@ DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
 # > Netflix
-DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
-DOMAIN-KEYWORD,dualstack.apiproxy-
-DOMAIN-KEYWORD,netflixdnstest
-DOMAIN-SUFFIX,fast.com
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
-GEOIP,NETFLIX,no-resolve
+DOMAIN-SUFFIX,netflix.com # Netflix 全球官网与服务
+DOMAIN-SUFFIX,netflix.net # Netflix 全球视频流与 API
+DOMAIN-SUFFIX,nflximg.net # Netflix 静态资源
+DOMAIN-SUFFIX,nflxso.net # Netflix CDN 服务
+DOMAIN-SUFFIX,nflxvideo.net # Netflix 视频流分发服务
 
 # > Notion
 DOMAIN-SUFFIX,notion.so # Notion 主站域名，用于工作区访问、文档编辑与协作管理
@@ -702,12 +712,19 @@ DOMAIN-SUFFIX,updates.signal.org  # Signal 客户端更新检查接口
 DOMAIN-SUFFIX,api.signal.org  # Signal API 服务入口（用户身份验证、推送绑定等）
 
 # > Steam
-DOMAIN-SUFFIX, s.team
-DOMAIN-SUFFIX, steamcommunity.com
-DOMAIN-SUFFIX, steamgames.com
-DOMAIN-SUFFIX, steampowered.com
-DOMAIN-SUFFIX, steamstatic.com
-DOMAIN-SUFFIX, steamusercontent.com
+# > Steam 平台（Valve 旗下）
+DOMAIN-SUFFIX,steampowered.com # Steam 官方域名
+DOMAIN-SUFFIX,steamcommunity.com # Steam 社区
+DOMAIN-SUFFIX,steamusercontent.com # Steam 静态资源
+DOMAIN-SUFFIX,steamcontent.com # Steam 内容分发
+DOMAIN-SUFFIX,steamgames.com # Steam 备用域名
+DOMAIN-SUFFIX,valvesoftware.com # Valve 官方网站
+DOMAIN-SUFFIX,csgo.com # CS:GO 游戏相关
+DOMAIN-SUFFIX,dota2.com # Dota2 游戏相关
+DOMAIN-SUFFIX,teamfortress.com # TF2 游戏相关
+DOMAIN-SUFFIX,underlords.com # Dota Underlords
+DOMAIN-SUFFIX,artifact.game # Artifact 卡牌游戏
+
 
 # > Surge 相关域名
 
