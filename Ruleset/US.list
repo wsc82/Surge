@@ -1,31 +1,28 @@
 DOMAIN-SUFFIX,yahoo.com
 
 # > Spotify
-USER-AGENT,Spotify*
-DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,spotify.com
-DOMAIN-SUFFIX,pscdn.co
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-SUFFIX,spotify.com # Spotify 官网主域（含登录、订阅、设置等功能）
+DOMAIN-SUFFIX,spotifycdn.com # Spotify 静态资源 CDN（图标、播放器组件等）
+DOMAIN-SUFFIX,scdn.co # Spotify CDN 加速域名（音频文件、封面图等）
+DOMAIN-SUFFIX,pscdn.co # Spotify 播放器资源与短地址域名（用于跳转）
+DOMAIN-SUFFIX,spotify-everywhere.com # Spotify 设备联动平台域名（电视、车载等）
+DOMAIN-SUFFIX,tospotify.com # Spotify 第三方跳转域名（链接分享与跳转服务）
+DOMAIN-SUFFIX,spotify.map.fastly.net # Spotify 使用的 Fastly CDN 节点（音频传输）
+DOMAIN-SUFFIX,spotifycharts.com # Spotify Charts 排行榜服务子站
+DOMAIN-SUFFIX,open.spotify.com # Spotify 网页端播放入口（主入口）
+DOMAIN-SUFFIX,api.spotify.com # Spotify API 接口服务域名（用于第三方开发与集成）
 
 # > TikTok
-DOMAIN-SUFFIX,byteoversea.com
-DOMAIN-SUFFIX,ibytedtos.com
-DOMAIN-SUFFIX,ibyteimg.com
-DOMAIN-SUFFIX,ipstatp.com
-DOMAIN-SUFFIX,muscdn.com
-DOMAIN-SUFFIX,musical.ly
-DOMAIN-SUFFIX,sgpstatp.com
-DOMAIN-SUFFIX,snssdk.com
-DOMAIN-SUFFIX,tik-tokapi.com
-DOMAIN-SUFFIX,tiktok.com
-DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktok.com # TikTok 主站与账号服务（含主页、视频浏览、创作者功能等）
+DOMAIN-SUFFIX,tiktokcdn.com # TikTok 静态资源 CDN（视频文件、图像封面、脚本加载）
 DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokv.us
-USER-AGENT,TikTok*
+DOMAIN-SUFFIX,tiktokv.com # TikTok 视频内容短链跳转域名（用于外链视频分享）
+DOMAIN-SUFFIX,ttwstatic.com # TikTok 第三方托管静态资源域名（脚本、插件组件等）
+DOMAIN-SUFFIX,muscdn.com # TikTok 历史内容分发域（旧版本视频、音频资源）
+DOMAIN-SUFFIX,byteoversea.com # 字节跳动国际服务平台域名（TikTok 母公司海外 CDN 与接口）
+DOMAIN-SUFFIX,bytedance.com # 字节跳动官网与底层接口平台（账号、云服务等通用支持）
+IP-CIDR,161.117.0.0/16 # TikTok / ByteDance 海外服务通信段（新加坡集群）
 
 # Apple Intelligence
 DOMAIN-SUFFIX,smoot.apple.com
