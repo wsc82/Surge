@@ -52,7 +52,6 @@ DOMAIN-SUFFIX,nektony.com
 DOMAIN-SUFFIX,newsapi.sphdigital.com
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,nsloon.app
-DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,olehdtv.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,ourchinastory.com
@@ -300,6 +299,7 @@ DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,metafbsbx.com
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,msngr.com
+DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,workmessenger.com
 DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusercontent.com
@@ -307,146 +307,92 @@ IP-CIDR,31.13.94.41/32
 IP-CIDR,157.240.0.0/16
 
 # > Microsoft
-# > Microsoft Visual Studio Code 主程序与资源服务
-
-DOMAIN-SUFFIX,update.code.visualstudio.com # VS Code 自动更新服务器 
-DOMAIN-SUFFIX,vscode‑cdn.net # VS Code 静态资源与扩展下载 CDN 域名
-DOMAIN-SUFFIX,visualstudio.com # 微软 Visual Studio 官方站点 
-DOMAIN-SUFFIX,gallery.vsassets.io # VS Code 插件库主域，用于插件元数据分发与管理
-DOMAIN-SUFFIX,gallerycdn.vsassets.io # VS Code 插件 CDN 加速域名，用于插件资源下载
-DOMAIN-SUFFIX,main.vscode-cdn.net # VS Code 官方 CDN 
-DOMAIN-SUFFIX,vscode-unpkg.net  # Visual Studio Code 插件资源镜像域名，用于从 unpkg CDN 拉取扩展资源，可能用于中国大陆用户访问优化
-
-# > 核心服务（Core Services）
-
-DOMAIN-SUFFIX,microsoft.com # 微软主域名
-DOMAIN-SUFFIX,windows.com # Windows 系统相关服务
-DOMAIN-SUFFIX,msn.com # MSN 服务平台
-DOMAIN-SUFFIX,live.com # 微软通用账号与登录
-DOMAIN-SUFFIX,outlook.com # Outlook 邮箱服务
-DOMAIN-SUFFIX,hotmail.com # Hotmail 邮箱服务
-DOMAIN-SUFFIX,office.com # Office 官方网站
-
-# > Azure 云服务（Azure Cloud）
-
-DOMAIN-SUFFIX,azure.com # Microsoft Azure 云平台
-DOMAIN-SUFFIX,azureedge.net # Azure CDN 辅助域名
-DOMAIN-SUFFIX,azurefd.net # Azure Front Door 服务
-DOMAIN-SUFFIX,azuredns-cloud.net # Azure DNS 服务
-DOMAIN-SUFFIX,trafficmanager.net # Azure 流量管理器
-DOMAIN-SUFFIX,cloudapp.net # Azure 云应用托管
-DOMAIN-SUFFIX,visualstudio.com # Visual Studio 在线服务
-DOMAIN-SUFFIX,windowsazure.com # Windows Azure 旧版域名
-DOMAIN-SUFFIX,skypeassets.com # Skype 静态资源（Azure 托管）
-
-# > Office 365 / Microsoft 365 服务
-
-DOMAIN-SUFFIX,office.com # Microsoft 365 统一入口，用于在线版 Word/Excel/PowerPoint 及账户管理
-DOMAIN-SUFFIX,office365.com # Office 365 官方门户，用于订阅管理与企业入口
-DOMAIN-SUFFIX,office.net # Office 365 / M365 服务资源域名，用于加载应用组件与相关服务
-DOMAIN-SUFFIX,sharepoint.com # SharePoint 协作平台域名，用于文档管理、团队站点与企业内部协作
-DOMAIN-SUFFIX,onenote.com # Microsoft OneNote 在线服务域名，用于笔记同步与内容存储
-DOMAIN-SUFFIX,sway.com # Microsoft Sway 在线演示工具，用于创建网页式演示文稿
-DOMAIN-SUFFIX,yammer.com # Microsoft Yammer 企业社交平台，用于组织内部沟通与社区建设
-DOMAIN-SUFFIX,res.public.onecdn.static.microsoft # Microsoft OneCDN 公共静态资源节点，用于 Windows/Office/Store 等产品的静态内容分发
-DOMAIN-SUFFIX,roaming.svc.cloud.microsoft # Microsoft 云漫游服务接口，用于 Office/Edge/Windows 的跨设备设置同步
-
-# > OneDrive 云存储服务
-
-DOMAIN-SUFFIX,onedrive.com # 微软云存储服务 OneDrive
-DOMAIN-SUFFIX,1drv.com # OneDrive 缩短域名
-DOMAIN-SUFFIX,storage.live.com # OneDrive 文件托管服务
-
-# > Microsoft Teams
-
-DOMAIN-SUFFIX,teams.microsoft.com # Microsoft Teams 协作平台
-DOMAIN-SUFFIX,skypeforbusiness.com # Skype for Business 旧版 Teams 接入
-DOMAIN-SUFFIX,lync.com # Lync 企业通信（Teams 前身）
-
-# > Skype 通讯服务
-
-DOMAIN-SUFFIX,skype.com # Skype 主服务域名
-DOMAIN-SUFFIX,skypeassets.com # Skype 静态资源
-DOMAIN-SUFFIX,skypeforbusiness.com # Skype 企业版本（已并入 Teams）
-
-# > Microsoft Edge 浏览器服务
-
-DOMAIN-SUFFIX,edge.microsoft.com # Edge 浏览器服务域名
-DOMAIN-SUFFIX,edgeservices.bing.com # Edge 内置搜索服务
-DOMAIN-SUFFIX,msedge.net # Edge 更新与辅助资源
-
-# > Bing 搜索服务
-
-DOMAIN-SUFFIX,bing.com # 微软 Bing 搜索引擎
-DOMAIN-SUFFIX,bing.net # Bing CDN 与辅助资源
-DOMAIN-SUFFIX,api.bing.com # Bing 搜索 API 接口
-DOMAIN-SUFFIX,cdn.bing.com # Bing 静态资源
-
-# > Windows 更新与激活服务
-
-DOMAIN-SUFFIX,windowsupdate.com # Windows 更新服务
-DOMAIN-SUFFIX,update.microsoft.com # 微软更新中心
-DOMAIN-SUFFIX,msftconnecttest.com # Windows 网络连接测试域
-DOMAIN-SUFFIX,msftncsi.com # Windows 网络状态检测服务
-DOMAIN-SUFFIX,windowsupdate.microsoft.com # 旧版更新服务
-
-# > 开发者 / 技术支持 / 文档（Developers & Docs）
-
-DOMAIN-SUFFIX,dev.microsoft.com # 微软开发者中心
-DOMAIN-SUFFIX,learn.microsoft.com # Microsoft Learn 学习平台
-DOMAIN-SUFFIX,docs.microsoft.com # 微软官方文档中心
-DOMAIN-SUFFIX,support.microsoft.com # 微软技术支持中心
-DOMAIN-SUFFIX,aka.ms # 微软官方短链
-DOMAIN-SUFFIX,visualstudio.com # Visual Studio 开发平台
-DOMAIN-SUFFIX,nuget.org # 微软开源包管理器 NuGet
-DOMAIN-SUFFIX,codeplex.com # 旧版微软开源项目托管平台
-
-# > 其他服务（Miscellaneous）
-
-DOMAIN-SUFFIX,microsoftonline.com # 微软在线认证服务
-DOMAIN-SUFFIX,microsoftonline-p.com # 微软用户账号域
-DOMAIN-SUFFIX,microsoftstore.com # Microsoft 官方商店
+DOMAIN-SUFFIX,1drv.com
+DOMAIN-SUFFIX,akadns.net
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,azure.com
+DOMAIN-SUFFIX,azuredns-cloud.net
+DOMAIN-SUFFIX,azureedge.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,cloudapp.net
+DOMAIN-SUFFIX,codeplex.com
+DOMAIN-SUFFIX,gravatar.com
+DOMAIN-SUFFIX,hotmail.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,lync.com
 DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,msappproxy.net # 微软应用代理服务
-DOMAIN-SUFFIX,windows.net # 微软通用服务域名
-DOMAIN-SUFFIX,akadns.net # 微软全球 CDN 网络域
+DOMAIN-SUFFIX,microsoftonline-p.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,microsoftstore.com
+DOMAIN-SUFFIX,msappproxy.net
+DOMAIN-SUFFIX,msedge.net
+DOMAIN-SUFFIX,msftauth.net
+DOMAIN-SUFFIX,msftconnecttest.com
+DOMAIN-SUFFIX,msftncsi.com
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,onedrive.com
+DOMAIN-SUFFIX,onenote.com
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,outlook.com
+DOMAIN-SUFFIX,res.public.onecdn.static.microsoft
+DOMAIN-SUFFIX,roaming.svc.cloud.microsoft
+DOMAIN-SUFFIX,sharepoint.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,skypeassets.com
+DOMAIN-SUFFIX,skypeforbusiness.com
+DOMAIN-SUFFIX,s-microsoft.com
+DOMAIN-SUFFIX,sway.com
+DOMAIN-SUFFIX,trafficmanager.net
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,vsassets.io
+DOMAIN-SUFFIX,vscode‑cdn.net
+DOMAIN-SUFFIX,vscode-unpkg.net
+DOMAIN-SUFFIX,windows.com
+DOMAIN-SUFFIX,windows.net
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsazure.com
+DOMAIN-SUFFIX,yammer.com
 
-# > 头像服务（可选放行）
-
-DOMAIN-SUFFIX,gravatar.com # Gravatar 头像服务，用于在多个网站上显示与用户邮箱绑定的个人头像 
-
-# > Microsoft 身份验证与登录资源域名（Authentication & Login Assets）
-
-DOMAIN-SUFFIX,acctcdn.msftauth.net  # Microsoft 身份验证静态资源域名，用于加载登录页面样式与脚本资源  
-DOMAIN-SUFFIX,logincdn.msftauth.net  # Microsoft 登录界面资源域名，用于身份验证流程中的界面渲染与交互组件加载
-
-# > Microsoft 静态内容加载与商店图像域名
-
-DOMAIN-SUFFIX,c.s-microsoft.com # 微软内容分发节点域名，用于加载 JS/CSS 等前端静态资源，常见于 Microsoft Docs 与 Store 页面
-DOMAIN-SUFFIX,store-images.s-microsoft.com # 微软商店图像资源域名，用于加载产品图像与展示用素材
+# > Max
+DOMAIN-SUFFIX,max.com
+DOMAIN-SUFFIX,discomax.com
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,brightline.tv
+DOMAIN-SUFFIX,cdn.turner.com
+DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbomax.com
+DOMAIN-SUFFIX,ngtv.io
+DOMAIN-SUFFIX,pypestream.com
+DOMAIN-SUFFIX,warnermediacdn.com
 
 # > myTV SUPER
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN-SUFFIX,tvb.com
 
 # > Netflix
-DOMAIN-SUFFIX,netflix.com # Netflix 全球官网与服务
-DOMAIN-SUFFIX,netflix.net # Netflix 全球视频流与 API
-DOMAIN-SUFFIX,nflximg.net # Netflix 静态资源
-DOMAIN-SUFFIX,nflxso.net # Netflix CDN 服务
-DOMAIN-SUFFIX,nflxvideo.net # Netflix 视频流分发服务
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxext.com
+DOMAIN-SUFFIX,nflximg.com
+DOMAIN-SUFFIX,nflximg.net
+DOMAIN-SUFFIX,nflxso.net
+DOMAIN-SUFFIX,nflxvideo.net
 
 # > Notion
-DOMAIN-SUFFIX,notion.so # Notion 主站域名，用于工作区访问、文档编辑与协作管理
-DOMAIN-SUFFIX,notion.site # Notion 公开页面托管域名，用于对外分享的文档与网站
-DOMAIN-SUFFIX,notion-static.com # Notion 静态资源域名，用于加载前端脚本、样式与 UI 组件
-DOMAIN-SUFFIX,notionusercontent.com # Notion 用户内容存储域名，用于附件、图片、文件等资源加载
-DOMAIN-SUFFIX,notion-uploads.com # Notion 上传文件处理端点，用于图片、PDF、视频等素材上传
-DOMAIN-SUFFIX,notion-newtab.com # Notion 浏览器扩展 / New Tab 插件资源域名
-DOMAIN-SUFFIX,notion.services # Notion 后端服务域名，用于同步、数据库查询与实时协作处理
-DOMAIN-SUFFIX,api.notion.com # Notion 官方 API 域名，用于自动化、第三方集成与数据接口
-DOMAIN-SUFFIX,cachefly.net # Notion 使用的缓存网络加速节点，用于静态内容高性能分发
-DOMAIN-SUFFIX,amazonaws.com # Notion 使用的 AWS S3 存储端点（附件、文件、图片资源托管）
+DOMAIN-SUFFIX,api.notion.com
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cachefly.net
+DOMAIN-SUFFIX,notion-newtab.com
+DOMAIN-SUFFIX,notion-services
+DOMAIN-SUFFIX,notion.site
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,notion-static.com
+DOMAIN-SUFFIX,notion-uploads.com
+DOMAIN-SUFFIX,notionusercontent.com
 
 # > Now E
 DOMAIN-SUFFIX,nowe.com
@@ -496,191 +442,103 @@ DOMAIN-SUFFIX,xvideos.com
 DOMAIN-SUFFIX,ypncdn.com
 
 # > Reddit
-DOMAIN-SUFFIX,reddit.com  # Reddit 主站域名（社区浏览、帖子互动、用户管理等）
-DOMAIN-SUFFIX,oauth.reddit.com  # Reddit 登录验证与 API 授权接口
-DOMAIN-SUFFIX,api.reddit.com # Reddit 公共 API 接口，提供数据查询、评论拉取等功能
-DOMAIN-SUFFIX,gql.reddit.com  # Reddit 图数据库查询接口（用于前端内容加载）
-DOMAIN-SUFFIX,ads.reddit.com # Reddit 广告投放与跟踪域名
-DOMAIN-SUFFIX,redditmedia.com  # Reddit 媒体资源加载域（图片、视频等）
-DOMAIN-SUFFIX,redditstatic.com # Reddit 静态资源域名（用于加载图像、样式表、脚本等前端内容）
-DOMAIN-SUFFIX,redditstatus.com # Reddit 系统状态监控域名，用于发布服务可用性与维护通知  
-DOMAIN-SUFFIX,external-preview.redd.it # Reddit 外链内容预览生成域名
-DOMAIN-SUFFIX,preview.redd.it  # Reddit 帖子预览资源域（媒体预加载与缩略图服务）
-DOMAIN-SUFFIX,redditstatic.com # Reddit 静态资源托管域名，用于前端加载与性能优化
-DOMAIN-SUFFIX,external-preview.redd.it  # Reddit 外部资源预览接口（多媒体展示）
-DOMAIN-SUFFIX,styles.redditmedia.com # Reddit 前端样式与内容渲染域名
-DOMAIN-SUFFIX,v.redd.it  # Reddit 视频内容直链域名
-DOMAIN-SUFFIX,redd.it # Reddit 官方短链域名（如分享链接）
-DOMAIN-SUFFIX,ssl.reddit.com # Reddit SSL 入口，用于 HTTPS 服务与认证接口
-IP-CIDR,151.101.1.140/32 # Reddit CDN 节点 IP（Fastly 平台）
-IP-CIDR,151.101.65.140/32 # Reddit CDN 节点 IP（Fastly 平台）
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,redditstatic.com
+DOMAIN-SUFFIX,redditstatus.com
+DOMAIN-SUFFIX,redd.it
+IP-CIDR,151.101.1.140/32
+IP-CIDR,151.101.65.140/32
 
 # > Reuters
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reuters.tv
 DOMAIN-SUFFIX,reutersmedia.net
 
-# > Signal 安全通讯平台相关域名
-
-DOMAIN-SUFFIX,signal.org  # Signal 官方网站，用于介绍、软件下载、公告等
-DOMAIN-SUFFIX,cdn.signal.org  # Signal 静态资源加载（JS、CSS、客户端更新等）
-DOMAIN-SUFFIX,textsecure-service.whispersystems.org  # Signal 消息通信服务端（旧版本接口）
-DOMAIN-SUFFIX,storage.signal.org  # Signal 云端资源托管（更新包、图片等）
-DOMAIN-SUFFIX,updates.signal.org  # Signal 客户端更新检查接口
-DOMAIN-SUFFIX,api.signal.org  # Signal API 服务入口（用户身份验证、推送绑定等）
+# > Signal
+DOMAIN-SUFFIX,signal.org 
+DOMAIN-SUFFIX,whispersystems.org  
 
 # > Steam
-# > Steam 平台（Valve 旗下）
-DOMAIN-SUFFIX,steampowered.com # Steam 官方域名
-DOMAIN-SUFFIX,steamcommunity.com # Steam 社区
-DOMAIN-SUFFIX,steamusercontent.com # Steam 静态资源
-DOMAIN-SUFFIX,steamcontent.com # Steam 内容分发
-DOMAIN-SUFFIX,steamgames.com # Steam 备用域名
-DOMAIN-SUFFIX,valvesoftware.com # Valve 官方网站
-DOMAIN-SUFFIX,csgo.com # CS:GO 游戏相关
-DOMAIN-SUFFIX,dota2.com # Dota2 游戏相关
-DOMAIN-SUFFIX,teamfortress.com # TF2 游戏相关
-DOMAIN-SUFFIX,underlords.com # Dota Underlords
-DOMAIN-SUFFIX,artifact.game # Artifact 卡牌游戏
+DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamusercontent.com
 
-
-# > Surge 相关域名
-
-DOMAIN-SUFFIX,nssurge.com # NSSurge 官方主站域名，用于配置托管、规则订阅与用户服务  
-DOMAIN-SUFFIX,cdn.nssurge.com # NSSurge 静态资源域名，用于分发规则文件与远程模块  
-DOMAIN-SUFFIX,api.nssurge.com # NSSurge 接口域名，用于配置拉取、订阅验证与更新服务  
-DOMAIN-SUFFIX,surge.run # Surge 官方域名，用于配置托管、模块加载与订阅链接  
-DOMAIN-SUFFIX,dl.surge.run # Surge 模块与脚本下载接口，用于 Surge 模块更新服务  
-DOMAIN-SUFFIX,panel.surge.run # Surge 仪表盘服务域名，用于 UI 控制面板远程管理  
-DOMAIN-SUFFIX,conf.surge.run # Surge 远程配置订阅服务接口  
-DOMAIN-SUFFIX,static.surge.run # Surge 静态资源与图标加载服务（如 policy-path 图标）
-DOMAIN-SUFFIX,kb.nssurge.com # Surge 官方知识库域名，用于访问产品常见问题、使用指南与发行说明 
-DOMAIN-SUFFIX,manual.nssurge.com # Surge 官方文档站点，用于访问配置手册与功能说明 
-DOMAIN-SUFFIX,wiki.surge.community # Surge 官方文档站，用于配置说明与功能参考
-DOMAIN-SUFFIX,nssurge.zendesk.com # Surge 官方客服支持中心，用于工单处理与技术支持
-DOMAIN-SUFFIX,divineengine.net # DivineEngine 站点 –“Surge 专题”页面，用于第三方用户教程与工具介绍
+# > Surge 
+DOMAIN-SUFFIX,divineengine.net
+DOMAIN-SUFFIX,nssurge.com
+DOMAIN-SUFFIX,nssurge.zendesk.com
+DOMAIN-SUFFIX,surge.run
+DOMAIN-SUFFIX,wiki.surge.community
 
 # > Telegram
-# > Telegram 域名规则
-
-DOMAIN-SUFFIX,telegram.org # Telegram 主站域名
-DOMAIN-SUFFIX,t.me # Telegram 短链服务（频道、用户跳转）
-DOMAIN-SUFFIX,telegram.me # Telegram 历史短链服务
-DOMAIN-SUFFIX,telegram.dog # Telegram 镜像跳转域名
-DOMAIN-SUFFIX,telegram-cdn.org # Telegram CDN 内容分发域名
-DOMAIN-SUFFIX,cdn-telegram.org # Telegram CDN 加速域名
-DOMAIN-SUFFIX,tdesktop.com # Telegram Desktop 客户端服务
-DOMAIN-SUFFIX,telegra.ph # Telegram Telegraph 图文服务
-DOMAIN-SUFFIX,legra.ph # Telegraph 镜像跳转域名
-DOMAIN-SUFFIX,stel.com # Telegram 历史短链跳转
-DOMAIN-SUFFIX,tx.me # Telegram 静态资源服务域名
-DOMAIN-SUFFIX,contest.com # Telegram 开发者竞赛平台
-DOMAIN-SUFFIX,graph.org # Telegram 内嵌图床与图文链接跳转
-DOMAIN-SUFFIX,comments.app # Telegram 评论插件服务（频道 / Telegraph）
-DOMAIN-SUFFIX,quiz.directory # Telegram 互动问卷与小程序服务
-DOMAIN-SUFFIX,usercontent.dev # Telegram 内容托管服务（小程序等）
-DOMAIN-SUFFIX,tg.dev # Telegram 开发者平台服务
-DOMAIN-SUFFIX,telegram.space # Telegram 备用跳转域名
-DOMAIN-SUFFIX,telegramdownload.com # Telegram 客户端下载安装地址
-
-# > Telegram 第三方客户端域名
-
-DOMAIN-SUFFIX,api.swiftgram.app # Swiftgram 客户端 API 接口
-DOMAIN-SUFFIX,api.imem.app # iMe 客户端 API 接口
-DOMAIN-KEYWORD,nicegram # Nicegram 客户端相关通信域名
-
-# > Telegram ASN
-
-IP-ASN,211157 # Telegram ASN（荷兰）
-IP-ASN,44907 # Telegram ASN（瑞士）
-IP-ASN,59930 # Telegram ASN（英国）
-IP-ASN,62014 # Telegram ASN（俄罗斯）
-IP-ASN,62041 # Telegram ASN（亚洲节点）
-
-# > Telegram IPv4
-
-IP-CIDR,91.108.0.0/16 # Telegram 核心通信网段
-IP-CIDR,149.154.160.0/20 # Telegram 通信备用网段
-IP-CIDR,5.28.192.0/18 # Telegram 历史使用通信段
-IP-CIDR,109.239.140.0/24 # Telegram CDN / 文件节点
-IP-CIDR,196.55.216.167/32 # Telegram 数据上传接口
-IP-CIDR,139.59.210.98/32 # Telegram 静态资源 CDN 节点
-IP-CIDR,95.161.64.0/20 # Telegram 文件服务节点
-
-# > Telegram IPv6
-
-IP-CIDR6,2001:67c:4e8::/48 # Telegram 欧洲 IPv6 通信段
-IP-CIDR6,2001:b28:f23c::/47 # Telegram CDN IPv6 网段
-IP-CIDR6,2001:b28:f23d::/48 # Telegram 通信 IPv6 备用段
-IP-CIDR6,2001:b28:f23f::/48 # Telegram IPv6 备用通信段
-IP-CIDR6,2a0a:f280::/29 # Telegram 欧洲备用 IPv6 节点段
-
-# > Telegram ASN 聚合匹配（冗余防漏匹配）
-
-IP-ASN,44907 # Telegram 欧洲通信 ASN
-IP-ASN,59930 # Telegram 英国 CDN ASN
-IP-ASN,62014 # Telegram 俄语区服务 ASN
-IP-ASN,62041 # Telegram 亚洲区域服务 ASN
-IP-ASN,211157 # Telegram 荷兰通信 ASN
-
-# > Threads 相关域名
-
-DOMAIN-SUFFIX,threads.net # Threads 官方主域（主页、内容浏览、登录服务）
-DOMAIN-SUFFIX,cdn.threads.net # Threads 静态资源加载域（头像、图片、JS 脚本等）
-DOMAIN-SUFFIX,meta.com # Meta 公司主域（OAuth 登录与用户验证相关服务）
-DOMAIN-SUFFIX,facebook.com # Meta 登录集成（登录跳转、账号同步模块）
-DOMAIN-SUFFIX,instagram.com # Threads 同步 Instagram 账号（账号继承、内容联动）
-DOMAIN-SUFFIX,fbcdn.net # Threads 媒体加载资源域（与 Facebook、Instagram 共用）
-DOMAIN-SUFFIX,cdninstagram.com # Instagram 图像与视频内容加载，Threads 依赖该基础设施
+DOMAIN-SUFFIX,api.imem.app
+DOMAIN-SUFFIX,api.swiftgram.app
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegramdownload.com
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,usercontent.dev
+DOMAIN-KEYWORD,nicegram
+IP-CIDR,5.28.192.0/18
+IP-CIDR,91.108.0.0/16
+IP-CIDR,95.161.64.0/20
+IP-CIDR,109.239.140.0/24
+IP-CIDR,139.59.210.98/32
+IP-CIDR,149.154.160.0/20
+IP-CIDR,196.55.216.167/32
+IP-CIDR6,2001:67c:4e8::/48
+IP-CIDR6,2001:b28:f23c::/47
+IP-CIDR6,2001:b28:f23d::/48
+IP-CIDR6,2001:b28:f23f::/48
+IP-CIDR6,2a0a:f280::/29 
+IP-ASN,211157
+IP-ASN,44907
+IP-ASN,59930
+IP-ASN,62014
+IP-ASN,62041
 
 # > Twitch
-DOMAIN-SUFFIX,twitch.tv # Twitch 主站与账号服务（视频直播、注册登录、频道访问等）
-DOMAIN-SUFFIX,player.twitch.tv # Twitch 视频播放器核心域名（嵌入式播放器、弹幕显示等）
-DOMAIN-SUFFIX,static.twitchcdn.net # Twitch 静态资源 CDN 域名（样式、图标、脚本等）
-DOMAIN-SUFFIX,ttvnw.net # Twitch 媒体内容分发节点域名（视频流、封面、广告内容）
-DOMAIN-SUFFIX,jtvnw.net # Twitch 历史兼容 CDN 域名（早期视频、图片、点播缓存）
-DOMAIN-SUFFIX,twitchcdn.net # Twitch 图像与资源统一分发平台（常用于频道封面与广告图像）
-DOMAIN-SUFFIX,ext-twitch.tv # Twitch 第三方扩展与插件服务域名（OBS 插件、拓展工具等）
-IP-CIDR,199.9.0.0/16 # Twitch 全球媒体分发主网段（直播流与数据传输）
-IP-CIDR,52.223.192.0/18 # Twitch 使用的 AWS Global Accelerator 加速段（延迟优化、负载调度）
+DOMAIN-SUFFIX,jtvnw.net
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,twitchcdn.net
+IP-CIDR,52.223.192.0/18
+IP-CIDR,199.9.0.0/16
 
 # > Twitter
-DOMAIN-SUFFIX,x.com # X（原 Twitter）官方主域
-DOMAIN-SUFFIX,api.twitter.com # Twitter API 接口，包含推文获取、账号交互等功能 
-DOMAIN-SUFFIX,api.x.com # X API 网关接口，用于前端功能交互与账号行为分析 
-DOMAIN-SUFFIX,twitter.com # Twitter 历史主域（仍大量使用）
-DOMAIN-SUFFIX,client-api.arkoselabs.com # Arkose Labs 防机器人验证组件，X 登录与注册所需 
-DOMAIN-SUFFIX,iframe.arkoselabs.com # Arkose Labs 嵌入式验证框架，用于 X 的风控验证流程 
-DOMAIN-SUFFIX,mobile.twitter.com # Twitter 移动版入口
-DOMAIN-SUFFIX,pbs.twimg.com # Twitter 图片内容 CDN（Profile、Media 图像加载）
-DOMAIN-SUFFIX,video.twimg.com # Twitter 视频 CDN 服务
-DOMAIN-SUFFIX,abs.twimg.com # Twitter 静态资源与 JS 脚本加载服务
-DOMAIN-SUFFIX,abs-0.twimg.com # Twitter 样式与字体等静态资源服务节点 
-DOMAIN-SUFFIX,ton.twitter.com # Twitter 媒体分发域（图片、视频、直播等）
-DOMAIN-SUFFIX,t.co # Twitter/X 使用的短链接服务
-DOMAIN-SUFFIX,twimg.com # Twitter 统一 CDN 根域（包括图像、字体、CSS等）
-DOMAIN-SUFFIX,help.x.help # X（原 Twitter）帮助中心子域名，用于用户支持与平台功能说明页面加载
-DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com  # X（原 Twitter）静态资源 CDN，用于加载图片、视频或样式等组件
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com
+DOMAIN-SUFFIX,help.x.help
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,x.com
 
 # > Wikipedia
-DOMAIN-SUFFIX,wikipedia.org  # Wikipedia 主域名，开放式百科全书项目  
-DOMAIN-SUFFIX,upload.wikimedia.org  # Wikipedia 媒体上传与资源加载域名  
-DOMAIN-SUFFIX,meta.wikimedia.org  # Wikipedia 协作管理平台（元维基）  
-DOMAIN-SUFFIX,commons.wikimedia.org  # Wikipedia 公共媒体资料库 
+DOMAIN-SUFFIX,wikipedia.org    
+DOMAIN-SUFFIX,wikimedia.org    
 
-# > Zoom 视频会议平台相关域名
-
-DOMAIN-SUFFIX,zoom.us  # Zoom 主站与服务入口域名（会议连接、下载、登录等）
-DOMAIN-SUFFIX,zoom.com  # Zoom 品牌保护域名，跳转至主站
-DOMAIN-SUFFIX,us04web.zoom.us  # Zoom 视频会议连接域名（用于会议通信接入）
-DOMAIN-SUFFIX,us05web.zoom.us  # Zoom 新接入节点域名（部分账号会使用此域）
-DOMAIN-SUFFIX,zoomgov.com  # Zoom for Government 专用服务域名（政务版 Zoom 平台）
-DOMAIN-SUFFIX,zoomtopia.com  # Zoom 年度活动官方域名（宣传、活动报名等）
-DOMAIN-SUFFIX,zoomcdn.net  # Zoom 静态资源加载域名（前端脚本、图标等）
-DOMAIN-SUFFIX,cloudfront.net  # Zoom 全球 CDN 加速使用的 Amazon CloudFront 域名（与其他服务共用）
-DOMAIN-SUFFIX,api.zoom.us  # Zoom 官方 API 接口域名（身份验证、会议创建、用户管理等）
-DOMAIN-SUFFIX,stats.zoom.us  # Zoom 用户统计与打点日志上传服务
-
+# > Zoom 
+DOMAIN-SUFFIX,zoom.com
+DOMAIN-SUFFIX,zoomcdn.net
+DOMAIN-SUFFIX,zoomgov.com
+DOMAIN-SUFFIX,zoom.us
+DOMAIN-SUFFIX,zoomtopia.com
 
 # > 视频解析
 DOMAIN-SUFFIX,tiktokcdn.com
