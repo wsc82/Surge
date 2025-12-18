@@ -130,11 +130,11 @@ DOMAIN-SUFFIX,discordapp.net
 
 # > Disney+
 DOMAIN-SUFFIX,bamgrid.com
-DOMAIN-SUFFIX,cdn.registerdisney.go.com
-DOMAIN-SUFFIX,disney-plus.net
-DOMAIN-SUFFIX,disneyhub.go.com
 DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,disney-plus.net
+DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
+DOMAIN,cdn.registerdisney.go.com
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
@@ -357,16 +357,13 @@ DOMAIN-SUFFIX,windowsazure.com
 DOMAIN-SUFFIX,yammer.com
 
 # > Max
-DOMAIN-SUFFIX,max.com
 DOMAIN-SUFFIX,discomax.com
-DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,brightline.tv
-DOMAIN-SUFFIX,cdn.turner.com
 DOMAIN-SUFFIX,hbo.com
+DOMAIN-SUFFIX,hbogo.com
 DOMAIN-SUFFIX,hbomax.com
-DOMAIN-SUFFIX,ngtv.io
-DOMAIN-SUFFIX,pypestream.com
-DOMAIN-SUFFIX,warnermediacdn.com
+DOMAIN-SUFFIX,hbomaxcdn.com
+DOMAIN-SUFFIX,hbonow.com
+DOMAIN-SUFFIX,max.com
 
 # > myTV SUPER
 DOMAIN-SUFFIX,mytvsuper.com
