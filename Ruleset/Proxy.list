@@ -350,10 +350,6 @@ DOMAIN-SUFFIX,windowsupdate.com
 DOMAIN-SUFFIX,windowsazure.com
 DOMAIN-SUFFIX,yammer.com
 
-# > myTV SUPER
-DOMAIN-SUFFIX,mytvsuper.com
-DOMAIN-SUFFIX,tvb.com
-
 # > Notion
 DOMAIN-SUFFIX,api.notion.com
 DOMAIN-SUFFIX,amazonaws.com
