@@ -247,18 +247,6 @@ DOMAIN-SUFFIX,youtubeeducation.com
 DOMAIN-SUFFIX,youtubegaming.com
 DOMAIN-SUFFIX,youtubekids.com
 DOMAIN-SUFFIX,ytimg.com
-IP-CIDR,64.233.170.100/32
-IP-CIDR,64.233.170.188/32
-IP-CIDR,74.125.24.188/32
-IP-CIDR,74.125.68.188/32
-IP-CIDR,74.125.200.95/32
-IP-CIDR,74.125.200.188/32
-IP-CIDR,142.250.4.0/24
-IP-CIDR,142.251.10.188/32
-IP-CIDR,142.251.12.188/32
-IP-CIDR,172.217.70.188/32
-IP-CIDR,172.217.194.188/32
-IP-CIDR,172.253.118.188/32
 
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
@@ -292,8 +280,6 @@ DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,workmessenger.com
 DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusercontent.com
-IP-CIDR,31.13.94.41/32
-IP-CIDR,157.240.0.0/16
 
 # > Microsoft
 DOMAIN-SUFFIX,1drv.com
@@ -395,8 +381,6 @@ DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redd.it
-IP-CIDR,151.101.1.140/32
-IP-CIDR,151.101.65.140/32
 
 # > Reuters
 DOMAIN-SUFFIX,reuters.com
@@ -436,23 +420,6 @@ DOMAIN-SUFFIX,telegram.space
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
-IP-CIDR,5.28.195.1/32,no-resolve
-IP-CIDR,5.28.195.2/32,no-resolve
-IP-CIDR,91.105.192.0/23,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/21,no-resolve
-IP-CIDR,91.108.16.0/21,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
-IP-CIDR,95.161.64.0/20,no-resolve
-IP-CIDR,139.59.210.98/32,no-resolve
-IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,185.76.151.0/24,no-resolve
-IP-CIDR,196.55.216.167/32,no-resolve
-IP-CIDR6,2001:67c:4e8::/48,no-resolve
-IP-CIDR6,2001:b28:f23c::/48,no-resolve
-IP-CIDR6,2001:b28:f23d::/48,no-resolve
-IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # > Twitch
 DOMAIN-SUFFIX,jtvnw.net
