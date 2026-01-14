@@ -1,5 +1,14 @@
 DOMAIN-SUFFIX,yahoo.com
+
+# xAI
+DOMAIN-SUFFIX,chronosphere.io
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,intercom.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomassets.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,x.ai
 
 # > Spotify
 DOMAIN-SUFFIX,pscdn.co
@@ -108,10 +117,6 @@ DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN,pplx-res.cloudinary.com
-
-# xAI
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,x.ai
 
 # Doubao
 # > Doubao Dola
