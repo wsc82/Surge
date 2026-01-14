@@ -446,12 +446,15 @@ DOMAIN-SUFFIX,twitch.tv
 DOMAIN-SUFFIX,twitchcdn.net
 
 # > Twitter
-DOMAIN-SUFFIX,arkoselabs.com
-DOMAIN-SUFFIX,cdn.cms-twdigitalassets.com
-DOMAIN-SUFFIX,help.x.help
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.jp
+DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
 
 # > Wikipedia
