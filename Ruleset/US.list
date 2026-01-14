@@ -1,13 +1,14 @@
 DOMAIN-SUFFIX,yahoo.com
 
 # xAI
-DOMAIN-SUFFIX,chronosphere.io
+DOMAIN,api.mixpanel.com
+DOMAIN,egv4py1c-ios.mobile-messenger.intercom.com
+DOMAIN,nexus-websocket-a.intercom.io
+DOMAIN,o2129.ingest.sentry.io
+DOMAIN,o4508179396558848.ingest.us.sentry.io
+DOMAIN,xai.chronosphere.io
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grokipedia.com
-DOMAIN-SUFFIX,intercom.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomassets.com
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,x.ai
 
 # > Spotify
