@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,tiktokcdn-us.com
 DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-SUFFIX,tiktokv.us
 DOMAIN-SUFFIX,ttwstatic.com
-IP-CIDR,161.117.0.0/16
 
 # Apple Intelligence
 DOMAIN-SUFFIX,smoot.apple.com
