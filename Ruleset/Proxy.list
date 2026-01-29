@@ -285,56 +285,19 @@ DOMAIN-SUFFIX,workmessenger.com
 DOMAIN-SUFFIX,workplace.com
 DOMAIN-SUFFIX,workplaceusercontent.com
 
-# > Microsoft
-DOMAIN-SUFFIX,1drv.com
-DOMAIN-SUFFIX,akadns.net
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,azure.com
-DOMAIN-SUFFIX,azuredns-cloud.net
-DOMAIN-SUFFIX,azureedge.net
-DOMAIN-SUFFIX,azurefd.net
-DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,bing.net
-DOMAIN-SUFFIX,cloudapp.net
-DOMAIN-SUFFIX,codeplex.com
-DOMAIN-SUFFIX,gravatar.com
-DOMAIN-SUFFIX,hotmail.com
-DOMAIN-SUFFIX,live.com
-DOMAIN-SUFFIX,lync.com
-DOMAIN-SUFFIX,microsoft.com
-DOMAIN-SUFFIX,microsoftonline-p.com
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,microsoftstore.com
-DOMAIN-SUFFIX,msappproxy.net
-DOMAIN-SUFFIX,msedge.net
-DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,msftconnecttest.com
-DOMAIN-SUFFIX,msftncsi.com
-DOMAIN-SUFFIX,msn.com
-DOMAIN-SUFFIX,onedrive.com
-DOMAIN-SUFFIX,onenote.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,office.net
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,res.public.onecdn.static.microsoft
-DOMAIN-SUFFIX,roaming.svc.cloud.microsoft
-DOMAIN-SUFFIX,sharepoint.com
-DOMAIN-SUFFIX,skype.com
-DOMAIN-SUFFIX,skypeassets.com
-DOMAIN-SUFFIX,skypeforbusiness.com
-DOMAIN-SUFFIX,s-microsoft.com
-DOMAIN-SUFFIX,sway.com
-DOMAIN-SUFFIX,trafficmanager.net
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,vsassets.io
-DOMAIN-SUFFIX,vscode‑cdn.net
-DOMAIN-SUFFIX,vscode-unpkg.net
-DOMAIN-SUFFIX,windows.com
-DOMAIN-SUFFIX,windows.net
+# ---(Microsoft)---
+# > Outlook
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
+# > Windows Server Update Services
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
 DOMAIN-SUFFIX,windowsupdate.com
-DOMAIN-SUFFIX,windowsazure.com
-DOMAIN-SUFFIX,yammer.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN,download.microsoft.com
+DOMAIN,wustat.windows.com
+DOMAIN,ntservicepack.microsoft.com
 
 # > Notion
 DOMAIN-SUFFIX,api.notion.com
