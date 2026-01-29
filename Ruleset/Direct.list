@@ -22,6 +22,20 @@ DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,updates-http.cdn-apple.com
 
+# ---(Microsoft)---
+# > Outlook
+DOMAIN,outlook.office365.com
+DOMAIN,smtp-mail.outlook.com
+DOMAIN,smtp.office365.com
+# > Windows Server Update Services
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,update.microsoft.com
+DOMAIN-SUFFIX,windowsupdate.com
+DOMAIN-SUFFIX,windowsupdate.microsoft.com
+DOMAIN,download.microsoft.com
+DOMAIN,wustat.windows.com
+DOMAIN,ntservicepack.microsoft.com
+
 # > Duet
 USER-AGENT,duet*
 
@@ -31,10 +45,6 @@ DOMAIN-KEYWORD,epicgames
 # > Google
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,dl.google.com
-
-# > Microsoft
-USER-AGENT,Microsoft%20Remote%20Desktop*
-DOMAIN-SUFFIX,msftconnecttest.com
 
 # > Proxy plugin
 PROCESS-NAME,v2ray
