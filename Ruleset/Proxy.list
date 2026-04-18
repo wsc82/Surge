@@ -19,11 +19,8 @@ DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,instagram
 DOMAIN-KEYWORD,porn
 DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,whatsapp
-DOMAIN-KEYWORD,youtube
 
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
@@ -41,6 +38,7 @@ DOMAIN-SUFFIX,apnews.com
 DOMAIN-SUFFIX,bandwagonhost.com
 DOMAIN-SUFFIX,breitbart.com
 DOMAIN-SUFFIX,bet365.com
+DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,btloader.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
@@ -167,20 +165,6 @@ DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
-IP-CIDR,31.13.24.0/21,no-resolve
-IP-CIDR,31.13.64.0/18,no-resolve
-IP-CIDR,45.64.40.0/22,no-resolve
-IP-CIDR,66.220.144.0/20,no-resolve
-IP-CIDR,69.63.176.0/20,no-resolve
-IP-CIDR,69.171.224.0/19,no-resolve
-IP-CIDR,74.119.76.0/22,no-resolve
-IP-CIDR,103.4.96.0/22,no-resolve
-IP-CIDR,129.134.0.0/17,no-resolve
-IP-CIDR,157.240.0.0/17,no-resolve
-IP-CIDR,173.252.64.0/18,no-resolve
-IP-CIDR,179.60.192.0/22,no-resolve
-IP-CIDR,185.60.216.0/22,no-resolve
-IP-CIDR,204.15.20.0/22,no-resolve
 
 # Github
 DOMAIN-SUFFIX,github.com
@@ -209,6 +193,9 @@ DOMAIN-SUFFIX,foxsports.com
 DOMAIN-SUFFIX,foxtv.com
 
 # > Google
+DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,android.com
 DOMAIN-SUFFIX,androidify.com
@@ -246,6 +233,7 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,google.com.hk
 DOMAIN-SUFFIX,google.com.sg
 DOMAIN-SUFFIX,google.dev
+DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,googleapis.cn
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleanalytics.com
@@ -265,10 +253,11 @@ DOMAIN-SUFFIX,googletranslate.cn
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,img.logo.dev
-DOMAIN-SUFFIX,listentoyoutube.com
 DOMAIN-SUFFIX,messages.google.com
 DOMAIN-SUFFIX,merchant-center-analytics.goog
 DOMAIN-SUFFIX,pki.goog
@@ -278,7 +267,6 @@ DOMAIN-SUFFIX,thinkwithgoogle.com
 DOMAIN-SUFFIX,web.dev
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,waze.com
-DOMAIN-SUFFIX,youtubecn.com
 
 # Instagram
 DOMAIN-SUFFIX,cdninstagram.com
