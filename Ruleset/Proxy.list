@@ -1,6 +1,4 @@
-DOMAIN,cdn.hklive.tv
 DOMAIN,docs.dmit.io
-DOMAIN,hk.yahoo.com
 DOMAIN,tagss.pro
 
 # MyList && Other
@@ -114,34 +112,10 @@ DOMAIN-SUFFIX,bbci.co.uk
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
 
-# > Bloomberg
-DOMAIN-SUFFIX,bloomberg.cn
-DOMAIN-SUFFIX,bloomberg.com
-DOMAIN-SUFFIX,bloomberg.de
-DOMAIN-SUFFIX,bloombergview.com
-
-# > CNN
-DOMAIN-SUFFIX,cnn.com
-DOMAIN-SUFFIX,cnn.io
-DOMAIN-SUFFIX,cnn.it
-DOMAIN-SUFFIX,cnnarabic.com
-DOMAIN-SUFFIX,cnnlabs.com
-DOMAIN-SUFFIX,cnnmoney.ch
-
-# > Discord
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discordapp.net
-
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
-
-# > The Economist
-DOMAIN-SUFFIX,economist.com
-DOMAIN-SUFFIX,static-economist.com
 
 # > Facebook
 DOMAIN-SUFFIX,facebook.com
@@ -174,17 +148,6 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
 
-# > Financial Times
-DOMAIN-SUFFIX,ft.com
-DOMAIN-SUFFIX,ftchinese.com
-DOMAIN-SUFFIX,ftimg.net
-DOMAIN-SUFFIX,prcdn.co
-DOMAIN-SUFFIX,pressreader.com
-DOMAIN-SUFFIX,zeddit.com
-DOMAIN,d1e00ek4ebabms.cloudfront.net
-DOMAIN,d19eijqb5qll1w.cloudfront.net
-DOMAIN,secure.newspaperdirect.com
-
 # > FOX
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxbusiness.com
@@ -212,29 +175,6 @@ DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,msn.com
 DOMAIN,copilot.microsoft.com
 
-# > Notion
-DOMAIN-SUFFIX,api.notion.com
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,cachefly.net
-DOMAIN-SUFFIX,notion-newtab.com
-DOMAIN-SUFFIX,notion-services
-DOMAIN-SUFFIX,notion.site
-DOMAIN-SUFFIX,notion.so
-DOMAIN-SUFFIX,notion-static.com
-DOMAIN-SUFFIX,notion-uploads.com
-DOMAIN-SUFFIX,notionusercontent.com
-
-# > NY Times
-DOMAIN-SUFFIX,newyorktimes.com
-DOMAIN-SUFFIX,nyt.com
-DOMAIN-SUFFIX,nytco.com
-DOMAIN-SUFFIX,nytimes.com
-DOMAIN-SUFFIX,nytimg.com
-DOMAIN-SUFFIX,nytlog.com
-DOMAIN-SUFFIX,nytstyle.com
-DOMAIN-SUFFIX,tmagazine.com
-DOMAIN,nytimes.map.fastly.net
-
 # > Reddit
 DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
@@ -242,23 +182,8 @@ DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redd.it
 
-# > Reuters
-DOMAIN-SUFFIX,reuters.com
-DOMAIN-SUFFIX,reuters.tv
-DOMAIN-SUFFIX,reutersmedia.net
-
-# > Signal
-DOMAIN-SUFFIX,signal.org 
-DOMAIN-SUFFIX,whispersystems.org  
-
 # > Steam
-DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
-DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steamusercontent.com
-// DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamstatic.com
 
 # > Surge 
 DOMAIN-SUFFIX,divineengine.net
