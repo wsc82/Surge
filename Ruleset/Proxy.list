@@ -130,14 +130,13 @@ DOMAIN-SUFFIX,cnnmoney.ch
 
 # > Discord
 DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.net
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
-DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > The Economist
