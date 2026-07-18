@@ -3,16 +3,6 @@ DOMAIN,docs.dmit.io
 DOMAIN,hk.yahoo.com
 DOMAIN,tagss.pro
 
-# 国外域名关键字
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,abema
-DOMAIN-KEYWORD,appledaily
-DOMAIN-KEYWORD,avtb
-DOMAIN-KEYWORD,beetalk
-DOMAIN-KEYWORD,porn
-DOMAIN-KEYWORD,sci-hub
-DOMAIN-KEYWORD,whatsapp
-
 # MyList && Other
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adblockplus.org
