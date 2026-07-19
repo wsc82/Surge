@@ -113,11 +113,14 @@ DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
 
 # > Dropbox
+DOMAIN-KEYWORD,dropbox
 DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > Facebook
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
@@ -125,6 +128,7 @@ DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
 
 # > Github
+DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubapp.com
@@ -157,6 +161,7 @@ DOMAIN-SUFFIX,foxsports.com
 DOMAIN-SUFFIX,foxtv.com
 
 # > Instagram
+DOMAIN-KEYWORD,instagram
 DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,instagr.am
@@ -193,6 +198,7 @@ DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
 
 # > Twitter
+DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,periscope.tv
 DOMAIN-SUFFIX,t.co
