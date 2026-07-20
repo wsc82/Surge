@@ -127,6 +127,14 @@ DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fbcdn.com
 DOMAIN-SUFFIX,fbcdn.net
 
+# > FOX
+DOMAIN-SUFFIX,fox.com
+DOMAIN-SUFFIX,foxbusiness.com
+DOMAIN-SUFFIX,foxdcg.com
+DOMAIN-SUFFIX,foxnews.com
+DOMAIN-SUFFIX,foxsports.com
+DOMAIN-SUFFIX,foxtv.com
+
 # > Github
 DOMAIN-KEYWORD,github
 DOMAIN-SUFFIX,github.com
@@ -151,14 +159,6 @@ DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,xn--ngstr-lra8j.com
-
-# > FOX
-DOMAIN-SUFFIX,fox.com
-DOMAIN-SUFFIX,foxbusiness.com
-DOMAIN-SUFFIX,foxdcg.com
-DOMAIN-SUFFIX,foxnews.com
-DOMAIN-SUFFIX,foxsports.com
-DOMAIN-SUFFIX,foxtv.com
 
 # > Instagram
 DOMAIN-KEYWORD,instagram
