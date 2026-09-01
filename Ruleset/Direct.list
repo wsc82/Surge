@@ -2,7 +2,6 @@ DOMAIN-SUFFIX,tagss14.pro
 
 # > Apple CDN
 PROCESS-NAME,storedownloadd
-USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
 DOMAIN,appldnld.apple.com
 DOMAIN,apptrailers.itunes.apple.com
@@ -19,9 +18,6 @@ DOMAIN,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,appstoreconnect.apple.com
 DOMAIN-SUFFIX,itunesconnect.apple.com
 DOMAIN,contentdelivery.itunes.apple.com
-
-# > Duet
-USER-AGENT,duet*
 
 # > Epic
 DOMAIN-KEYWORD,epicgames
