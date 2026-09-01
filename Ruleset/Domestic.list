@@ -19,14 +19,12 @@ DOMAIN-SUFFIX,ccb.com.cn
 DOMAIN-SUFFIX,cebbank.com
 
 # > China Merchants Bank
-USER-AGENT,cmb*
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,cmbt.cn
 DOMAIN-SUFFIX,mbcloud.com
 
 # > Industrial and Commercial Bank of China
-USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 DOMAIN-SUFFIX,icbc.com.cn
 
 # > Ping An Bank
@@ -48,7 +46,6 @@ DOMAIN-SUFFIX,p4pfile.com
 DOMAIN-SUFFIX,zmzfile.com
 
 # > Sony
-USER-AGENT,RemotePlay*
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
