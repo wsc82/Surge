@@ -1,6 +1,8 @@
+DOMAIN,huaikhwang.central-world.org
+DOMAIN-SUFFIX,tagss14.pro
+
 # > Apple CDN
 PROCESS-NAME,storedownloadd
-USER-AGENT,com.apple.appstored*
 DOMAIN,aod.itunes.apple.com
 DOMAIN,appldnld.apple.com
 DOMAIN,apptrailers.itunes.apple.com
@@ -29,7 +31,6 @@ DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,dl.google.com
 
 # > Microsoft
-USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
 
 # > Passkey
@@ -43,7 +44,6 @@ PROCESS-NAME,ss-local
 DOMAIN-SUFFIX,dl.playstation.net
 
 # > Steam
-USER-AGENT,Steam*
 DOMAIN,cm.steampowered.com
 DOMAIN,ol.epicgames.com
 DOMAIN-SUFFIX,steamcontent.com
@@ -95,7 +95,6 @@ PROCESS-NAME,UUBooster
 DOMAIN-SUFFIX,app-measurement.com
 
 # > Xunlei
-USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
 
 # > Download
@@ -138,12 +137,7 @@ DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
-
 DOMAIN-SUFFIX,smtp
-URL-REGEX,(Subject|HELO|SMTP)
 
 # > UBI
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
-
-# > Tailscale
-IP-CIDR,100.64.0.0/10,no-resolve
