@@ -2,7 +2,6 @@ DOMAIN,huaikhwang.central-world.org
 DOMAIN-SUFFIX,tagss14.pro
 
 # > Apple CDN
-PROCESS-NAME,storedownloadd
 DOMAIN,aod.itunes.apple.com
 DOMAIN,appldnld.apple.com
 DOMAIN,apptrailers.itunes.apple.com
@@ -32,10 +31,6 @@ DOMAIN-SUFFIX,msftconnecttest.com
 
 # > Passkey
 DOMAIN-SUFFIX,auth.com
-
-# > Proxy plugin
-PROCESS-NAME,v2ray
-PROCESS-NAME,ss-local
 
 # > PlayStation
 DOMAIN-SUFFIX,dl.playstation.net
@@ -77,27 +72,11 @@ DOMAIN-SUFFIX,teslamotors.com
 DOMAIN-SUFFIX,teslamotors.com.cn
 DOMAIN-SUFFIX,ts.la
 
-# > UUBooster
-PROCESS-NAME,UUBooster
-
 # > WiFiman
 DOMAIN-SUFFIX,app-measurement.com
 
 # > Xunlei
 DOMAIN-SUFFIX,xunlei.com
-
-# > Download
-PROCESS-NAME,aria2c
-PROCESS-NAME,fdm
-PROCESS-NAME,Folx
-PROCESS-NAME,NetTransport
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,qbittorrent-nox
-PROCESS-NAME,Thunder
-PROCESS-NAME,Transmission
-PROCESS-NAME,uTorrent
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WebTorrent Helper
 
 # > Private Tracker
 DOMAIN-SUFFIX,audiences.me
