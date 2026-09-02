@@ -207,7 +207,12 @@ DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redd.it
 
 # > Steam
+DOMAIN-SUFFIX,s.team
+DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamcommunity.com
+DOMAIN-SUFFIX,steamgames.com
+DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steamstatic.com
 
 # > Surge 
 DOMAIN-SUFFIX,divineengine.net
