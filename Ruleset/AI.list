@@ -105,3 +105,10 @@ DOMAIN,pplx-res.cloudinary.com
 # xAI
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+
+# Doubao
+# > Doubao Dola
+DOMAIN-SUFFIX,cici.com,extended-matching
+DOMAIN-SUFFIX,ciciai.com,extended-matching
+DOMAIN-SUFFIX,dola.com,extended-matching
+DOMAIN-SUFFIX,byteoversea.com,extended-matching
