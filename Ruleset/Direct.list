@@ -20,9 +20,6 @@ DOMAIN-SUFFIX,appstoreconnect.apple.com
 DOMAIN-SUFFIX,itunesconnect.apple.com
 DOMAIN,contentdelivery.itunes.apple.com
 
-# > Duet
-USER-AGENT,duet*
-
 # > Epic
 DOMAIN-KEYWORD,epicgames
 
