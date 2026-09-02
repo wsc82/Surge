@@ -205,6 +205,14 @@ DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redd.it
 
+# > Spotify
+DOMAIN-SUFFIX,pscdn.co
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,spoti.fi
+DOMAIN-KEYWORD,spotify.com
+DOMAIN-KEYWORD,-spotify-com
+
 # > Steam
 DOMAIN-SUFFIX,steamcommunity.com
 
@@ -214,6 +222,38 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nssurge.zendesk.com
 DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
+
+# Telegram
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,quiz.directory
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-SUFFIX,tx.me
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # > Twitter
 DOMAIN-SUFFIX,pscp.tv
@@ -227,6 +267,128 @@ DOMAIN-SUFFIX,twitter.jp
 DOMAIN-SUFFIX,vine.co
 DOMAIN-SUFFIX,x.com
 
+# > YouTube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtubeeducation.com
+DOMAIN-SUFFIX,youtubegaming.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,yt.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN,youtubei.googleapis.com
+DOMAIN,yt3.ggpht.com
+
 # > Wikipedia
 DOMAIN-SUFFIX,wikipedia.org    
-DOMAIN-SUFFIX,wikimedia.org    
+DOMAIN-SUFFIX,wikimedia.org 
+
+# Apple Intelligence
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,guzzoni.apple.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+
+# Anthropic
+# > Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,servd-anthropic-website.b-cdn.net
+
+# OpenAI
+# > ChatGPT
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,api.statsig.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaicom
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
+
+# Cloudflare
+# > AI Gateway
+DOMAIN,gateway.ai.cloudflare.com
+
+# Cursor
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+
+# Zed
+DOMAIN-SUFFIX,zed.dev
+
+# Google
+# > AI Studio
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN,aistudio.google.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+# > Antigravity
+DOMAIN,antigravity.google
+DOMAIN,antigravity-unleash.goog
+# > DeepMind
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+# > Gemini
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN,ai.google.dev
+DOMAIN,bard.google.com
+DOMAIN,gemini.google.com
+# > NotebookLM
+DOMAIN-KEYWORD,notebooklm.google
+# > Search Labs
+DOMAIN-KEYWORD,labs.google
+
+# Groq
+DOMAIN-SUFFIX,groq.com
+
+# JetBrains AI
+DOMAIN-SUFFIX,grazie.ai
+
+# Meta
+DOMAIN-SUFFIX,meta.ai
+DOMAIN,imagine.meta.com
+
+# Microsoft
+# > Copilot
+DOMAIN,copilot.microsoft.com
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
+# > GitHub Copilot
+DOMAIN-SUFFIX,githubcopilot.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
+
+# xAI
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
