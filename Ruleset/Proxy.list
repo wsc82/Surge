@@ -152,16 +152,21 @@ DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,c.gle
+DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,g.co
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,goo.gl
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,ytimg.com
 
 # > IMDB
 DOMAIN-SUFFIX,boxofficemojo.com
