@@ -140,6 +140,29 @@ DOMAIN-SUFFIX,dropbox.com
 DOMAIN-SUFFIX,dropboxapi.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
+# > Facebook
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbcdn.net
+IP-CIDR,31.13.24.0/21,no-resolve
+IP-CIDR,31.13.64.0/18,no-resolve
+IP-CIDR,45.64.40.0/22,no-resolve
+IP-CIDR,66.220.144.0/20,no-resolve
+IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.171.224.0/19,no-resolve
+IP-CIDR,74.119.76.0/22,no-resolve
+IP-CIDR,103.4.96.0/22,no-resolve
+IP-CIDR,129.134.0.0/17,no-resolve
+IP-CIDR,157.240.0.0/17,no-resolve
+IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,179.60.192.0/22,no-resolve
+IP-CIDR,185.60.216.0/22,no-resolve
+IP-CIDR,204.15.20.0/22,no-resolve
+
 # > FOX
 DOMAIN-SUFFIX,fox.com
 DOMAIN-SUFFIX,foxbusiness.com
@@ -147,6 +170,14 @@ DOMAIN-SUFFIX,foxdcg.com
 DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,foxsports.com
 DOMAIN-SUFFIX,foxtv.com
+
+# > Github
+DOMAIN-KEYWORD,github
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubapp.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
 
 # > Google
 DOMAIN-KEYWORD,blogspot
@@ -176,19 +207,19 @@ DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
 
+# > Instagram
+DOMAIN-KEYWORD,instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,cdninstagram.com
 DOMAIN-SUFFIX,f8.com
-DOMAIN-SUFFIX,facebookmail.com
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,fb.me
 DOMAIN-SUFFIX,fb.watch
 DOMAIN-SUFFIX,fbaddins.com
-DOMAIN-SUFFIX,fbcdn.net
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,fbworkmail.com
-DOMAIN-SUFFIX,instagram.com
 DOMAIN-SUFFIX,m.me
 DOMAIN-SUFFIX,messenger.com
 DOMAIN-SUFFIX,meta.ai
@@ -201,16 +232,10 @@ DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
-DOMAIN-KEYWORD,.facebook.
 
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,bing.com
-DOMAIN-SUFFIX,github.blog
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
 DOMAIN-SUFFIX,msn.com
@@ -224,19 +249,30 @@ DOMAIN,copilot.microsoft.com
 DOMAIN,github.global.ssl.fastly.net
 
 # > Reddit
-DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
-DOMAIN-SUFFIX,redditstatic.com
-DOMAIN-SUFFIX,redditstatus.com
 DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditstatic.com
 
 # > Steam
-DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,steampowered.com
+DOMAIN,steambroadcast.akamaized.net
+DOMAIN,steamcommunity-a.akamaihd.net
+DOMAIN,steampipe.akamaized.net
+DOMAIN,steamstore-a.akamaihd.net
+DOMAIN,steamusercontent-a.akamaihd.net
+DOMAIN,steamuserimages-a.akamaihd.net
+DOMAIN-SUFFIX,fanatical.com
+DOMAIN-SUFFIX,humblebundle.com
+DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,steam-chat.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamgames.com
-DOMAIN-SUFFIX,steamusercontent.com
+DOMAIN-SUFFIX,steampowered.com
+DOMAIN-SUFFIX,steamserver.net
+DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,underlords.com
+DOMAIN-SUFFIX,valvesoftware.com
 
 # > Surge 
 DOMAIN-SUFFIX,divineengine.net
@@ -246,11 +282,13 @@ DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
 
 # > Twitter
-DOMAIN-SUFFIX,pscp.tv
+DOMAIN-KEYWORD,twitter
 DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
