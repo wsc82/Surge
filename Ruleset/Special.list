@@ -1,7 +1,7 @@
 DOMAIN,huaikhwang.central-world.org
 DOMAIN-SUFFIX,tagss14.pro
 DOMAIN-SUFFIX,204cloud.com
-IP-CIDR,110.42.42.172/32
+IP-CIDR,110.42.42.172/32,no-resolve
 
 # Direct+
 DOMAIN,app.adjust.com
