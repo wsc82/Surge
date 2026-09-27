@@ -9,26 +9,22 @@ DOMAIN-SUFFIX,tech-girlz.com
 DOMAIN-SUFFIX,kocpc.com.tw
 
 # > Bahamut
-DOMAIN-SUFFIX,bahamut.com.tw
-DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN,bahamut.akamaized.net
+DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN,gamer-cds.cdn.hinet.net
+DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN,gamer2-cds.cdn.hinet.net
+USER-AGENT,Anime*
 
 # > KKTV
+DOMAIN,kktv-theater.kk.stream
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
-DOMAIN,kktv-theater.kk.stream
+USER-AGENT,com.kktv*
+USER-AGENT,KKTV*
 
-# > LINE TV
+# > Line TV
+DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
-DOMAIN,d3c7rimkq79yfu.cloudfront.net
-
-# > LiTV
-DOMAIN-SUFFIX,litv.tv
-DOMAIN,litvfreemobile-hichannel.cdn.hinet.net
-
-# > 台湾好
-DOMAIN-SUFFIX,skyking.com.tw
-DOMAIN,hamifans.emome.net
-DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,profile.line-scdn.net
+USER-AGENT,LINE*
