@@ -47,13 +47,9 @@ DOMAIN-SUFFIX,cebbank.com
 DOMAIN-SUFFIX,cmbchina.com
 DOMAIN-SUFFIX,cmbimg.com
 DOMAIN-SUFFIX,mbcloud.com
-USER-AGENT,cmb*
 
 # > CN
 DOMAIN-SUFFIX,cn
-
-# > Industrial and Commercial Bank of China
-USER-AGENT,%E4%B8%AD%E5%9B%BD%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C*
 
 # > Other domains
 DOMAIN-SUFFIX,10010.com
@@ -309,7 +305,6 @@ DOMAIN-SUFFIX,zmzfile.com
 # > Sony
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
-USER-AGENT,RemotePlay*
 
 # > TeamViewer
 IP-CIDR,185.188.32.0/24,no-resolve
