@@ -262,8 +262,6 @@ DOMAIN-SUFFIX,readyatdawn.com
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,whatsapp.com
-DOMAIN-SUFFIX,whatsapp.net
 
 # > Microsoft
 DOMAIN-SUFFIX,aka.ms
@@ -301,6 +299,12 @@ DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nssurge.zendesk.com
 DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
+
+# > WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsappbrand.com
+USER-AGENT,WhatsApp*
 
 # > Wikipedia
 DOMAIN-SUFFIX,wikipedia.org    
