@@ -304,7 +304,6 @@ DOMAIN-SUFFIX,wiki.surge.community
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
 DOMAIN-SUFFIX,whatsappbrand.com
-USER-AGENT,WhatsApp*
 
 # > Wikipedia
 DOMAIN-SUFFIX,wikipedia.org    
