@@ -7,7 +7,6 @@ DOMAIN-SUFFIX,disneynow.com
 DOMAIN-SUFFIX,disneyplus.com
 DOMAIN-SUFFIX,disneystreaming.com
 DOMAIN-SUFFIX,dssott.com
-USER-AGENT,Disney*
 
 # > Max
 DOMAIN-SUFFIX,arkoselabs.com
@@ -25,7 +24,6 @@ DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,mytvsuper.com
 DOMAIN,rthklive2-lh.akamaihd.net
 DOMAIN-SUFFIX,tvb.com
-USER-AGENT,mytv*
 
 # > Netflix
 DOMAIN-SUFFIX,netflix.com
