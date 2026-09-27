@@ -14,17 +14,13 @@ DOMAIN-SUFFIX,bahamut.com.tw
 DOMAIN,gamer-cds.cdn.hinet.net
 DOMAIN-SUFFIX,gamer.com.tw
 DOMAIN,gamer2-cds.cdn.hinet.net
-USER-AGENT,Anime*
 
 # > KKTV
 DOMAIN,kktv-theater.kk.stream
 DOMAIN-SUFFIX,kktv.com.tw
 DOMAIN-SUFFIX,kktv.me
-USER-AGENT,com.kktv*
-USER-AGENT,KKTV*
 
 # > Line TV
 DOMAIN-SUFFIX,d3c7rimkq79yfu.cloudfront.net
 DOMAIN-SUFFIX,linetv.tw
 DOMAIN-SUFFIX,profile.line-scdn.net
-USER-AGENT,LINE*
