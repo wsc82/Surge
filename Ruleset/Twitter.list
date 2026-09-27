@@ -1,13 +1,14 @@
 # > Twitter
-DOMAIN-KEYWORD,twitter
-DOMAIN-SUFFIX,periscope.tv
-DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,ads-twitter.com
 DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,twimg.co
 DOMAIN-SUFFIX,twimg.com
-DOMAIN-SUFFIX,twimg.org
 DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,twitter.biz
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,twitter.jp
-DOMAIN-SUFFIX,vine.co
+DOMAIN-SUFFIX,twittercommunity.com
+DOMAIN-SUFFIX,twitterflightschool.com
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,twitteroauth.com
+DOMAIN-SUFFIX,twitterstat.us
 DOMAIN-SUFFIX,x.com
