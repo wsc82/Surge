@@ -1,141 +1,29 @@
-# > Apple CDN
-DOMAIN,aod.itunes.apple.com
-DOMAIN,appldnld.apple.com
-DOMAIN,apptrailers.itunes.apple.com
-DOMAIN,gs-loc-cn.apple.com
-DOMAIN,iosapps.itunes.apple.com
-DOMAIN,music.apple.com
-DOMAIN,mvod.itunes.apple.com
-DOMAIN,osxapps.itunes.apple.com
-DOMAIN,supportdownload.apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,updates-http.cdn-apple.com
-PROCESS-NAME,storedownloadd
-USER-AGENT,com.apple.appstored*
-
-# > Apple Developer
-DOMAIN-SUFFIX,appstoreconnect.apple.com
-DOMAIN,contentdelivery.itunes.apple.com
-DOMAIN-SUFFIX,itunesconnect.apple.com
-
-# > Apple Maps and Search
-DOMAIN,api.smoot.apple.cn
-DOMAIN-SUFFIX,ls.apple.com
-
-# > Download
-PROCESS-NAME,aria2c
-PROCESS-NAME,fdm
-PROCESS-NAME,Folx
-PROCESS-NAME,NetTransport
-PROCESS-NAME,qbittorrent
-PROCESS-NAME,qbittorrent-nox
-PROCESS-NAME,Thunder
-PROCESS-NAME,Transmission
-PROCESS-NAME,uTorrent
-PROCESS-NAME,WebTorrent
-PROCESS-NAME,WebTorrent Helper
-
-# > Duet
-USER-AGENT,duet*
-
-# > Epic Games
-DOMAIN,ol.epicgames.com
-
-# > Google
-DOMAIN-SUFFIX,dl.google.com
-DOMAIN,safebrowsing.googleapis.com
-
-# > Microsoft
-DOMAIN-SUFFIX,msftconnecttest.com
-USER-AGENT,Microsoft%20Remote%20Desktop*
-
-# > Passkey
-DOMAIN-SUFFIX,auth.com
-
-# > PlayStation
-DOMAIN-SUFFIX,dl.playstation.net
-
-# > Private Tracker
-DOMAIN-SUFFIX,audiences.me
-DOMAIN-SUFFIX,awesome-hd.me
-DOMAIN-SUFFIX,broadcasthe.net
-DOMAIN-SUFFIX,chdbits.co
-DOMAIN-SUFFIX,classix-unlimited.co.uk
-DOMAIN-SUFFIX,dmhy.best
-DOMAIN-SUFFIX,empornium.me
-DOMAIN-SUFFIX,gazellegames.net
-DOMAIN-SUFFIX,hdchina.org
-DOMAIN-SUFFIX,hdsky.me
-DOMAIN-SUFFIX,icetorrent.org
-DOMAIN-SUFFIX,jpopsuki.eu
-DOMAIN-SUFFIX,keepfrds.com
-DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,madsrevolution.net
-DOMAIN-SUFFIX,nanyangpt.com
-DOMAIN-SUFFIX,ncore.cc
-DOMAIN-SUFFIX,open.cd
-DOMAIN-SUFFIX,ourbits.club
-DOMAIN-SUFFIX,passthepopcorn.me
-DOMAIN-SUFFIX,privatehd.to
-DOMAIN-SUFFIX,redacted.ch
-DOMAIN-SUFFIX,sandai.net
-DOMAIN-SUFFIX,springsunday.net
-DOMAIN-SUFFIX,tjupt.org
-DOMAIN-SUFFIX,totheglory.im
-
-# > Proxy plugin
-PROCESS-NAME,ss-local
-PROCESS-NAME,v2ray
-
-# > Steam
-DOMAIN,cm.steampowered.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,dota2.wmsj.cn
-DOMAIN,gstore.val.manlaxy.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steambroadcast.akamaized.net
-DOMAIN,steamcdn-a.akamaihd.net
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN-SUFFIX,steamserver.net
-DOMAIN,steamstatic.com.8686c.com
-DOMAIN,steamstore-a.akamaihd.net
-DOMAIN,steamusercontent-a.akamaihd.net
-DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,wmsjsteam.com
-USER-AGENT,Steam*
-
-# > Tailscale
-IP-CIDR,100.64.0.0/10,no-resolve
-
-# > Tesla
-DOMAIN-SUFFIX,solarcity.com
-DOMAIN,tesla-cdn.thron.cn
-DOMAIN,tesla-cdn.thron.com
-DOMAIN-SUFFIX,tesla.cn
-DOMAIN-SUFFIX,tesla.com
-DOMAIN-SUFFIX,tesla.com.cn
-DOMAIN-SUFFIX,teslamotors.cn
-DOMAIN-SUFFIX,teslamotors.com
-DOMAIN-SUFFIX,teslamotors.com.cn
-DOMAIN-SUFFIX,ts.la
-
-# > UBI
-DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
-
-# > UUBooster
-PROCESS-NAME,UUBooster
-
-# > WiFiman
-DOMAIN-SUFFIX,app-measurement.com
-
-# > Xunlei
-DOMAIN-SUFFIX,xunlei.com
-USER-AGENT,%E8%BF%85%E9%9B%B7
+# Direct+
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,bdtj.tagtic.cn
+# > Alibaba
+DOMAIN,log.mmstat.com
+DOMAIN,sycm.mmstat.com
+# ---(Alphabet)---
+DOMAIN-SUFFIX,blog.google
+DOMAIN,ci.android.com
+DOMAIN,clientservices.googleapis.com
+DOMAIN,dl.google.com
+DOMAIN,dl.l.google.com
+DOMAIN,redirector.gvt1.com
+DOMAIN,update.googleapis.com
+# > Google Flights
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,googletraveladservices-cn.com
+# ------
+# > Tencent
+DOMAIN,fairplay.l.qq.com
+DOMAIN,livew.l.qq.com
+DOMAIN,vd.l.qq.com
+DOMAIN,vi.l.qq.com
+# > Strava
+DOMAIN,analytics.strava.com
+# > Umeng
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
