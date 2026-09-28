@@ -1,7 +1,10 @@
 # > YouTube
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gvt0.com
+DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
 DOMAIN-SUFFIX,oauth2.googleapis.com
 DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
 DOMAIN-SUFFIX,withyoutube.com
