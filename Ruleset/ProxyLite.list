@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,ca
 
 # MyList && Other
+DOMAIN-SUFFIX,1024.day
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adguard.org
