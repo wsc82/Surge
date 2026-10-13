@@ -253,6 +253,9 @@ DOMAIN-SUFFIX,redditstatic.com
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
 
+# > Signal
+DOMAIN-SUFFIX,signal.org
+
 # > Steam
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
