@@ -1,6 +1,3 @@
-DOMAIN,docs.dmit.io
-DOMAIN,tagss.pro
-
 # 国外域名
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
@@ -13,6 +10,10 @@ DOMAIN-SUFFIX,us
 DOMAIN-SUFFIX,ca
 
 # MyList && Other
+DOMAIN,docs.dmit.io
+DOMAIN,tagss.pro
+DOMAIN,vscode.download.prss.microsoft.com
+
 DOMAIN-SUFFIX,1024.day
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adblockplus.org
