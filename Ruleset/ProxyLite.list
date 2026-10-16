@@ -15,6 +15,7 @@ DOMAIN,tagss.pro
 DOMAIN,vscode.download.prss.microsoft.com
 
 DOMAIN-SUFFIX,1024.day
+DOMAIN-SUFFIX,911997.xyz
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adguard.org
@@ -41,6 +42,7 @@ DOMAIN-SUFFIX,civiccomputing.com
 DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflarestorage.com
+DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,combot.org
