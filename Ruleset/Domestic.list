@@ -409,24 +409,6 @@ DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sony.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
-# SteamCN
-DOMAIN-SUFFIX,cm.steampowered.com
-DOMAIN-SUFFIX,steamcontent.com
-DOMAIN-SUFFIX,steamusercontent.com
-DOMAIN-SUFFIX,steamchina.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dota2.wmsj.cn
-DOMAIN,wmsjsteam.com
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,xz.pphimalayanrt.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
-
 # Tencent
 DOMAIN-SUFFIX,foxmail.com
 DOMAIN-SUFFIX,gtimg.com
@@ -467,23 +449,6 @@ DOMAIN-SUFFIX,p2cdn.com
 DOMAIN-SUFFIX,sandai.net
 DOMAIN-SUFFIX,thundercdn.com
 DOMAIN-SUFFIX,xunlei.com
-
-# YYeTs 人人影视
-DOMAIN-SUFFIX,got001.com
-DOMAIN-SUFFIX,p4pfile.com
-DOMAIN-SUFFIX,rrys.tv
-DOMAIN-SUFFIX,rrys2020.com
-DOMAIN-SUFFIX,yyets.com
-DOMAIN-SUFFIX,zimuzu.io
-DOMAIN-SUFFIX,zimuzu.tv
-DOMAIN-SUFFIX,zmz001.com
-DOMAIN-SUFFIX,zmz002.com
-DOMAIN-SUFFIX,zmz003.com
-DOMAIN-SUFFIX,zmz004.com
-DOMAIN-SUFFIX,zmz2019.com
-DOMAIN-SUFFIX,zmzapi.com
-DOMAIN-SUFFIX,zmzapi.net
-DOMAIN-SUFFIX,zmzfile.com
 
 # TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
