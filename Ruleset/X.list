@@ -1,0 +1,13 @@
+# > Cursor
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
+
+# > Grok
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# > X
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,x.com
