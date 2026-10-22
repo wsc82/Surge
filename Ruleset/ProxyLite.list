@@ -209,12 +209,9 @@ DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-SUFFIX,app-analytics-services.com
-DOMAIN-SUFFIX,app-measurement.net
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,c.gle
-DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,google.com
@@ -236,7 +233,6 @@ DOMAIN-SUFFIX,media-imdb.com
 
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,readyatdawn.com
