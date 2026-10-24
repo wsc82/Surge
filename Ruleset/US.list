@@ -77,6 +77,11 @@ DOMAIN-SUFFIX,meta.com
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,metaaivm.com
 
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN,pplx-res.cloudinary.com
+
 # > Spotify
 DOMAIN-KEYWORD,-spotify-
 DOMAIN-KEYWORD,spotify.com
