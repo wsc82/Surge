@@ -23,24 +23,6 @@ DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,servd-anthropic-website.b-cdn.net
 
-# OpenAI
-# > ChatGPT
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN,api.statsig.com
-DOMAIN,api-iam.intercom.io
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaicom
-# OpenRouter
-DOMAIN-SUFFIX,openrouter.ai
-
 # Cloudflare
 # > AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
@@ -92,8 +74,3 @@ DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
 # > GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
-
-# Perplexity
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,pplx.ai
-DOMAIN,pplx-res.cloudinary.com
