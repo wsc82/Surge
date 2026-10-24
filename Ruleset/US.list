@@ -1,5 +1,6 @@
 DOMAIN-SUFFIX,yahoo.com
 
+# OpenAI
 # > ChatGPT / Codex
 # https://help.openai.com/en/articles/9247338
 DOMAIN-SUFFIX,chat.com
