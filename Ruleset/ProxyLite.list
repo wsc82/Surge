@@ -47,7 +47,6 @@ DOMAIN-SUFFIX,cloudflareinsights.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,combot.org
-DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,dextools.io
 DOMAIN-SUFFIX,docs.new
 DOMAIN-SUFFIX,dowjones.com
@@ -67,7 +66,6 @@ DOMAIN-SUFFIX,godaddy.com
 DOMAIN-SUFFIX,gravatar.com
 DOMAIN-SUFFIX,hk01.com
 DOMAIN-SUFFIX,hostloc.com
-DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,huarun.win
 DOMAIN-SUFFIX,imgur.com
 DOMAIN-SUFFIX,imgurinc.com
@@ -111,8 +109,6 @@ DOMAIN-SUFFIX,protonstatus.com
 DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,ptt.cc
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,pythonhosted.org 
 DOMAIN-SUFFIX,rc-backup.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rfi.my
@@ -162,6 +158,16 @@ DOMAIN-SUFFIX,bbci.co.uk
 # > Bitwarden
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
+
+# > Coder
+DOMAIN-SUFFIX,comfy.org
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,pycon.org
+DOMAIN-SUFFIX,pypa.io
+DOMAIN-SUFFIX,pypi.io
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,python.org
+DOMAIN-SUFFIX,pythonhosted.org
 
 # > Dropbox
 DOMAIN-SUFFIX,dropbox.com
