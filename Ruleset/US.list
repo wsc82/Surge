@@ -64,8 +64,10 @@ IP-CIDR,74.248.148.7/32,no-resolve
 # > Cursor
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,vercel-storage.com
 
 # > Grok
 DOMAIN-SUFFIX,grok.com
