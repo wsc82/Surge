@@ -1,6 +1,16 @@
-DOMAIN-SUFFIX,yahoo.co.jp
+# ============================================================
+# 名称：JP.list
+# 说明：日本站点：Yahoo! JAPAN、DMM
+# 策略：JP（日本节点）
+# 规则：4 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/JP.list
+# ============================================================
 
 # > DMM
+DOMAIN-SUFFIX,dmm-extension.com
 DOMAIN-SUFFIX,dmm.co.jp
 DOMAIN-SUFFIX,dmm.com
-DOMAIN-SUFFIX,dmm-extension.com
+
+# > Yahoo! JAPAN
+DOMAIN-SUFFIX,yahoo.co.jp

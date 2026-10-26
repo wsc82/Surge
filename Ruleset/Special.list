@@ -1,33 +1,49 @@
-# Direct+
-# > 被 ProxyLite 的 .hk/.us 后缀抢走的国内站，放这里保证直连
+# ============================================================
+# 名称：Special.list
+# 说明：需要强制直连的例外规则，排在所有规则集最前面
+# 策略：DIRECT（直连）
+# 规则：24 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Special.list
+# ============================================================
+
+# > 国内站（.hk / .us 后缀）
+# 会被 ProxyLite 的 .hk / .us 后缀抢走，放这里保证直连
 DOMAIN-SUFFIX,jd.hk
 DOMAIN-SUFFIX,tmall.hk
 DOMAIN-SUFFIX,xiumi.us
-DOMAIN,app.adjust.com
-DOMAIN,app.appsflyer.com
-DOMAIN,bdtj.tagtic.cn
-# > Alibaba
+
+# > Alibaba 阿里巴巴
 DOMAIN,log.mmstat.com
 DOMAIN,sycm.mmstat.com
-# ---(Alphabet)---
-DOMAIN-SUFFIX,blog.google
+
+# > Google
 DOMAIN,ci.android.com
 DOMAIN,clientservices.googleapis.com
 DOMAIN,dl.google.com
 DOMAIN,dl.l.google.com
 DOMAIN,redirector.gvt1.com
 DOMAIN,update.googleapis.com
+DOMAIN-SUFFIX,blog.google
+
 # > Google Flights
-DOMAIN-SUFFIX,googletraveladservices.com
 DOMAIN-SUFFIX,googletraveladservices-cn.com
-# ------
-# > Tencent
+DOMAIN-SUFFIX,googletraveladservices.com
+
+# > Strava
+DOMAIN,analytics.strava.com
+
+# > Tencent 腾讯
 DOMAIN,fairplay.l.qq.com
 DOMAIN,livew.l.qq.com
 DOMAIN,vd.l.qq.com
 DOMAIN,vi.l.qq.com
-# > Strava
-DOMAIN,analytics.strava.com
-# > Umeng
+
+# > Umeng 友盟
 DOMAIN,msg.umeng.com
 DOMAIN,msg.umengcloud.com
+
+# > 广告归因 / 统计
+DOMAIN,app.adjust.com
+DOMAIN,app.appsflyer.com
+DOMAIN,bdtj.tagtic.cn

@@ -1,3 +1,13 @@
+# ============================================================
+# 名称：Amazon.list
+# 说明：Amazon 购物、开发者与广告域名
+# 策略：备用（当前 Surge 配置未引用）
+# 规则：7 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Amazon.list
+# ============================================================
+
+# > Amazon
 DOMAIN,d36mtyykywvmev.cloudfront.net
 DOMAIN,d9z0byejw3ey0.cloudfront.net
 DOMAIN-SUFFIX,a2z.com
