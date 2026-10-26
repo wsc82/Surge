@@ -2,7 +2,7 @@
 # 名称：Global.list
 # 说明：代理合集：ProxyLite、US、Telegram、YouTube 的合并版（Quantumult X 等客户端用）
 # 策略：备用（当前 Surge 配置未引用）
-# 规则：372 条
+# 规则：371 条
 # 更新：2026-10-26
 # 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
 # ============================================================
@@ -11,7 +11,6 @@
 DOMAIN-SUFFIX,ca
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
 DOMAIN-SUFFIX,kr
 DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,tw
