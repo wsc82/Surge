@@ -1,4 +1,14 @@
-# 国外域名
+# ============================================================
+# 名称：Global.list
+# 说明：代理合集：ProxyLite、US、Telegram、YouTube 的合并版（Quantumult X 等客户端用）
+# 策略：备用（当前 Surge 配置未引用）
+# 规则：372 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
+# ============================================================
+
+# > 境外顶级域
+DOMAIN-SUFFIX,ca
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,jp
@@ -7,16 +17,14 @@ DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,ca
 
-# MyList && Other
+# > 自用 & 其他
 DOMAIN,docs.dmit.io
 DOMAIN,tagss.pro
 DOMAIN,vscode.download.prss.microsoft.com
-
 DOMAIN-SUFFIX,1024.day
-DOMAIN-SUFFIX,911997.xyz
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,911997.xyz
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adobe.com
@@ -31,21 +39,20 @@ DOMAIN-SUFFIX,api.onesignal.com
 DOMAIN-SUFFIX,apnews.com
 DOMAIN-SUFFIX,avbebe.com
 DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,breitbart.com
-DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,btloader.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
+DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,civiccomputing.com
 DOMAIN-SUFFIX,civitai.com
-DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,cna.com.tw
 DOMAIN-SUFFIX,combot.org
 DOMAIN-SUFFIX,dextools.io
 DOMAIN-SUFFIX,docs.new
@@ -93,9 +100,9 @@ DOMAIN-SUFFIX,note.boccc.co
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,novel543.com
 DOMAIN-SUFFIX,nsloon.app
-DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,ourchinastory.com
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pbs.org
@@ -107,15 +114,13 @@ DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
-DOMAIN-SUFFIX,pub.network
-DOMAIN-SUFFIX,pts.org.tw
 DOMAIN-SUFFIX,ptt.cc
+DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,rc-backup.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rfi.my
 DOMAIN-SUFFIX,rocketgirls.space
 DOMAIN-SUFFIX,rsshub.app
-DOMAIN-SUFFIX,rthk.hk
 DOMAIN-SUFFIX,sharethis.com
 DOMAIN-SUFFIX,simplenote.com
 DOMAIN-SUFFIX,sing-box.sagernet.org
@@ -148,20 +153,16 @@ DOMAIN-SUFFIX,xiaobaotv.com
 DOMAIN-SUFFIX,yfsp.tv
 DOMAIN-SUFFIX,z-lib.sk
 DOMAIN-SUFFIX,zaobao.com
-DOMAIN-SUFFIX,zaobao.com.sg
-DOMAIN-SUFFIX,zb.sg
 DOMAIN-SUFFIX,zdz.best
 
 # > BBC
-DOMAIN-SUFFIX,bbc.co.uk
 DOMAIN-SUFFIX,bbc.com
-DOMAIN-SUFFIX,bbci.co.uk
 
 # > Bitwarden
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
 
-# > Coder
+# > Coder 开发 / 编程
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,pycon.org
@@ -174,9 +175,9 @@ DOMAIN-SUFFIX,pythonhosted.org
 # > Cursor
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,vercel-storage.com
 
 # > Dropbox
@@ -186,13 +187,10 @@ DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > Facebook
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
-DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
-DOMAIN-SUFFIX,fbcdn.com
-DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,45.64.40.0/22,no-resolve
@@ -216,68 +214,58 @@ DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,foxsports.com
 DOMAIN-SUFFIX,foxtv.com
 
-# > Github
+# > GitHub
 DOMAIN-KEYWORD,github
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubapp.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubusercontent.com
 
 # > Google
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,goo.gl
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
 
 # > Grok
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
 
-# > Instagram
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
-
-# > IMDB
+# > IMDb
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
 
+# > Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
+
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,readyatdawn.com
 DOMAIN-SUFFIX,rocksdb.org
 DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,muse.ai
-DOMAIN-SUFFIX,metaaivm.com
 
 # > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
-DOMAIN,github.global.ssl.fastly.net
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 
-# OpenAI
-# > ChatGPT / Codex
+# > OpenAI · ChatGPT / Codex
 # https://help.openai.com/en/articles/9247338
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
@@ -286,7 +274,7 @@ DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
 
-# > ChatGPT API & CDN
+# > OpenAI · API 与 CDN
 DOMAIN,cdn.openaimerge.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,openaiapi-site.azureedge.net
@@ -294,53 +282,52 @@ DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,production-openaicom-storage.azureedge.net
 
-# > ChatGPT shared dependencies (also used by other services)
+# > OpenAI · 共用依赖
+# 登录、验证、客服、支付等，其他服务也会用到
 DOMAIN,cdn.workos.com
-DOMAIN,challenges.cloudflare.com
-DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN,forwarder.workos.com
 DOMAIN,humb.apple.com
 DOMAIN,images.workoscdn.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,js.stripe.com
 DOMAIN,o207216.ingest.sentry.io
 DOMAIN,o33249.ingest.sentry.io
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,setup.workos.com
 DOMAIN,workos.imgix.net
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
 
-# > ChatGPT Voice
-# https://openai.com/chatgpt-voice.json (verified 2026-10-12)
-# UDP-capable outbound required for voice over UDP/3478
-IP-CIDR,102.37.57.54/32,no-resolve
-IP-CIDR,13.71.25.29/32,no-resolve
-IP-CIDR,135.220.40.201/32,no-resolve
-IP-CIDR,172.203.39.49/32,no-resolve
-IP-CIDR,172.207.173.200/32,no-resolve
-IP-CIDR,172.214.226.198/32,no-resolve
-IP-CIDR,191.233.251.27/32,no-resolve
-IP-CIDR,20.162.96.163/32,no-resolve
-IP-CIDR,20.168.48.117/32,no-resolve
-IP-CIDR,20.184.36.134/32,no-resolve
-IP-CIDR,20.203.144.245/32,no-resolve
-IP-CIDR,20.74.221.21/32,no-resolve
+# > OpenAI · ChatGPT 语音
+# https://openai.com/chatgpt-voice.json（2026-10-12 核对）
+# 语音走 UDP/3478，出口节点需支持 UDP
 IP-CIDR,4.151.200.38/32,no-resolve
 IP-CIDR,4.155.146.196/32,no-resolve
 IP-CIDR,4.197.172.116/32,no-resolve
 IP-CIDR,4.217.235.100/32,no-resolve
 IP-CIDR,4.245.198.13/32,no-resolve
+IP-CIDR,13.71.25.29/32,no-resolve
+IP-CIDR,20.74.221.21/32,no-resolve
+IP-CIDR,20.162.96.163/32,no-resolve
+IP-CIDR,20.168.48.117/32,no-resolve
+IP-CIDR,20.184.36.134/32,no-resolve
+IP-CIDR,20.203.144.245/32,no-resolve
 IP-CIDR,40.118.236.137/32,no-resolve
 IP-CIDR,51.4.112.173/32,no-resolve
 IP-CIDR,52.143.181.161/32,no-resolve
 IP-CIDR,68.155.152.41/32,no-resolve
 IP-CIDR,72.146.20.246/32,no-resolve
 IP-CIDR,74.248.148.7/32,no-resolve
+IP-CIDR,102.37.57.54/32,no-resolve
+IP-CIDR,135.220.40.201/32,no-resolve
+IP-CIDR,172.203.39.49/32,no-resolve
+IP-CIDR,172.207.173.200/32,no-resolve
+IP-CIDR,172.214.226.198/32,no-resolve
+IP-CIDR,191.233.251.27/32,no-resolve
 
-# Perplexity
+# > Perplexity
+DOMAIN,pplx-res.cloudinary.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
-DOMAIN,pplx-res.cloudinary.com
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
@@ -348,7 +335,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
-# > Reuters
+# > Reuters 路透社
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
 
@@ -356,37 +343,23 @@ DOMAIN-SUFFIX,reutersmedia.net
 DOMAIN-SUFFIX,signal.org
 
 # > Spotify
-DOMAIN-KEYWORD,-spotify-
-DOMAIN-KEYWORD,spotify.com
 DOMAIN-SUFFIX,pscdn.co
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,spoti.fi
-DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
 DOMAIN-SUFFIX,spotifycdn.net
+DOMAIN-KEYWORD,-spotify-
+DOMAIN-KEYWORD,spotify.com
 
 # > Steam
-DOMAIN,cm.steampowered.com
-DOMAIN,csgo.wmsj.cn
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,dota2.wmsj.cn
 DOMAIN,gstore.val.manlaxy.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,steampowered.com.8686c.com
-DOMAIN,steamstatic.com.8686c.com
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
-DOMAIN,wmsjsteam.com
 DOMAIN-SUFFIX,s.team
-DOMAIN-SUFFIX,steamchina.com
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamgames.com
@@ -395,7 +368,7 @@ DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstatic.com
 DOMAIN-SUFFIX,steamusercontent.com
 
-# > Surge 
+# > Surge
 DOMAIN-SUFFIX,divineengine.net
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,nssurge.zendesk.com
@@ -403,40 +376,47 @@ DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
 
 # > Telegram
-DOMAIN-KEYWORD,telegram
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
+DOMAIN-KEYWORD,telegram
+IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
 IP-CIDR,95.161.64.0/20,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
 IP-CIDR6,2001:b28:f23d::/48,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
+
+# > TikTok
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-SUFFIX,tiktokw.us
+DOMAIN-KEYWORD,tiktokcdn
 
 # > WhatsApp
 DOMAIN-KEYWORD,whatsapp
-IP-CIDR,18.194.0.0/15,no-resolve
-IP-CIDR,34.224.0.0/12,no-resolve
 IP-CIDR,50.22.198.204/30,no-resolve
-IP-CIDR,54.242.0.0/15,no-resolve
-IP-CIDR,69.171.235.0/16,no-resolve
-IP-CIDR,75.126.150.0/16,no-resolve
-IP-CIDR,108.168.174.0/16,no-resolve
 IP-CIDR,158.85.5.192/27,no-resolve
 IP-CIDR,158.85.46.128/27,no-resolve
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,173.192.222.160/27,no-resolve
 IP-CIDR,173.192.231.32/27,no-resolve
-IP-CIDR,174.37.243.0/16,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,208.43.122.128/27,no-resolve
 
-# > Wikipedia
+# > Wikipedia 维基百科
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org
@@ -448,32 +428,25 @@ DOMAIN-SUFFIX,wikiquote.org
 DOMAIN-SUFFIX,wikisource.org
 DOMAIN-SUFFIX,wikiversity.org
 DOMAIN-SUFFIX,wikivoyage.org
-DOMAIN-SUFFIX,wiktionary.org  
+DOMAIN-SUFFIX,wiktionary.org
 
-# > X
+# > X（Twitter）
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,twimg.com
 DOMAIN-SUFFIX,twitter.com
 DOMAIN-SUFFIX,x.com
 
+# > Yahoo
+DOMAIN-SUFFIX,yahoo.com
+
 # > YouTube
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,oauth2.googleapis.com
-DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
-DOMAIN-SUFFIX,withyoutube.com
 DOMAIN-SUFFIX,youtu.be
-DOMAIN-SUFFIX,youtube-nocookie.com
-DOMAIN-SUFFIX,youtube.com
-DOMAIN-SUFFIX,youtubeeducation.com
-DOMAIN-SUFFIX,youtubegaming.com
-DOMAIN-SUFFIX,youtubekids.com
-DOMAIN-SUFFIX,youtubei.googleapis.com
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,youtube

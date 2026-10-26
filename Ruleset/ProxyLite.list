@@ -1,4 +1,14 @@
-# 国外域名
+# ============================================================
+# 名称：ProxyLite.list
+# 说明：常用境外网站与服务
+# 策略：TOP（主代理）
+# 规则：263 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ProxyLite.list
+# ============================================================
+
+# > 境外顶级域
+DOMAIN-SUFFIX,ca
 DOMAIN-SUFFIX,eu
 DOMAIN-SUFFIX,hk
 DOMAIN-SUFFIX,jp
@@ -7,16 +17,14 @@ DOMAIN-SUFFIX,sg
 DOMAIN-SUFFIX,tw
 DOMAIN-SUFFIX,uk
 DOMAIN-SUFFIX,us
-DOMAIN-SUFFIX,ca
 
-# MyList && Other
+# > 自用 & 其他
 DOMAIN,docs.dmit.io
 DOMAIN,tagss.pro
 DOMAIN,vscode.download.prss.microsoft.com
-
 DOMAIN-SUFFIX,1024.day
-DOMAIN-SUFFIX,911997.xyz
 DOMAIN-SUFFIX,1password.com
+DOMAIN-SUFFIX,911997.xyz
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adobe.com
@@ -31,19 +39,19 @@ DOMAIN-SUFFIX,api.onesignal.com
 DOMAIN-SUFFIX,apnews.com
 DOMAIN-SUFFIX,avbebe.com
 DOMAIN-SUFFIX,bandwagonhost.com
+DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,brave.com
 DOMAIN-SUFFIX,breitbart.com
-DOMAIN-SUFFIX,bet365.com
 DOMAIN-SUFFIX,btloader.com
 DOMAIN-SUFFIX,c-span.org
 DOMAIN-SUFFIX,c-spanvideo.org
+DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,civiccomputing.com
 DOMAIN-SUFFIX,civitai.com
-DOMAIN-SUFFIX,cdn.jsdelivr.net
 DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,cloudflarestorage.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,combot.org
 DOMAIN-SUFFIX,dextools.io
@@ -92,9 +100,9 @@ DOMAIN-SUFFIX,note.boccc.co
 DOMAIN-SUFFIX,note.com
 DOMAIN-SUFFIX,novel543.com
 DOMAIN-SUFFIX,nsloon.app
-DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,olelive.com
 DOMAIN-SUFFIX,olemovienews.com
+DOMAIN-SUFFIX,olevod.com
 DOMAIN-SUFFIX,ourchinastory.com
 DOMAIN-SUFFIX,patreon.com
 DOMAIN-SUFFIX,pbs.org
@@ -106,8 +114,8 @@ DOMAIN-SUFFIX,proton.me
 DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
-DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,ptt.cc
+DOMAIN-SUFFIX,pub.network
 DOMAIN-SUFFIX,rc-backup.com
 DOMAIN-SUFFIX,rfi.fr
 DOMAIN-SUFFIX,rfi.my
@@ -154,7 +162,7 @@ DOMAIN-SUFFIX,bbc.com
 DOMAIN-SUFFIX,bitwarden.com
 DOMAIN-SUFFIX,bitwarden.net
 
-# > Coder
+# > Coder 开发 / 编程
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,pycon.org
@@ -171,10 +179,10 @@ DOMAIN-SUFFIX,dropboxstatic.com
 DOMAIN-SUFFIX,dropboxusercontent.com
 
 # > Facebook
-DOMAIN-KEYWORD,facebook
-DOMAIN-KEYWORD,fbcdn
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,fb.me
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
 IP-CIDR,31.13.24.0/21,no-resolve
 IP-CIDR,31.13.64.0/18,no-resolve
 IP-CIDR,45.64.40.0/22,no-resolve
@@ -198,31 +206,31 @@ DOMAIN-SUFFIX,foxnews.com
 DOMAIN-SUFFIX,foxsports.com
 DOMAIN-SUFFIX,foxtv.com
 
-# > Github
+# > GitHub
 DOMAIN-KEYWORD,github
 
 # > Google
-DOMAIN-KEYWORD,blogspot
-DOMAIN-KEYWORD,gmail
-DOMAIN-KEYWORD,google
 DOMAIN-SUFFIX,appspot.com
 DOMAIN-SUFFIX,blogger.com
 DOMAIN-SUFFIX,c.gle
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,google
 
-# > Instagram
-DOMAIN-SUFFIX,cdninstagram.com
-DOMAIN-SUFFIX,instagram.com
-DOMAIN-SUFFIX,instagr.am
-
-# > IMDB
+# > IMDb
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-SUFFIX,imdb
 DOMAIN-SUFFIX,imdb.com
 DOMAIN-SUFFIX,imdb.to
 DOMAIN-SUFFIX,media-imdb.com
+
+# > Instagram
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,instagram.com
 
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
@@ -234,13 +242,13 @@ DOMAIN-SUFFIX,threads.com
 DOMAIN-SUFFIX,threads.net
 
 # > Microsoft
-DOMAIN-SUFFIX,aka.ms
-DOMAIN-SUFFIX,onedrive.live.com
-DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 DOMAIN,assets1.xboxlive.com
 DOMAIN,assets2.xboxlive.com
 DOMAIN,az416426.vo.msecnd.net
 DOMAIN,az668014.vo.msecnd.net
+DOMAIN-SUFFIX,aka.ms
+DOMAIN-SUFFIX,onedrive.live.com
+DOMAIN-SUFFIX,streaming.mediaservices.windows.net
 
 # > Reddit
 DOMAIN-SUFFIX,redd.it
@@ -248,7 +256,7 @@ DOMAIN-SUFFIX,reddit.com
 DOMAIN-SUFFIX,redditmedia.com
 DOMAIN-SUFFIX,redditstatic.com
 
-# > Reuters
+# > Reuters 路透社
 DOMAIN-SUFFIX,reuters.com
 DOMAIN-SUFFIX,reutersmedia.net
 
@@ -290,7 +298,7 @@ IP-CIDR,173.192.231.32/27,no-resolve
 IP-CIDR,184.173.128.0/17,no-resolve
 IP-CIDR,208.43.122.128/27,no-resolve
 
-# > Wikipedia
+# > Wikipedia 维基百科
 DOMAIN-SUFFIX,mediawiki.org
 DOMAIN-SUFFIX,wikibooks.org
 DOMAIN-SUFFIX,wikidata.org

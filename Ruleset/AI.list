@@ -1,70 +1,81 @@
-# Apple Intelligence
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,apple-relay.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN-SUFFIX,gateway.icloud.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,guzzoni.apple.com
-DOMAIN,gspe1-ssl.ls.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
+# ============================================================
+# 名称：AI.list
+# 说明：AI 服务：Apple Intelligence、Claude、Gemini、Copilot 等
+# 策略：备用（当前 Surge 配置未引用）
+# 规则：45 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/AI.list
+# ============================================================
 
-# Anthropic
-# > Claude
+# > Anthropic · Claude
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
-DOMAIN-SUFFIX,clau.de
 DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudemcpcontent.com
 DOMAIN-SUFFIX,claudeusercontent.com
-DOMAIN,anthropic.auth0.com
-DOMAIN,anthropic.com.cdn.cloudflare.net
-DOMAIN,anthropic-com.ghost.io
-DOMAIN,servd-anthropic-website.b-cdn.net
 
-# Cloudflare
-# > AI Gateway
+# > Apple Intelligence
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,gspe1-ssl.ls.apple.com
+DOMAIN,guzzoni.apple.com
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,smoot.apple.com
+
+# > Cloudflare · AI Gateway
 DOMAIN,gateway.ai.cloudflare.com
 
-# Zed
-DOMAIN-SUFFIX,zed.dev
-
-# Google
-# > AI Studio
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,makersuite.google.com
+# > Google · AI Studio
 DOMAIN,aistudio.google.com
 DOMAIN,alkalicore-pa.clients6.google.com
 DOMAIN,alkalimakersuite-pa.clients6.google.com
-# > Antigravity
-DOMAIN,antigravity.google
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,makersuite.google.com
+
+# > Google · Antigravity
 DOMAIN,antigravity-unleash.goog
-# > DeepMind
+DOMAIN,antigravity.google
+
+# > Google · DeepMind
 DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
-# > Gemini
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+# > Google · Gemini
 DOMAIN,ai.google.dev
 DOMAIN,bard.google.com
 DOMAIN,gemini.google.com
-# > NotebookLM
+DOMAIN-SUFFIX,geller-pa.googleapis.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+
+# > Google · NotebookLM
 DOMAIN-KEYWORD,notebooklm.google
-# > Search Labs
+
+# > Google · Search Labs
 DOMAIN-KEYWORD,labs.google
 
-# Groq
+# > Groq
 DOMAIN-SUFFIX,groq.com
 
-# JetBrains AI
+# > JetBrains AI
 DOMAIN-SUFFIX,grazie.ai
 
-# Microsoft
-# > Copilot
+# > Microsoft · Copilot
 DOMAIN,copilot.microsoft.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
-# > GitHub Copilot
+
+# > Microsoft · GitHub Copilot
 DOMAIN-SUFFIX,githubcopilot.com
+
+# > Zed
+DOMAIN-SUFFIX,zed.dev

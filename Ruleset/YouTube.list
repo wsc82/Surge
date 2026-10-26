@@ -1,5 +1,13 @@
+# ============================================================
+# 名称：YouTube.list
+# 说明：YouTube 与 Google 视频 CDN
+# 策略：YouTube
+# 规则：12 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
+# ============================================================
+
 # > YouTube
-DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gvt0.com
 DOMAIN-SUFFIX,gvt1.com
@@ -11,3 +19,4 @@ DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,youtube
