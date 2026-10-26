@@ -34,7 +34,6 @@ DOMAIN-KEYWORD,dualstack.apiproxy-
 GEOIP,NETFLIX,no-resolve
 
 # > ViuTV
-DOMAIN,api.viu.now.com
 DOMAIN-SUFFIX,viu.com
 DOMAIN-SUFFIX,viu.now.com
 DOMAIN-SUFFIX,viu.tv
