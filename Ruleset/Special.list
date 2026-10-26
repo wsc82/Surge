@@ -1,4 +1,8 @@
 # Direct+
+# > 被 ProxyLite 的 .hk/.us 后缀抢走的国内站，放这里保证直连
+DOMAIN-SUFFIX,jd.hk
+DOMAIN-SUFFIX,tmall.hk
+DOMAIN-SUFFIX,xiumi.us
 DOMAIN,app.adjust.com
 DOMAIN,app.appsflyer.com
 DOMAIN,bdtj.tagtic.cn
