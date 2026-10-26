@@ -1,0 +1,10 @@
+# ============================================================
+# 名称：QX-Catchall.list
+# 说明：仅 Quantumult X 使用。必须作为 [filter_remote] 的最后一条（force-policy=Final, opt-parser=false），把前面规则集未匹配的域名交给 Final，避免域名落到 IP 类规则时被本地解析造成 DNS 泄漏。Surge 与 Clash 不要引用本文件。
+# 策略：Final
+# 规则：1 条
+# 更新：2026-10-26
+# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/QX-Catchall.list
+# ============================================================
+
+host-keyword, ., Final

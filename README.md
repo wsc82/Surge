@@ -28,7 +28,9 @@ https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/<名称>.list
 
 ## 其他规则集
 
-[Global](Ruleset/Global.list) 是 Quantumult X 在用的代理合集（ProxyLite、US、Telegram、YouTube 的合并版），配合 Domestic 直连。下面几个目前没有被引用，留着以后可能用：
+[Global](Ruleset/Global.list) 是 Quantumult X 在用的代理合集（ProxyLite、US、Telegram、YouTube 的合并版），配合 Domestic 直连。[QX-Catchall](Ruleset/QX-Catchall.list) 仅 Quantumult X 使用，必须排在 `[filter_remote]` 最后（`force-policy=Final`），把未匹配的域名交给 Final，避免本地解析 DNS。Surge 和 Clash 不要引用。
+
+下面几个目前没有被引用，留着以后可能用：
 
 | 规则集 | 内容 |
 | --- | --- |
