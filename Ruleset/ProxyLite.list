@@ -2,21 +2,10 @@
 # 名称：ProxyLite.list
 # 说明：常用境外网站与服务
 # 策略：TOP（主代理）
-# 规则：263 条
+# 规则：254 条
 # 更新：2026-10-26
 # 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ProxyLite.list
 # ============================================================
-
-# > 境外顶级域
-DOMAIN-SUFFIX,ca
-DOMAIN-SUFFIX,eu
-DOMAIN-SUFFIX,hk
-DOMAIN-SUFFIX,jp
-DOMAIN-SUFFIX,kr
-DOMAIN-SUFFIX,sg
-DOMAIN-SUFFIX,tw
-DOMAIN-SUFFIX,uk
-DOMAIN-SUFFIX,us
 
 # > 自用 & 其他
 DOMAIN,docs.dmit.io
