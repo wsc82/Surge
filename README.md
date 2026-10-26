@@ -14,7 +14,7 @@ https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/<名称>.list
 
 | 规则集 | 内容 | 策略 |
 | --- | --- | --- |
-| [Special](Ruleset/Special.list) | 需要强制直连的例外，排在最前面 | DIRECT |
+| [Special](Ruleset/Special.list) | 下载、系统更新等需要强制直连的流量，排在最前面 | DIRECT |
 | [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段 | Telegram |
 | [YouTube](Ruleset/YouTube.list) | YouTube 与 Google 视频 CDN | YouTube |
 | [HK](Ruleset/HK.list) | 香港区流媒体：Disney+、Max、myTV SUPER、Netflix、ViuTV | HK |
