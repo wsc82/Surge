@@ -28,12 +28,6 @@ https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/HK.list
 ```
 
-日本站点：Yahoo! JAPAN、DMM
-
-```
-https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/JP.list
-```
-
 新加坡区流媒体：TVBanywhere、meWATCH
 
 ```
@@ -88,7 +82,7 @@ Apple 推送服务（APNs）
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
 ```
 
-QX 格式的副本在 [wsc82/QuantumultX](https://github.com/wsc82/QuantumultX)，Clash 格式的副本（Global、Domestic、JP）在 [wsc82/Clash](https://github.com/wsc82/Clash)，每天自动同步，改规则只改这里就行。
+QX 格式的副本在 [wsc82/QuantumultX](https://github.com/wsc82/QuantumultX)，Clash 格式的副本（Global、Domestic）在 [wsc82/Clash](https://github.com/wsc82/Clash)，每天自动同步，改规则只改这里就行。
 
 ## 规则集
 
@@ -100,7 +94,6 @@ QX 格式的副本在 [wsc82/QuantumultX](https://github.com/wsc82/QuantumultX)�
 | [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段 | Telegram |
 | [YouTube](Ruleset/YouTube.list) | YouTube 与 Google 视频 CDN | YouTube |
 | [HK](Ruleset/HK.list) | 香港区流媒体：Disney+、Max、myTV SUPER、Netflix、ViuTV | HK |
-| [JP](Ruleset/JP.list) | 日本站点：Yahoo! JAPAN、DMM | JP |
 | [SG](Ruleset/SG.list) | 新加坡区流媒体：TVBanywhere、meWATCH | SG |
 | [US](Ruleset/US.list) | OpenAI、Cursor、Grok、Perplexity、Spotify、TikTok、X 等 | US |
 | [ProxyLite](Ruleset/ProxyLite.list) | 常用境外网站与服务 | TOP |
