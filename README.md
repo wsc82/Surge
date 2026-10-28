@@ -35,8 +35,8 @@ QX 格式的副本（Global、Domestic、ApplePush）在 [wsc82/QuantumultX](htt
 | 规则集 | 内容 | 策略 |
 | --- | --- | --- |
 | [Special](Ruleset/Special.list) | 下载、系统更新等需要强制直连的流量，排在最前面 | DIRECT（直连） |
-| [Global](Ruleset/Global.list) | 境外网站与服务的代理合集 | 备用（当前 Surge 配置未引用） |
 | [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务 | DIRECT（直连） |
+| [Global](Ruleset/Global.list) | 境外网站与服务的代理合集 | 备用（当前 Surge 配置未引用） |
 | [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段 | 备用（当前 Surge 配置未引用） |
 
 按 Surge 配置里的匹配顺序，Special 在最前面，Domestic 在其后，然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。
