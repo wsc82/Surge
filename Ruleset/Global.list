@@ -1,7 +1,7 @@
 # ============================================================
 # 名称：Global.list
 # 说明：代理合集
-# 策略：Self
+# 策略：Self (surge mac/ios)
 # 规则：363 条
 # 更新：2026-10-26
 # 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
