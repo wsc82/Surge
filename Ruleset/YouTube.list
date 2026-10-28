@@ -1,22 +1,17 @@
 # ============================================================
 # 名称：YouTube.list
-# 说明：YouTube 与 Google 视频 CDN
+# 说明：YouTube 视频、图片、短链和 App 接口
 # 策略：YouTube
-# 规则：12 条
-# 更新：2026-10-26
+# 规则：7 条
+# 更新：2026-10-28
 # 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
 # ============================================================
 
 # > YouTube
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
-DOMAIN-SUFFIX,gvt0.com
-DOMAIN-SUFFIX,gvt1.com
-DOMAIN-SUFFIX,gvt2.com
-DOMAIN-SUFFIX,gvt3.com
-DOMAIN-SUFFIX,oauth2.googleapis.com
-DOMAIN-SUFFIX,oauthaccountmanager.googleapis.com
+DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
-DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-KEYWORD,youtube
