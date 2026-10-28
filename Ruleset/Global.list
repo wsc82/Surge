@@ -234,9 +234,6 @@ DOMAIN-SUFFIX,instagram.com
 
 # > Meta
 DOMAIN-SUFFIX,accountkit.com
-DOMAIN-SUFFIX,meta.com
-DOMAIN-SUFFIX,metaaivm.com
-DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,oculus.com
 DOMAIN-SUFFIX,oculuscdn.com
 DOMAIN-SUFFIX,readyatdawn.com
@@ -252,6 +249,13 @@ DOMAIN,az668014.vo.msecnd.net
 DOMAIN-SUFFIX,aka.ms
 DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,streaming.mediaservices.windows.net
+
+# > Muse
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,muse.ai
 
 # > OpenAI · ChatGPT / Codex
 # https://help.openai.com/en/articles/9247338
