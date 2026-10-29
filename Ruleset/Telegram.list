@@ -1,12 +1,3 @@
-# ============================================================
-# 名称：Telegram.list
-# 说明：Telegram 域名与官方 IP 段
-# 策略：Telegram
-# 规则：16 条
-# 更新：2026-10-28
-# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
-# ============================================================
-
 # > Telegram
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
