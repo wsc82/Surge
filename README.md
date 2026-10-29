@@ -4,12 +4,6 @@
 
 ## 引用地址
 
-下载、系统更新等需要强制直连
-
-```
-https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Special.list
-```
-
 境外网站与服务的代理合集
 
 ```
