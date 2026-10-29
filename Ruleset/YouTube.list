@@ -8,10 +8,14 @@
 # ============================================================
 
 # > YouTube
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-KEYWORD,ggpht
+DOMAIN-KEYWORD,gvt
 DOMAIN-KEYWORD,youtube
+IP-CIDR,172.110.32.0/21
+IP-CIDR,216.73.80.0/20
+IP-CIDR6,2620:120:e000::/40
