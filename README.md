@@ -4,31 +4,31 @@
 
 ## 引用地址
 
-Apple 推送服务（APNs）
+Apple 推送服务（APNs）（12 条）
 
 ```
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
 ```
 
-Telegram 域名与官方 IP 段
+Telegram 域名与官方 IP 段（28 条，策略 Telegram）
 
 ```
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
 ```
 
-YouTube 视频、图片、短链和 App 接口（7 条，策略 YouTube）
+YouTube 视频、图片、短链和 App 接口（10 条，策略 YouTube）
 
 ```
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
 ```
 
-境外网站与服务的代理合集
+境外网站与服务的代理合集（457 条）。Global 也包含 Telegram、YouTube 分段（Quantumult X 单独使用 Global）。
 
 ```
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
 ```
 
-国内网站、国内 CDN 与 Apple 服务
+国内网站、国内 CDN 与 Apple 服务（497 条）
 
 ```
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list
@@ -40,15 +40,11 @@ QX 格式的副本（Global、Domestic、ApplePush、YouTube、Telegram）在 [w
 
 | 规则集 | 内容 | 策略 |
 | --- | --- | --- |
-
-| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段 |
-| [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段，16 条 | Telegram |
-| [YouTube](Ruleset/YouTube.list) | YouTube 视频、图片、短链和 App 接口 | YouTube |
-| [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务 | DIRECT（直连） |
-| [Global](Ruleset/Global.list) | 境外网站与服务的代理合集 | Self |
-
-
-
+| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段，12 条 | 备用（当前 Surge 配置未引用） |
+| [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段，28 条 | Telegram |
+| [YouTube](Ruleset/YouTube.list) | YouTube 视频、图片、短链和 App 接口，10 条 | YouTube |
+| [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务，497 条 | DIRECT（直连） |
+| [Global](Ruleset/Global.list) | 境外网站与服务的代理合集，也包含 Telegram、YouTube 分段，457 条 | Self |
 
 按 Surge 配置里的匹配顺序， Apple 推送服务、Telegram、YouTube、Global（Self）和 Domestic（直连），然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。
 

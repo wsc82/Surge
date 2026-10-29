@@ -229,6 +229,7 @@ DOMAIN-KEYWORD,github
 # > Google
 DOMAIN,voice.telephony.goog
 DOMAIN-SUFFIX,1e100.net
+DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,abc.xyz
 DOMAIN-SUFFIX,amp.dev
 DOMAIN-SUFFIX,ampproject.com
@@ -248,27 +249,28 @@ DOMAIN-SUFFIX,firebaseio.com
 DOMAIN-SUFFIX,flutter.dev
 DOMAIN-SUFFIX,g.co
 DOMAIN-SUFFIX,g.page
+DOMAIN-SUFFIX,gcr.io
 DOMAIN-SUFFIX,go.dev
 DOMAIN-SUFFIX,golang.org
 DOMAIN-SUFFIX,goo.gl
 DOMAIN-SUFFIX,gstatic.cn
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,kaggle.com
+DOMAIN-SUFFIX,material.io
 DOMAIN-SUFFIX,nest.com
+DOMAIN-SUFFIX,tenor.com
 DOMAIN-SUFFIX,tensorflow.org
 DOMAIN-SUFFIX,waymo.com
 DOMAIN-SUFFIX,waze.com
+DOMAIN-SUFFIX,webrtc.org
 DOMAIN-KEYWORD,appspot
 DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,gvt
 DOMAIN-KEYWORD,recaptcha
-IP-CIDR,172.110.32.0/21
-IP-CIDR,173.194.0.0/16
-IP-CIDR,216.73.80.0/20
-IP-CIDR,74.125.0.0/16
-IP-CIDR6,2620:120:e000::/40
+IP-CIDR,74.125.0.0/16,no-resolve
+IP-CIDR,173.194.0.0/16,no-resolve
 
 # > Grok
 DOMAIN-SUFFIX,grok.com
@@ -433,14 +435,8 @@ DOMAIN-SUFFIX,surge.run
 DOMAIN-SUFFIX,wiki.surge.community
 
 # > Telegram
-DOMAIN,api.imem.app
-DOMAIN,api.swiftgram.app
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,contest.com
 DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,mbrx.app
-DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,stel.com
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
@@ -449,19 +445,24 @@ DOMAIN-SUFFIX,telegra.ph
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
-DOMAIN-SUFFIX,usercontent.dev
-DOMAIN-KEYWORD,nicegram
 DOMAIN-KEYWORD,telegram
-IP-CIDR,109.239.140.0/24
-IP-CIDR,139.59.210.98/32
-IP-CIDR,149.154.160.0/20
-IP-CIDR,196.55.216.167/32
-IP-CIDR,5.28.192.0/18
-IP-CIDR,91.108.0.0/16
-IP-CIDR6,2001:67c:4e8::/48
-IP-CIDR6,2001:b28:f23c::/47
-IP-CIDR6,2001:b28:f23f::/48
-IP-CIDR6,2a0a:f280::/29
+DOMAIN-KEYWORD,nicegram
+DOMAIN,api.imem.app
+DOMAIN,api.swiftgram.app
+IP-CIDR,91.105.192.0/23,no-resolve
+IP-CIDR,91.108.4.0/22,no-resolve
+IP-CIDR,91.108.8.0/22,no-resolve
+IP-CIDR,91.108.12.0/22,no-resolve
+IP-CIDR,91.108.16.0/22,no-resolve
+IP-CIDR,91.108.20.0/22,no-resolve
+IP-CIDR,91.108.56.0/22,no-resolve
+IP-CIDR,149.154.160.0/20,no-resolve
+IP-CIDR,185.76.151.0/24,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23c::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2a0a:f280::/32,no-resolve
 
 # > TikTok
 DOMAIN-SUFFIX,byteoversea.com
@@ -505,11 +506,13 @@ IP-CIDR,69.195.160.0/19
 DOMAIN-KEYWORD,yahoo
 
 # > YouTube
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-KEYWORD,ggpht
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-KEYWORD,youtube
-IP-CIDR,172.110.32.0/21
-IP-CIDR,216.73.80.0/20
-IP-CIDR6,2620:120:e000::/40
+IP-CIDR,172.110.32.0/21,no-resolve
+IP-CIDR,216.73.80.0/20,no-resolve
+IP-CIDR6,2620:120:e000::/40,no-resolve
