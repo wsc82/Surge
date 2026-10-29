@@ -295,17 +295,6 @@ DOMAIN-KEYWORD,sohu
 DOMAIN-KEYWORD,playstation
 DOMAIN-KEYWORD,sony
 
-# > Steam 国内 CDN
-# 国内下载节点，直连
-DOMAIN,dl.steam.clngaa.com
-DOMAIN,dl.steam.ksyna.com
-DOMAIN,st.dl.bscstorage.net
-DOMAIN,st.dl.eccdnx.com
-DOMAIN,st.dl.pinyuncloud.com
-DOMAIN,steampipe.steamcontent.tnkjmec.com
-DOMAIN,wmsjsteam.com
-DOMAIN-SUFFIX,steamchina.com
-
 # > TeamViewer
 DOMAIN-SUFFIX,teamviewer.com
 IP-CIDR,139.220.243.27/32
