@@ -4,6 +4,24 @@
 
 ## 引用地址
 
+Apple 推送服务（APNs）
+
+```
+https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
+```
+
+Telegram 域名与官方 IP 段
+
+```
+https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
+```
+
+YouTube 视频、图片、短链和 App 接口（7 条，策略 YouTube）
+
+```
+https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
+```
+
 境外网站与服务的代理合集
 
 ```
@@ -16,38 +34,23 @@ https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Global.list
 https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Domestic.list
 ```
 
-Apple 推送服务（APNs）
-
-```
-https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/ApplePush.list
-```
-
-YouTube 视频、图片、短链和 App 接口（7 条，策略 YouTube）
-
-```
-https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
-```
-
-Telegram 域名与官方 IP 段（16 条，策略 Telegram）
-
-```
-https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list
-```
-
 QX 格式的副本（Global、Domestic、ApplePush、YouTube、Telegram）在 [wsc82/QuantumultX](https://github.com/wsc82/QuantumultX)，Clash 格式的副本（Global、Domestic、ApplePush、YouTube、Telegram）在 [wsc82/Clash](https://github.com/wsc82/Clash)，每天自动同步，改规则只改这里就行。
 
 ## 规则集
 
 | 规则集 | 内容 | 策略 |
 | --- | --- | --- |
-| [Special](Ruleset/Special.list) | 下载、系统更新等需要强制直连的流量，排在最前面 | DIRECT（直连） |
+
+| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段 |
+| [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段，16 条 | Telegram |
+| [YouTube](Ruleset/YouTube.list) | YouTube 视频、图片、短链和 App 接口 | YouTube |
 | [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务 | DIRECT（直连） |
 | [Global](Ruleset/Global.list) | 境外网站与服务的代理合集 | Self |
-| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段 | 备用（当前 Surge 配置未引用） |
-| [YouTube](Ruleset/YouTube.list) | YouTube 视频、图片、短链和 App 接口，7 条 | YouTube |
-| [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段，16 条 | Telegram |
 
-按 Surge 配置里的匹配顺序，Special（直连）在最前面，接着是 YouTube、Telegram、Global（Self）和 Domestic（直连），然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。
+
+
+
+按 Surge 配置里的匹配顺序， Apple 推送服务、Telegram、YouTube、Global（Self）和 Domestic（直连），然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。
 
 ## 格式约定
 
