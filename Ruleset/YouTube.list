@@ -1,12 +1,3 @@
-# ============================================================
-# 名称：YouTube.list
-# 说明：YouTube 视频、图片、短链和 App 接口
-# 策略：YouTube
-# 规则：7 条
-# 更新：2026-10-28
-# 地址：https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/YouTube.list
-# ============================================================
-
 # > YouTube
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,video.google.com
