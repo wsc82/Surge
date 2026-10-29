@@ -40,7 +40,7 @@ QX 格式的副本（Global、Domestic、ApplePush、YouTube、Telegram）在 [w
 
 | 规则集 | 内容 | 策略 |
 | --- | --- | --- |
-| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段，12 条 | 备用（当前 Surge 配置未引用） |
+| [ApplePush](Ruleset/ApplePush.list) | Apple 推送服务（APNs）域名与官方 IP 段，12 条 | |
 | [Telegram](Ruleset/Telegram.list) | Telegram 域名与官方 IP 段，28 条 | Telegram |
 | [YouTube](Ruleset/YouTube.list) | YouTube 视频、图片、短链和 App 接口，10 条 | YouTube |
 | [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务，497 条 | DIRECT（直连） |
