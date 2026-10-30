@@ -4,7 +4,7 @@ DOMAIN-SUFFIX,video.google.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,yt3.ggpht.com
 DOMAIN-KEYWORD,youtube
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20,no-resolve
