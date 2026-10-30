@@ -10,9 +10,6 @@ DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tx.me
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,nicegram
-DOMAIN,api.imem.app
-DOMAIN,api.swiftgram.app
 IP-CIDR,91.105.192.0/23,no-resolve
 IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
