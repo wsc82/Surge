@@ -53,7 +53,7 @@ QX 格式的副本（Global、Domestic、ApplePush、YouTube、Telegram、AI）�
 | [Domestic](Ruleset/Domestic.list) | 国内网站、国内 CDN 与 Apple 服务，497 条 | DIRECT（直连） |
 | [Global](Ruleset/Global.list) | 境外网站与服务的代理合集，也包含 Telegram、YouTube、AI 分段，454 条 | Self |
 
-按 Surge 配置里的匹配顺序，Special（直连）、Apple 推送服务、Telegram、YouTube、AI、Global（Self）和 Domestic（直连），然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。AI 是独立规则，策略组 AI，排在 Special 之后、Global 之前。
+按 Surge 配置里的匹配顺序，Apple 推送服务、Telegram、YouTube、AI、Global（Self）和 Domestic（直连），然后是内置的 `RULE-SET,LAN`、`GEOIP,CN` 和 `FINAL`。AI 是独立规则，策略组 AI，排在 YouTube 之后、Global 之前。
 
 ```
 RULE-SET,https://raw.githubusercontent.com/wsc82/Surge/main/Ruleset/Telegram.list,Telegram,extended-matching,no-resolve
