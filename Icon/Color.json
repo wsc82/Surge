@@ -1,0 +1,38 @@
+{
+  "name": "wsc82 Color",
+  "description": "wsc82 策略组彩色图标",
+  "icons": [
+    {
+      "name": "Self",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/Self.png"
+    },
+    {
+      "name": "AI",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/AI.png"
+    },
+    {
+      "name": "Telegram",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/Telegram.png"
+    },
+    {
+      "name": "YouTube",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/YouTube.png"
+    },
+    {
+      "name": "VPS",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/VPS.png"
+    },
+    {
+      "name": "TAG",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/TAG.png"
+    },
+    {
+      "name": "Terminus",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/Terminus.png"
+    },
+    {
+      "name": "Final",
+      "url": "https://raw.githubusercontent.com/wsc82/Surge/main/Icon/Color/Final.png"
+    }
+  ]
+}
