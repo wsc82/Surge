@@ -155,6 +155,12 @@ DOMAIN-KEYWORD,python
 DOMAIN-SUFFIX,vercel-storage.com
 DOMAIN-KEYWORD,cursor
 
+# > Discord
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.net
+
 # > Dropbox
 DOMAIN-SUFFIX,db.tt
 DOMAIN-SUFFIX,paper-attachments.s3.amazonaws.com
