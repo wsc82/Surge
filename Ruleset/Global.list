@@ -156,10 +156,7 @@ DOMAIN-SUFFIX,vercel-storage.com
 DOMAIN-KEYWORD,cursor
 
 # > Discord
-DOMAIN-SUFFIX,discord.com
-DOMAIN-SUFFIX,discordapp.com
-DOMAIN-SUFFIX,discord.gg
-DOMAIN-SUFFIX,discordapp.net
+DOMAIN-KEYWORD,discord
 
 # > Dropbox
 DOMAIN-SUFFIX,db.tt
