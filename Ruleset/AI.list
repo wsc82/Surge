@@ -6,6 +6,9 @@ DOMAIN-KEYWORD,cursor
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
 
+# > Hermes
+DOMAIN-SUFFIX,nousresearch.com
+
 # > Muse
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaivm.com
