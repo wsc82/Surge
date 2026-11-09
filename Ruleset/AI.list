@@ -1,3 +1,10 @@
+# > Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
 # > Cursor
 DOMAIN-SUFFIX,vercel-storage.com
 DOMAIN-KEYWORD,cursor
