@@ -142,6 +142,13 @@ DOMAIN-KEYWORD,uk-live
 # > Bitwarden
 DOMAIN-KEYWORD,bitwarden
 
+# > Claude
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
 # > Coder 开发 / 编程
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,hf.co
