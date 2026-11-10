@@ -158,10 +158,6 @@ DOMAIN-KEYWORD,huggingface
 DOMAIN-KEYWORD,pypi
 DOMAIN-KEYWORD,python
 
-# > Cursor
-DOMAIN-SUFFIX,vercel-storage.com
-DOMAIN-KEYWORD,cursor
-
 # > Discord
 DOMAIN-KEYWORD,discord
 
