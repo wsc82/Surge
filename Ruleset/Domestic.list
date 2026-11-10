@@ -2,6 +2,13 @@
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorvm.com
 
+# > MyList
+DOMAIN-SUFFIX,bdurl.net
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,zijieapi.com
+
 # > 自用 MyList
 DOMAIN-SUFFIX,13th.tech
 DOMAIN-SUFFIX,423down.com
@@ -36,7 +43,6 @@ DOMAIN-KEYWORD,baidupcs
 DOMAIN-KEYWORD,bilibili
 DOMAIN-KEYWORD,ccgslb
 DOMAIN-KEYWORD,chinacache
-DOMAIN-KEYWORD,duobao
 DOMAIN-KEYWORD,jdpay
 DOMAIN-KEYWORD,qhimg
 DOMAIN-KEYWORD,vpimg
@@ -125,7 +131,6 @@ IP-CIDR,205.180.175.0/24
 DOMAIN-SUFFIX,bcebos.com
 DOMAIN-SUFFIX,bdimg.com
 DOMAIN-SUFFIX,bdstatic.com
-DOMAIN-SUFFIX,bdurl.net
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hao123img.com
 DOMAIN-SUFFIX,jomodns.com
@@ -166,13 +171,10 @@ DOMAIN-SUFFIX,ibytedapm.com
 DOMAIN-SUFFIX,ixigua.com
 DOMAIN-SUFFIX,kspkg.com
 DOMAIN-SUFFIX,pstatp.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,wukong.com
-DOMAIN-SUFFIX,zijieapi.com
 DOMAIN-SUFFIX,zijieimg.com
 DOMAIN-SUFFIX,zjbyte.com
 DOMAIN-SUFFIX,zjcdn.com
-DOMAIN-KEYWORD,bytedance
 DOMAIN-KEYWORD,douyin
 DOMAIN-KEYWORD,toutiao
 
