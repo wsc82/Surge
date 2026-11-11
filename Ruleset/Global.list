@@ -284,6 +284,8 @@ IP-CIDR,173.194.0.0/16,no-resolve
 
 # > Grok
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,x.ai
 
 # > IMDb
