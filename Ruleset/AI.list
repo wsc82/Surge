@@ -10,6 +10,8 @@ DOMAIN-SUFFIX,cursor.com
 
 # > Grok
 DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,x.ai
 
 # > Hermes
