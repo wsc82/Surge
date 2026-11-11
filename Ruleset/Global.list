@@ -158,6 +158,9 @@ DOMAIN-KEYWORD,huggingface
 DOMAIN-KEYWORD,pypi
 DOMAIN-KEYWORD,python
 
+# > Cursor
+DOMAIN-SUFFIX,cursor.com
+
 # > Discord
 DOMAIN-KEYWORD,discord
 
