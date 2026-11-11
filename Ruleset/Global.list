@@ -296,6 +296,9 @@ DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,grokusercontent.com
 DOMAIN-SUFFIX,x.ai
 
+# > Hermes
+DOMAIN-SUFFIX,nousresearch.com
+
 # > IMDb
 DOMAIN-SUFFIX,boxofficemojo.com
 DOMAIN-KEYWORD,imdb
