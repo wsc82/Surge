@@ -1,5 +1,19 @@
 DOMAIN-SUFFIX,arena.ai
-DOMAIN-SUFFIX,openrouter.ai
+
+# > ChatGPT
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,livekit.cloud
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN,api.statsig.com
+DOMAIN,api-iam.intercom.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaicom
 
 # > Claude
 DOMAIN-SUFFIX,anthropic.com
@@ -15,9 +29,12 @@ DOMAIN,anthropic-com.ghost.io
 DOMAIN,servd-anthropic-website.b-cdn.net
 
 # > Cursor
-DOMAIN-SUFFIX,cursor.com
+DOMAIN,accounts.spacex.ai
+DOMAIN,anysphere-binaries.s3.us-east-1.amazonaws.com
 DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursorvm.com
 
 # > Grok
@@ -34,20 +51,8 @@ DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,muse.ai
 
-# > ChatGPT
-DOMAIN-SUFFIX,chat.com
-DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,livekit.cloud
-DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,oaiusercontent.com
-DOMAIN-SUFFIX,openai.com
-DOMAIN-SUFFIX,sora.com
-DOMAIN,api.statsig.com
-DOMAIN,api-iam.intercom.io
-DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaiapi-site.azureedge.net
-DOMAIN-KEYWORD,openaiapi
-DOMAIN-KEYWORD,openaicom
+# > OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
 
 # > Perplexity
 DOMAIN,pplx-res.cloudinary.com
