@@ -58,6 +58,7 @@ DOMAIN-KEYWORD,perplexity
 # > Coder 开发 / 编程
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,npmjs.org
 DOMAIN-SUFFIX,pycon.org
 DOMAIN-SUFFIX,pypa.io
 DOMAIN-KEYWORD,huggingface
